@@ -1,0 +1,390 @@
+.indent-2 .title {
+  padding-top: 20px;
+}
+
+.indent-2 .title .li-1 {
+  width: 520px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.indent-2 .title li {
+  float: left;
+  color: #999;
+  line-height: 30px;
+  width: 120px;
+  text-align: center;
+}
+
+.indent-2 .dls dl {
+  border: 1px solid #DEDEDE;
+  margin-bottom: 20px;
+}
+
+.indent-2 .dls dl dt {
+  background: #F7F7F7;
+  color: #999;
+  line-height: 34px;
+  font-size: 12px;
+  text-indent: 20px;
+}
+
+.indent-2 .dls dl dd ol {
+  overflow: hidden;
+}
+
+.indent-2 .dls dl dd ol li {
+  float: left;
+  padding: 20px 0;
+}
+
+.indent-2 .dls dl dd ol .li-1 {
+  overflow: hidden;
+  height: 84px;
+  width: 119px;
+  border-bottom: 1px solid #E5E5E5;
+  padding: 20px;
+}
+
+.indent-2 .dls dl dd ol .li-1 img {
+  height: 44px;
+  width: 78px;
+}
+
+.indent-2 .dls dl dd ol .li-2 {
+  width: 399px;
+  height: 84px;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.indent-2 .dls dl dd ol .li-2 p {
+  height: 44px;
+  overflow: hidden;
+  line-height: 24px;
+}
+
+.indent-2 .dls dl dd ol .li-3, .indent-2 .dls dl dd ol .li-4, .indent-2 .dls dl dd ol .li-5, .indent-2 .dls dl dd ol .li-6 {
+  color: #666;
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #DEDEDE;
+  height: 84px;
+  line-height: 22px;
+  width: 121px;
+  text-align: center;
+}
+
+.indent-2 .dls dl dd ol .ok {
+  color: #00cc66;
+}
+
+.indent-2 .dls dl dd ol .defeat {
+  color: #ff0000;
+}
+
+.indent-2 .dls dl dd ol .delet {
+  color: #999999;
+}
+
+.indent-2 .dls dl dd ol .nulls {
+  color: #ccc;
+}
+
+.indent-2 .dls dl dd:last-child .li-1, .indent-2 .dls dl dd:last-child .li-2 {
+  border-bottom: 1px solid #fff;
+}
+
+.video-frequency .issue-red {
+  background: #FF5555 !important;
+}
+
+.video-frequency .mrTop .user-btn {
+  border-top: 1px dashed #D0D0D0;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.video-frequency .mrTop .user-btn i {
+  margin: 5px;
+}
+
+.video-frequency .mrTop .user-btn p:hover {
+  cursor: pointer;
+  transition: .3s;
+  color: #00cccc;
+}
+
+.video-frequency .mrTop .user-btn p:hover i {
+  transition: .3s;
+  color: #00cccc;
+}
+
+.video-frequency .mrTop .user-btn span {
+  color: #666;
+}
+
+.video-frequency .mrTop .user-btn span i {
+  color: #00cccc;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.video-frequency .mrTop_searchBar ul li.w-220 .layui-form-select .layui-input {
+  width: 220px !important;
+}
+
+.video-frequency .mrTop_searchBar ul li.w-220 .layui-form-select {
+  width: 220px !important;
+}
+
+.video-frequency i, .video-frequency b {
+  font-style: normal;
+  font-weight: normal;
+}
+
+.video-frequency .title {
+  overflow: hidden;
+  background: #E6E6E6;
+}
+
+.video-frequency .title li {
+  float: left;
+  color: #666666;
+  line-height: 32px;
+}
+
+.video-frequency .dls dl {
+  padding: 20px 15px;
+  padding-right: 0;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.video-frequency .dls dl dt, .video-frequency .dls dl dd {
+  float: left;
+}
+
+.video-frequency .dls dl dt ol {
+  width: 280px;
+}
+
+.video-frequency .dls dl dt ol .li-1 {
+  line-height: 28px;
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.video-frequency .dls dl dt ol .li-1:hover {
+  transition: .3s;
+  color: #00cccc;
+}
+
+.video-frequency .dls dl dt ol .li-2 {
+  font-size: 12px;
+  color: #999;
+  line-height: 14px;
+}
+
+.video-frequency .dls dl dt ol .li-3 {
+  color: #ff9900;
+  padding-top: 12px;
+}
+
+.video-frequency .dls dl .d-1 {
+  width: 188px;
+}
+
+.video-frequency .dls dl .d-1 .unfinished {
+  color: #FF0000 !important;
+}
+
+.video-frequency .dls dl .d-1 .success {
+  color: #00CC66 !important;
+}
+
+.video-frequency .dls dl .d-1 .outage {
+  color: #A1A1A1 !important;
+}
+
+.video-frequency .dls dl .d-1 .p-1 {
+  padding: 15px 0 10px 0;
+  font-size: 12px;
+  color: #666666;
+  text-indent: 10px;
+}
+
+.video-frequency .dls dl .d-1 .p-2 button {
+  width: 56px;
+  height: 24px;
+  line-height: 24px;
+  min-width: 56px;
+}
+
+.video-frequency .dls dl .d-1 .p-2 .suspend {
+  background: #FF5555;
+}
+
+.video-frequency .dls dl .d-2 {
+  position: relative;
+  line-height: 72px;
+  font-size: 12px;
+  height: 72px;
+  width: 230px;
+}
+
+.video-frequency .dls dl .d-2 .message {
+  padding: 0 20px;
+  display: none;
+  position: absolute;
+  top: 58px;
+  left: 0;
+  width: 250px;
+  height: 160px;
+  background: #fff;
+  z-index: 99;
+  box-shadow: 0 0 5px #EAEAEA;
+}
+
+.video-frequency .dls dl .d-2 .message i {
+  position: absolute;
+  top: -5px;
+  left: 15px;
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  box-shadow: -1px -1px 1px #EAEAEA;
+  transform: rotate(45deg);
+}
+
+.video-frequency .dls dl .d-2 .message h3 {
+  font-size: 14px;
+  font-weight: normal;
+  padding: 20px 0;
+}
+
+.video-frequency .dls dl .d-2 .message ul {
+  height: 105px;
+  overflow: auto;
+}
+
+.video-frequency .dls dl .d-2 .message ul li {
+  line-height: 28px;
+  font-size: 14px;
+  color: #666;
+}
+
+.video-frequency .dls dl .d-2:hover .message {
+  display: block;
+}
+
+.video-frequency .dls dl .d-3 {
+  overflow: hidden;
+  height: 72px;
+  padding-top: 24px;
+}
+
+.video-frequency .dls dl .d-3 i {
+  float: left;
+  margin-right: 10px;
+  line-height: 24px;
+  width: 24px;
+  text-align: center;
+  color: #00CCCC;
+  cursor: pointer;
+}
+
+.video-frequency .dls dl .d-3 i:hover {
+  transition: .3s;
+  background: #00cccc;
+  color: #fff;
+}
+
+.video-frequency .dls dl .d-3 i.icon-shanchu:hover {
+  transition: .3s;
+  background: #FF5555;
+  color: #fff;
+}
+
+.video-frequency .dls dl .img-box {
+  position: relative;
+  margin-right: 20px;
+  cursor: pointer;
+  width: 128px;
+  height: 72px;
+  overflow: hidden;
+}
+
+.video-frequency .dls dl .img-box img {
+  height: 72px;
+}
+
+.video-frequency .dls dl .img-box .schedule {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  width: 128px;
+  height: 72px;
+}
+
+.video-frequency .dls dl .img-box .schedule p {
+  position: absolute;
+  top: 30px;
+}
+
+.video-frequency .dls dl .img-box .schedule p span {
+  width: 80px;
+  height: 6px;
+  background: #DCDCDC;
+  margin-top: 3px;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+.video-frequency .dls dl .img-box .schedule p span i {
+  display: block;
+  height: 6px;
+  background: #00CCCC;
+}
+
+.video-frequency .dls dl .img-box .schedule p b {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.video-frequency .dls dl .img-box .schedule p b i {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.video-frequency .dls dl:hover {
+  transition: .3s;
+  background-color: #FAFAFA;
+}
+
+.layui-form .add-video .s-1 {
+  font-size: 12px;
+  line-height: 18px;
+  color: #999;
+  width: 530px;
+  padding-left: 10px;
+}
+
+.layui-form .add-video ul li {
+  line-height: 34px;
+  cursor: pointer;
+}
+
+.layui-form .add-video ul li .iconfont, .layui-form .add-video ul li span {
+  color: #00bbee;
+  font-size: 14px;
+}
+
+.layui-form .add-video ul li .iconfont {
+  margin-right: 10px;
+}
+
+.layui-form .add-video ul li span {
+  margin: 8px;
+}

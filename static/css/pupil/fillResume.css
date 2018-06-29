@@ -1,0 +1,810 @@
+.fillTip{
+	height: 110px;
+	background-color: #f7f7f7;
+	padding: 30px 0 30px 157px;
+	margin-bottom: 27px;
+}
+
+.fillTipList li{
+	float: left;
+	position: relative;
+	width: 203px;
+}
+
+.fillTipList li.fillTip_on .bar{
+	background-color: #00cccc;
+}
+
+.fillTipList li.fillTip_on .txt{
+	color: #00cccc;
+}
+
+.fillTipList li.fillTip_on .line span,
+.fillTipList li.fillTip_over .line span{
+	background-color: #70e1e1;
+}
+
+.fillTipList li.fillTip_over .bar{
+	background-color: #70e1e1;
+}
+
+.fillTipList li.fillTip_over .txt{
+	color: #70e1e1;
+}
+
+/*.fillTipList li.fillTip_over .line span.line1{
+	background-color: #03acac;
+}
+
+.fillTipList li.fillTip_over .line span.line2{
+	background-color: #00cccc;
+}
+
+.fillTipList li.fillTip_over .line span.line3{
+	background-color: #92e1e1;
+}*/
+
+.fillTipList li .bar{
+	width: 28px;
+	height: 28px;
+	background-color: #ccc;
+	line-height: 28px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;	
+	border-radius: 28px;
+	-webkit-border-radius: 28px;
+	-moz-border-radius: 28px;
+	margin: 0 15px;
+}
+
+.fillTipList li .txt{
+	color: #999;
+	font-size: 14px;
+	padding: 8px 0;
+	font-weight: bold;
+}
+
+.fillTipList li .line{
+	width: 150px;
+	position: absolute;
+	top: 13px;
+	left: -150px;
+}
+
+.fillTipList li .line span{
+	width: 50px;
+	display: block;
+	float: left;
+	height: 2px;
+	background: #e5e5e5;
+}
+
+
+.fillTop{
+	border-bottom: solid 1px #e5e5e5;
+}
+
+.fillTop_title{
+	padding: 8px 20px;
+}
+
+i.pupilIcons{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background: url(../../img/pupil/nav-icon.png) no-repeat center;
+	position: relative;
+	top: 5px;
+}
+
+i.iconsPerson{
+	background-position: 0 -297px;
+}
+
+i.iconsJob{
+	background-position: 0 -96px;
+}
+
+i.iconsUpload{
+	background-position: 0 -347px;
+}
+
+i.iconsEducate{
+	background-position: 0 -197px;
+}
+
+i.iconsWantjob{
+	background-position: 0 -47px;
+}
+
+i.iconsSkill{
+	background-position: 0 -248px;
+}
+
+i.iconsPay{
+	background-position: 0 0px;
+}
+
+i.iconsProject{
+	background-position: 0 -147px;
+}
+
+
+
+
+
+.fillTop_title span{
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+	top: -5px;
+	padding-left: 8px;
+}
+
+.fillTop_title sub{
+	color: #999;
+	font-size: 12px;
+	position: relative;
+	top: -8px;
+}
+
+.fillTop_link{
+	line-height: 47px;
+	padding: 0 20px;
+}
+
+.fillTop_link a{
+	color: #00bbee;
+	transition: color .3s;
+}
+
+.fillTop_link a:hover{
+	color: #ff9900;
+}
+
+.fillPart1{
+	padding-bottom: 10px;
+}
+
+.fillPart2{
+	margin: 0 20px;
+	padding: 20px 0;
+	border-top: dashed 1px #e5e5e5;
+}
+
+.fillTop_sub{
+	padding: 12px 0;
+	position: relative;
+}
+
+.fillTop_sub h1{
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.fillTop_sub span{
+	color: #999999;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.fillTop_sub a.fillTop_subLink{
+	position: absolute;
+	right: 0;
+	font-size: 14px;
+	color: #00bbee;
+	top: 6px;
+    line-height: 28px;
+}
+
+.fillTop_sub a.fillTop_subLink:hover{
+	color: #ff9900;
+}
+
+.fillPart3{
+	text-align: center;
+	padding-bottom: 60px;
+	position: relative;
+}
+
+.fill_addJob{
+	display: block;
+	position: absolute;
+	left: 20px;
+	font-size: 14px;
+	color: #00bbee;
+	transition: color .3s linear;
+}
+
+.fill_addJob i{
+	margin-right: 5px;
+	font-size: 14px;
+}
+
+.fill_addJob:hover{
+	color: #ff9900;
+}
+
+
+.layui-fillCheck{
+	margin-left: 10px;
+}
+
+.fillPart4 h1{
+	font-size: 14px;
+	color: #333;
+	font-weight: bold;
+}
+
+.fillPart4{
+	padding: 50px 20px;
+}
+
+.fillPart4 p{
+	color: #999;
+	font-size: 14px;
+	padding: 10px 0;
+}
+
+.fill_51job{
+	width: 79px;
+	height: 34px;
+	background: url(../../img/51job.png) no-repeat center;
+	position: relative;
+	left: -55px;
+	top: -4px;
+}
+
+.fillUpload{
+	color: #00bbee;
+	width: 402px !important;
+	text-align: left;
+	transition: color .3s linear;
+	position: relative;
+}
+
+.fillUpload:hover{
+	color: #FF9900;
+	border: solid 1px #ccc !important;
+}
+
+.fillUpload i.icon-xuanzhong{
+	display: none;
+	position: absolute;
+	right: 10px;
+	top: 8px;
+}
+
+.fillUpload_ok i.icon-xuanzhong{
+	display: block !important;
+	color: #00cc66;
+}
+
+.fillUpload_tip{
+	color: #999;
+	font-size: 14px;
+	padding: 10px 0;
+}
+
+/* 工作经验  */
+.fillPart5{
+	margin-bottom: 10px;
+	
+	position: relative;
+	border-bottom: dashed 1px #ccc;
+}
+
+.fillPart_edit{
+	position: absolute;
+	right: 0;
+	top: 8px;
+	right: 8px;
+	display: none;
+}
+
+.fillPart_edit a{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	text-align: center;
+	line-height: 24px;
+	color: #00cccc;
+}
+
+.fillPart_edit a.fillPart_editIcon:hover{
+	background-color: #00cccc;
+	color: #fff;
+}
+
+.fillPart_edit a.fillPart_deteleIcon:hover{
+	background-color: #ff5555;
+	color: #fff;
+}
+
+.fill_jobList:hover{
+	background-color: #eee;
+}
+
+.fill_jobList:hover .fillPart_edit{
+	display: block;
+}
+
+.fill_jobList{
+	padding: 30px 0;
+	transition: all .3s linear;
+}
+
+.fill_jobDetail{
+	line-height: 34px;
+	color: #333;
+	font-size: 14px;
+	max-width: 738px;
+}
+
+.fill_jobList li .fill_lineHight{
+	line-height: 28px !important;
+}
+
+.fillJob_padding{
+	padding-top: 10px !important;
+}
+
+.fillJob{
+	border: solid 1px #fff;
+	padding-top: 20px;
+}
+
+.fillJob_on{
+	position: relative;
+	transition: all .3s linear;
+}
+
+.fillJob_on:hover{
+	border: solid 1px #00cccc;
+}
+
+.fillJob_on:hover .fillSchool_delete{
+	display: block !important;
+}
+/* 工作经验  END*/
+
+/* 在校情况 */
+.fillSchool{
+	padding: 20px 0;
+}
+
+.fillSchool_hover{
+	border: solid 1px #fff;
+	position: relative;
+	transition: all .3s linear;
+	padding-bottom: 0 !important;
+}
+
+.fillSchool_hover:hover{
+	border: solid 1px #00cccc;
+}
+
+.fillSchool_hover:hover .fillSchool_delete{
+	display: block;
+}
+
+.fillSchool_delete{
+	position: absolute;
+	right: 13px;
+	top: 13px;
+	transition: all .3s linear;
+	display: none;
+}
+
+.fillSchool_delete a{
+	color: #6f6f6f;
+	font-size: 14px;
+}
+
+.fillSchool_delete a:hover{
+	color: #00cccc;
+}
+/* 在校情况 END*/
+
+/* 技能培训  */
+.bookUpload{
+	position: absolute;
+	right: -292px;
+	line-height: 34px;
+}
+
+.bookUpload span.book{
+	color: #00bbee;
+	font-size: 14px;
+	transition: color .3s linear;
+	cursor: pointer;
+}
+
+.bookUpload span.book:hover{
+	color: #ff9900;
+}
+
+.bookUpload span.tips{
+	color: #999;
+	font-size: 12px;
+	padding-left: 15px;
+}
+
+.bookImg{
+	margin-left: 181px;
+	margin-top: 45px;
+}
+
+.bookImg a{
+	color: #00bbee;
+	font-size: 12px;
+	display: inline-block;
+}
+
+.bookImg a:hover{
+	color: #ff9900;
+}
+
+.bookImg_cont{
+	border: solid 1px #ccc;
+	width: 98px;
+	height: 98px;
+	background: #fff;
+	padding: 7px;
+	display: inline-block;
+	margin-right: 10px;
+	text-align: center;
+	position: relative;
+}
+
+.bookImg_cont img{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	max-width: 84px;
+	max-height: 84px;
+	overflow: hidden;
+	margin: auto;
+}
+/* 技能培训  END*/
+
+/* 求职意向  */
+.fillPay{
+	width: 102px;
+}
+
+.fillPay .layui-form-select,
+.fillPay .layui-input{
+	width: 102px !important;
+}
+
+.fillPay_num,
+.fillPay_self{
+	width: 280px;
+	margin-left: 20px;
+}
+
+.fillPay_num .layui-form-select,
+.fillPay_num .layui-input{
+	width: 280px !important;
+}
+
+.fillPay_self .layui-form-select,
+.fillPay_self .layui-input{
+	width: 132px !important;
+}
+
+.fillPay_self span{
+	float: left;
+	color: #999;
+	font-size: 14px;
+	line-height: 32px;
+	padding: 0 4px;
+}
+
+.tailPay{
+	color: #00bbee;
+	font-size: 14px;
+	transition: all .3s linear;
+	margin-left: 18px;
+}
+
+.tailPay:hover{
+	color: #ff9900;
+}
+
+.fillTag{
+	padding-left: 180px;
+}
+
+.fillTag span{
+	display: inline-block;
+	height: 34px;
+	line-height: 32px;
+	border: solid 1px #00cccc;
+	background: #dbf7f7;
+	font-size: 14px;
+	color: #333333;
+	padding: 0 25px 0 8px;
+	margin-bottom: 5px;
+	margin-right: 2px;
+	max-width: 128px;
+	overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    position: relative;
+}
+
+.fillTag span a{
+	display: block;
+	position: absolute;
+	right: 5px;
+	top: 9px;
+}
+
+.fillTag span a i.iconfont{
+	font-size: 12px;
+}
+
+.fillTag span a:hover{
+	color: #00cccc;
+}
+/* 求职意向  END*/
+
+/* 简历预览  */
+
+.preview{
+	width: 751px;
+	margin: 0 auto;
+	padding-bottom: 60px;
+}
+
+.previewDown{
+	padding: 20px 0;
+}
+
+.previewCont{
+	border: solid 1px #f2f2f2;
+}
+
+.previewTop{
+	height: 166px;
+	background-color: #00cccc;
+	color: #fff;
+	padding: 30px 74px;
+}
+
+.priviewDetail{
+	padding: 0 74px 40px 74px;
+	background: #fafafa;
+}
+
+.demoTitle{
+	position: relative;
+}
+
+
+.demoTitle div span{
+	padding-left: 5px;
+	color: #00cccc;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 30px;
+	position: relative;
+	top: -5px;
+}
+
+.demoTitle .line{
+	position: absolute;
+	background-color: #e5e5e5;
+	height: 1px;
+	width: 460px;
+	right: 0;
+	top: 20px;
+	
+}
+
+.priviewDetail .demo{
+	padding-top: 30px;
+}
+
+.priviewDetail .demo .demoDate{
+	width: 34%;
+	color: #666;
+	font-size: 14px;
+	padding-left: 33px;
+	display: inline-block;
+	line-height: 34px;
+}
+
+.priviewDetail .demo .demoCompany,
+.priviewDetail .demo .demoJob{
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	display: inline-block;
+	line-height: 34px;
+}
+
+.priviewDetail .demo .demoCompany{
+	width: 36%;
+}
+
+.priviewDetail .demo .demoNature{
+	color: #666666;
+	font-size: 14px;
+	line-height: 34px;
+	padding-left: 33px;
+}
+
+.priviewDetail .demo .demoJob{
+	width: 27%;
+}
+
+.priviewDetail .demo .demoJob i{
+	font-style: normal;
+	color: #333;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.priviewDetail .demo .demoBook{
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.priviewDetail .demo .demoJob a{
+	color: #00bbee;
+	transition: color .3s linear;
+	font-size: 14px;
+	font-weight: normal;
+	padding-left: 3px;
+	float: right;
+	margin-right: 40px;
+	top: 2px;
+	position: relative;
+}
+
+.priviewDetail .demo .demoJob a:hover{
+	color: #ff9900;
+}
+
+.priviewDetail .demo .layui-form-label{
+	width: 120px !important;
+	padding: 9px 15px 9px 0 !important;
+}
+
+.priviewDetail .demo .fill_jobList{
+	padding: 22px 0 0 0 !important;
+}
+
+.priviewDetail .demo .fill_jobList:hover{
+	background-color: #fafafa !important;
+}
+
+.priviewDetail .demo .fill_jobDetail{
+	max-width: 480px !important;
+}
+
+.priviewDetail .demo .demo_sub .fill_jobDetail{
+	max-width: 440px !important;
+}
+
+.priviewDetail .demoLine{
+	border-bottom: dashed 1px #e5e5e5;
+	padding-top: 22px;
+	margin-left: 32px;
+}
+
+.priviewDetail .demo_sub{
+	padding-top: 22px;
+}
+
+.priviewDetail .demo_sub h1{
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	background: #f4f4f4;
+	height: 46px;
+	line-height: 46px;
+	padding: 0 32px;
+}
+
+.priviewDetail .demo_sub .fill_jobList{
+	padding-left: 30px !important;
+}
+
+.priviewDetail .demo_bar{
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.layui-progress{
+	width: 320px !important;
+	margin: 0 20px;
+	position: relative;
+	top: 2px;
+}
+
+.priviewDetail .demo_bar .demoBar{
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	width: 110px;
+	text-align: right;
+}
+
+.priviewDetail .demo_bar .demoGood{
+	color: #333;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.copyright{
+	background-color: #eee;
+    height: 36px;
+    line-height: 36px;
+    color: #333;
+    text-align: center;
+}
+
+
+.previewImg{
+	width: 86px;
+	height: 107px;
+	background: #efefef;
+	border: solid 2px #fff;
+}
+
+.previewImg img{
+	width: 82px;
+	text-align: center;
+}
+
+.previewTxt{
+	width: 495px;
+}
+
+.previewTxt h1{
+	color: #fff;
+	font-size: 24px;
+	font-weight: normal;
+	padding-top: 10px;
+}
+
+.previewList1{
+	padding: 17px 0;
+}
+
+.previewList1 li{
+	float: left;
+	height: 15px;
+	line-height: 15px;
+	border-right: solid 1px #d1f2f2;
+	padding: 0 9px;
+}
+
+.previewList1 li:last-child{
+	border-right: none;
+}
+
+.previewList1 li:first-child{
+	padding-left: 0;
+}
+
+.previewList2 li{
+	float: left;
+	width: 245px;
+}
+
+.previewList2 li i.fa{
+	margin-right: 8px;
+}
+
+/* 简历预览  END*/

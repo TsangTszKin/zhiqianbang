@@ -1,0 +1,2166 @@
+.fillTip{
+	height: 110px;
+	background-color: #f7f7f7;
+	padding: 30px 0 30px 157px;
+	margin-bottom: 27px;
+}
+
+.fillTipList li{
+	float: left;
+	position: relative;
+	width: 203px;
+}
+
+.fillTipList li.fillTip_on .bar{
+	background-color: #00cccc;
+}
+
+.fillTipList li.fillTip_on .txt{
+	color: #00cccc;
+}
+
+.fillTipList li.fillTip_on .line span,
+.fillTipList li.fillTip_over .line span{
+	background-color: #70e1e1;
+}
+
+.fillTipList li.fillTip_over .bar{
+	background-color: #70e1e1;
+}
+
+.fillTipList li.fillTip_over .txt{
+	color: #70e1e1;
+}
+
+/*.fillTipList li.fillTip_over .line span.line1{
+	background-color: #03acac;
+}
+
+.fillTipList li.fillTip_over .line span.line2{
+	background-color: #00cccc;
+}
+
+.fillTipList li.fillTip_over .line span.line3{
+	background-color: #92e1e1;
+}*/
+
+.fillTipList li .bar{
+	width: 28px;
+	height: 28px;
+	background-color: #ccc;
+	line-height: 28px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;	
+	border-radius: 28px;
+	-webkit-border-radius: 28px;
+	-moz-border-radius: 28px;
+	margin: 0 15px;
+}
+
+.fillTipList li .txt{
+	color: #999;
+	font-size: 14px;
+	padding: 8px 0;
+	font-weight: bold;
+}
+
+.fillTipList li .line{
+	width: 150px;
+	position: absolute;
+	top: 13px;
+	left: -150px;
+}
+
+.fillTipList li .line span{
+	width: 50px;
+	display: block;
+	float: left;
+	height: 2px;
+	background: #e5e5e5;
+}
+
+
+.fillTop{
+	border-bottom: solid 1px #e5e5e5;
+}
+
+.fillTop_title{
+	padding: 8px 20px;
+}
+
+i.pupilIcons{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background: url(../../img/pupil/nav-icon.png) no-repeat center;
+	position: relative;
+	top: 5px;
+}
+
+i.iconsPerson{
+	background-position: 0 -297px;
+}
+
+i.iconsJob{
+	background-position: 0 -96px;
+}
+
+i.iconsUpload{
+	background-position: 0 -347px;
+}
+
+i.iconsEducate{
+	background-position: 0 -197px;
+}
+
+i.iconsWantjob{
+	background-position: 0 -47px;
+}
+
+i.iconsSkill{
+	background-position: 0 -248px;
+}
+
+i.iconsPay{
+	background-position: 0 0px;
+}
+
+i.iconsProject{
+	background-position: 0 -147px;
+}
+
+
+
+
+
+.fillTop_title span{
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+	top: -5px;
+	padding-left: 8px;
+}
+
+.fillTop_title sub{
+	color: #999;
+	font-size: 12px;
+	position: relative;
+	top: -8px;
+}
+
+.fillTop_link{
+	line-height: 47px;
+	padding: 0 20px;
+}
+
+.fillTop_link a{
+	color: #00bbee;
+	transition: color .3s;
+}
+
+.fillTop_link a:hover{
+	color: #ff9900;
+}
+
+.fillPart1{
+	padding-bottom: 10px;
+}
+
+.fillPart2{
+	margin: 0 20px;
+	padding: 20px 0;
+	border-top: dashed 1px #e5e5e5;
+}
+
+.fillTop_sub{
+	padding: 12px 0;
+	position: relative;
+}
+
+.fillTop_sub h1{
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.fillTop_sub span{
+	color: #999999;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.fillTop_sub a.fillTop_subLink{
+	position: absolute;
+	right: 0;
+	font-size: 14px;
+	color: #00bbee;
+	top: 6px;
+    line-height: 28px;
+}
+
+.fillTop_sub a.fillTop_subLink:hover{
+	color: #ff9900;
+}
+
+.fillPart3{
+	text-align: center;
+	padding-bottom: 60px;
+	position: relative;
+}
+
+.fill_addJob{
+	display: block;
+	position: absolute;
+	left: 20px;
+	font-size: 14px;
+	color: #00bbee;
+	transition: color .3s linear;
+}
+
+.fill_addJob i{
+	margin-right: 5px;
+	font-size: 14px;
+}
+
+.fill_addJob:hover{
+	color: #ff9900;
+}
+
+
+.layui-fillCheck{
+	margin-left: 10px;
+}
+
+.fillPart4 h1{
+	font-size: 14px;
+	color: #333;
+	font-weight: bold;
+}
+
+.fillPart4{
+	padding: 50px 20px;
+}
+
+.fillPart4 p{
+	color: #999;
+	font-size: 14px;
+	padding: 10px 0;
+}
+
+.fill_51job{
+	width: 79px;
+	height: 34px;
+	background: url(../../img/51job.png) no-repeat center;
+	position: relative;
+	left: -55px;
+	top: -4px;
+}
+
+.fillUpload{
+	color: #00bbee;
+	width: 402px !important;
+	text-align: left;
+	transition: color .3s linear;
+	position: relative;
+}
+
+.fillUpload:hover{
+	color: #FF9900;
+	border: solid 1px #ccc !important;
+}
+
+.fillUpload i.icon-xuanzhong{
+	display: none;
+	position: absolute;
+	right: 10px;
+	top: 8px;
+}
+
+.fillUpload_ok i.icon-xuanzhong{
+	display: block !important;
+	color: #00cc66;
+}
+
+.fillUpload_tip{
+	color: #999;
+	font-size: 14px;
+	padding: 10px 0;
+}
+
+/* 工作经验  */
+.fillPart5{
+	margin-bottom: 10px;
+	
+	position: relative;
+	border-bottom: dashed 1px #ccc;
+}
+
+.fillPart_edit{
+	position: absolute;
+	right: 0;
+	top: 8px;
+	right: 8px;
+	display: none;
+}
+
+.fillPart_edit a{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	text-align: center;
+	line-height: 24px;
+	color: #00cccc;
+}
+
+.fillPart_edit a.fillPart_editIcon:hover{
+	background-color: #00cccc;
+	color: #fff;
+}
+
+.fillPart_edit a.fillPart_deteleIcon:hover{
+	background-color: #ff5555;
+	color: #fff;
+}
+
+.fill_jobList:hover{
+	background-color: #eee;
+}
+
+.fill_jobList:hover .fillPart_edit{
+	display: block;
+}
+
+.fill_jobList{
+	padding: 30px 0;
+	transition: all .3s linear;
+}
+
+.fill_jobDetail{
+	line-height: 34px;
+	color: #333;
+	font-size: 14px;
+	max-width: 738px;
+}
+
+.fill_jobList li .fill_lineHight{
+	line-height: 28px !important;
+}
+
+.fillJob_padding{
+	padding-top: 10px !important;
+}
+
+.fillJob{
+	border: solid 1px #fff;
+	padding-top: 20px;
+}
+
+.fillJob_on{
+	position: relative;
+	transition: all .3s linear;
+}
+
+.fillJob_on:hover{
+	border: solid 1px #00cccc;
+}
+
+.fillJob_on:hover .fillSchool_delete{
+	display: block !important;
+}
+/* 工作经验  END*/
+
+/* 在校情况 */
+.fillSchool{
+	padding: 20px 0;
+}
+
+.fillSchool_hover{
+	border: solid 1px #fff;
+	position: relative;
+	transition: all .3s linear;
+	padding-bottom: 0 !important;
+}
+
+.fillSchool_hover:hover{
+	border: solid 1px #00cccc;
+}
+
+.fillSchool_hover:hover .fillSchool_delete{
+	display: block;
+}
+
+.fillSchool_delete{
+	position: absolute;
+	right: 13px;
+	top: 13px;
+	transition: all .3s linear;
+	display: none;
+}
+
+.fillSchool_delete a{
+	color: #6f6f6f;
+	font-size: 14px;
+}
+
+.fillSchool_delete a:hover{
+	color: #00cccc;
+}
+/* 在校情况 END*/
+
+/* 技能培训  */
+.bookUpload{
+	position: absolute;
+	right: -292px;
+	line-height: 34px;
+}
+
+.bookUpload span.book{
+	color: #00bbee;
+	font-size: 14px;
+	transition: color .3s linear;
+	cursor: pointer;
+}
+
+.bookUpload span.book:hover{
+	color: #ff9900;
+}
+
+.bookUpload span.tips{
+	color: #999;
+	font-size: 12px;
+	padding-left: 15px;
+}
+
+.bookImg{
+	margin-left: 181px;
+	margin-top: 45px;
+}
+
+.bookImg a{
+	color: #00bbee;
+	font-size: 12px;
+	display: inline-block;
+}
+
+.bookImg a:hover{
+	color: #ff9900;
+}
+
+.bookImg_cont{
+	border: solid 1px #ccc;
+	width: 98px;
+	height: 98px;
+	background: #fff;
+	padding: 7px;
+	display: inline-block;
+	margin-right: 10px;
+	text-align: center;
+	position: relative;
+}
+
+.bookImg_cont img{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	max-width: 84px;
+	max-height: 84px;
+	overflow: hidden;
+	margin: auto;
+}
+/* 技能培训  END*/
+
+/* 求职意向  */
+.fillPay{
+	width: 102px;
+}
+
+.fillPay .layui-form-select,
+.fillPay .layui-input{
+	width: 102px !important;
+}
+
+.fillPay_num,
+.fillPay_self{
+	width: 280px;
+	margin-left: 20px;
+}
+
+.fillPay_num .layui-form-select,
+.fillPay_num .layui-input{
+	width: 280px !important;
+}
+
+.fillPay_self .layui-form-select,
+.fillPay_self .layui-input{
+	width: 132px !important;
+}
+
+.fillPay_self span{
+	float: left;
+	color: #999;
+	font-size: 14px;
+	line-height: 32px;
+	padding: 0 4px;
+}
+
+.tailPay{
+	color: #00bbee;
+	font-size: 14px;
+	transition: all .3s linear;
+	margin-left: 18px;
+}
+
+.tailPay:hover{
+	color: #ff9900;
+}
+
+.fillTag{
+	padding-left: 180px;
+}
+
+.fillTag span{
+	display: inline-block;
+	height: 34px;
+	line-height: 32px;
+	border: solid 1px #00cccc;
+	background: #dbf7f7;
+	font-size: 14px;
+	color: #333333;
+	padding: 0 25px 0 8px;
+	margin-bottom: 5px;
+	margin-right: 2px;
+	max-width: 128px;
+	overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    position: relative;
+}
+
+.fillTag span a{
+	display: block;
+	position: absolute;
+	right: 5px;
+	top: 9px;
+}
+
+.fillTag span a i.iconfont{
+	font-size: 12px;
+}
+
+.fillTag span a:hover{
+	color: #00cccc;
+}
+/* 求职意向  END*/
+
+/* 简历预览  */
+
+.preview{
+	width: 751px;
+	margin: 0 auto;
+	padding-bottom: 60px;
+}
+
+.previewDown{
+	padding: 20px 0;
+}
+
+.previewCont{
+	border: solid 1px #f2f2f2;
+}
+
+.previewTop{
+	height: 166px;
+	background-color: #00cccc;
+	color: #fff;
+	padding: 30px 74px;
+}
+
+.priviewDetail{
+	padding: 0 74px 40px 74px;
+	background: #fafafa;
+}
+
+.demoTitle{
+	position: relative;
+}
+
+
+.demoTitle div span{
+	padding-left: 5px;
+	color: #00cccc;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 30px;
+	position: relative;
+	top: -5px;
+}
+
+.demoTitle .line{
+	position: absolute;
+	background-color: #e5e5e5;
+	height: 1px;
+	width: 460px;
+	right: 0;
+	top: 20px;
+	
+}
+
+.priviewDetail .demo{
+	padding-top: 30px;
+}
+
+.priviewDetail .demo .demoDate{
+	width: 34%;
+	color: #666;
+	font-size: 14px;
+	padding-left: 33px;
+	display: inline-block;
+	line-height: 34px;
+}
+
+.priviewDetail .demo .demoCompany,
+.priviewDetail .demo .demoJob{
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	display: inline-block;
+	line-height: 34px;
+}
+
+.priviewDetail .demo .demoCompany{
+	width: 36%;
+}
+
+.priviewDetail .demo .demoNature{
+	color: #666666;
+	font-size: 14px;
+	line-height: 34px;
+	padding-left: 33px;
+}
+
+.priviewDetail .demo .demoJob{
+	width: 27%;
+}
+
+.priviewDetail .demo .demoJob i{
+	font-style: normal;
+	color: #333;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.priviewDetail .demo .demoBook{
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.priviewDetail .demo .demoJob a{
+	color: #00bbee;
+	transition: color .3s linear;
+	font-size: 14px;
+	font-weight: normal;
+	padding-left: 3px;
+	float: right;
+	margin-right: 40px;
+	top: 2px;
+	position: relative;
+}
+
+.priviewDetail .demo .demoJob a:hover{
+	color: #ff9900;
+}
+
+.priviewDetail .demo .layui-form-label{
+	width: 120px !important;
+	padding: 9px 15px 9px 0 !important;
+}
+
+.priviewDetail .demo .fill_jobList{
+	padding: 22px 0 0 0 !important;
+}
+
+.priviewDetail .demo .fill_jobList:hover{
+	background-color: #fafafa !important;
+}
+
+.priviewDetail .demo .fill_jobDetail{
+	max-width: 480px !important;
+}
+
+.priviewDetail .demo .demo_sub .fill_jobDetail{
+	max-width: 440px !important;
+}
+
+.priviewDetail .demoLine{
+	border-bottom: dashed 1px #e5e5e5;
+	padding-top: 22px;
+	margin-left: 32px;
+}
+
+.priviewDetail .demo_sub{
+	padding-top: 22px;
+}
+
+.priviewDetail .demo_sub h1{
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	background: #f4f4f4;
+	height: 46px;
+	line-height: 46px;
+	padding: 0 32px;
+}
+
+.priviewDetail .demo_sub .fill_jobList{
+	padding-left: 30px !important;
+}
+
+.priviewDetail .demo_bar{
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.layui-progress{
+	width: 320px !important;
+	margin: 0 20px;
+	position: relative;
+	top: 2px;
+}
+
+.priviewDetail .demo_bar .demoBar{
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	width: 110px;
+	text-align: right;
+}
+
+.priviewDetail .demo_bar .demoGood{
+	color: #333;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.copyright{
+	background-color: #eee;
+    height: 36px;
+    line-height: 36px;
+    color: #333;
+    text-align: center;
+}
+
+
+.previewImg{
+	width: 86px;
+	height: 107px;
+	background: #efefef;
+	border: solid 2px #fff;
+}
+
+.previewImg img{
+	width: 82px;
+	text-align: center;
+}
+
+.previewTxt{
+	width: 495px;
+}
+
+.previewTxt h1{
+	color: #fff;
+	font-size: 24px;
+	font-weight: normal;
+	padding-top: 10px;
+}
+
+.previewList1{
+	padding: 17px 0;
+}
+
+.previewList1 li{
+	float: left;
+	height: 15px;
+	line-height: 15px;
+	border-right: solid 1px #d1f2f2;
+	padding: 0 9px;
+}
+
+.previewList1 li:last-child{
+	border-right: none;
+}
+
+.previewList1 li:first-child{
+	padding-left: 0;
+}
+
+.previewList2 li{
+	float: left;
+	width: 245px;
+}
+
+.previewList2 li i.fa{
+	margin-right: 8px;
+}
+
+/* 简历预览  END*/
+
+
+
+/* 我的简历    曾洋洋   */
+.my-resume .iconfont {
+  color: #00bbee;
+}
+
+.my-resume .left-bookrack {
+  width: 764px;
+  float: left;
+}
+
+.my-resume .left-bookrack .basic {
+  margin-bottom: 20px;
+}
+
+.my-resume .left-bookrack .basic-information {
+  height: 160px;
+  background: #F7F7F7;
+  padding: 24px 20px 0 20px;
+}
+
+.my-resume .left-bookrack .basic-information dt, .my-resume .left-bookrack .basic-information dd {
+  float: left;
+}
+
+.my-resume .left-bookrack .basic-information dt {
+  margin-top: 6px;
+}
+
+.my-resume .left-bookrack .basic-information dt div {
+  width: 86px;
+  height: 106px;
+  border: 2px solid #fff;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.my-resume .left-bookrack .basic-information dt div img {
+  width: 100%;
+}
+
+.my-resume .left-bookrack .basic-information .d-1 {
+  padding-left: 20px;
+}
+
+.my-resume .left-bookrack .basic-information .d-1 .p-1 {
+  line-height: 60px;
+  font-size: 24px;
+}
+
+.my-resume .left-bookrack .basic-information .d-1 ul li {
+  float: left;
+}
+
+.my-resume .left-bookrack .basic-information .d-1 ul li span {
+  margin: 0 8px;
+}
+
+.my-resume .left-bookrack .basic-information .d-1 ul li:last-child span {
+  display: none;
+}
+
+.my-resume .left-bookrack .basic-information .d-1 .p-2 {
+  padding-top: 20px;
+}
+
+.my-resume .left-bookrack .basic-information .d-1 .p-2 .iconfont {
+  color: #CCCCCC;
+  margin-right: 10px;
+  font-size: 18px;
+  position: relative;
+  top: 1px;
+}
+
+.my-resume .left-bookrack .basic-information .d-1 .p-2 .s-1 {
+  display: inline-block;
+  width: 300px;
+}
+
+.my-resume .left-bookrack .basic-information .d-2 {
+  width: 162px;
+}
+
+.my-resume .left-bookrack .basic-information .d-2 span {
+  float: right;
+  color: #00bbee;
+  cursor: pointer;
+}
+
+.my-resume .left-bookrack .resume-item {
+  padding-top: 12px;
+}
+
+.my-resume .left-bookrack .data-item {
+  padding-top: 80px;
+  margin-top: -80px;
+}
+
+.my-resume .left-bookrack .data-item dt ul {
+  border-bottom: 1px solid #E5E5E5;
+  padding: 0 20px 0px 20px;
+}
+
+.my-resume .left-bookrack .data-item dt ul li {
+  float: left;
+}
+
+.my-resume .left-bookrack .data-item dt ul .li-1 {
+  width: 42px;
+  height: 38px;
+}
+
+.my-resume .left-bookrack .data-item dt ul .icon-0 {
+  background: url(../../img/pupil/nav-icon.png) no-repeat 0 0;
+}
+
+.my-resume .left-bookrack .data-item dt ul .icon-1 {
+  background: url(../../img/pupil/nav-icon.png) no-repeat 0 -50px;
+}
+
+.my-resume .left-bookrack .data-item dt ul .icon-2 {
+  background: url(../../img/pupil/nav-icon.png) no-repeat 0 -100px;
+}
+
+.my-resume .left-bookrack .data-item dt ul .icon-3 {
+  background: url(../../img/pupil/nav-icon.png) no-repeat 0 -150px;
+}
+
+.my-resume .left-bookrack .data-item dt ul .icon-4 {
+  background: url(../../img/pupil/nav-icon.png) no-repeat 0 -200px;
+}
+
+.my-resume .left-bookrack .data-item dt ul .icon-5 {
+  background: url(../../img/pupil/nav-icon.png) no-repeat 0 -250px;
+}
+
+.my-resume .left-bookrack .data-item dt ul .icon-6 {
+  background: url(../../img/pupil/nav-icon.png) no-repeat 0 -300px;
+}
+
+.my-resume .left-bookrack .data-item dt ul .icon-7 {
+  background: url(../../img/pupil/nav-icon.png) no-repeat 0 -350px;
+}
+
+.my-resume .left-bookrack .data-item dt ul .li-2 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 38px;
+}
+
+.my-resume .left-bookrack .data-item dt ul .li-2 span {
+  font-size: 12px;
+  color: #999;
+  font-weight: normal;
+}
+
+.my-resume .left-bookrack .data-item dt ul .li-3 {
+  color: #999;
+  padding-top: 0px;
+  float: right;
+  cursor: pointer;
+  line-height: 38px;
+}
+
+.my-resume .left-bookrack .data-item dt ul .li-3 .iconfont {
+  margin-right: 5px;
+  color: #999;
+}
+
+.my-resume .left-bookrack .data-item dt ul .li-3.active {
+  color: #00bbee;
+}
+
+.my-resume .left-bookrack .data-item dt ul .li-3.active .iconfont {
+  color: #00bbee;
+}
+
+.my-resume .left-bookrack .data-item dd .default-items {
+  margin-top: 30px;
+}
+
+.my-resume .left-bookrack .data-item dd .default-items ol .li-1 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 46px;
+  background: #F4F4F4;
+  padding: 0 20px;
+}
+
+.my-resume .left-bookrack .data-item dd .default-items ol .li-1 span {
+  float: right;
+  font-weight: normal;
+  color: #999;
+  line-height: 46px;
+  cursor: pointer;
+}
+
+.my-resume .left-bookrack .data-item dd .default-items ol .li-1 span .iconfont {
+  margin-right: 5px;
+  color: #999;
+}
+
+.my-resume .left-bookrack .data-item dd .default-items ol .li-1 span.active {
+  color: #00bbee;
+}
+
+.my-resume .left-bookrack .data-item dd .default-items ol .li-1 span.active .iconfont {
+  color: #00bbee;
+}
+
+.my-resume .left-bookrack .data-item dd .default-content {
+  line-height: 20px;
+  display: block;
+  width: 202px;
+  margin: 30px auto;
+  color: #CCCCCC;
+}
+
+.my-resume .left-bookrack .data-item dd .default-content .iconfont {
+  color: #CCCCCC;
+  font-size: 22px;
+  line-height: 22px;
+  position: relative;
+  top: 3px;
+  margin-right: 6px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list {
+  padding: 20px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list li {
+  overflow: hidden;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list li span, .my-resume .left-bookrack .data-item dd .exist-content .item-list li ol {
+  float: left;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list li span {
+  color: #666;
+  width: 117px;
+  line-height: 32px;
+  text-align: right;
+  padding-right: 13px;
+  white-space: nowrap;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list li ol {
+  width: 597px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list li ol li {
+  float: left;
+  line-height: 32px;
+  margin-right: 7px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list .bolds .s-1 {
+  width: 180px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list .bolds .s-2 {
+  width: 250px;
+  padding-left: 28px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list .bolds .s-2 a {
+  color: #00bbee;
+  margin: 5px;
+  font-size: 12px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list .bolds .s-3 {
+  width: 180px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list .bolds .s-4 {
+  width: auto;
+  color: #333;
+  padding: 0;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list .bolds .s-2, .my-resume .left-bookrack .data-item dd .exist-content .item-list .bolds .s-3 {
+  font-weight: bold;
+  color: #333;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list .bolds .names {
+  font-weight: bold;
+  color: #333;
+  width: auto;
+  padding: 0 28px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list:hover {
+  transition: .3s;
+  background: #EEEEEE;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list:hover .handle-btn {
+  display: block;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .none-hover:hover {
+  background: none;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .line-look li {
+  overflow: hidden;
+  padding: 30px 0;
+  border-bottom: 1px dashed #E5E5E5;
+  height: 74px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .line-look li b, .my-resume .left-bookrack .data-item dd .exist-content .line-look li div, .my-resume .left-bookrack .data-item dd .exist-content .line-look li span {
+  float: left;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .line-look li b {
+  width: 118px;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .line-look li div {
+  width: 320px;
+  height: 8px;
+  background: #E5E5E5;
+  margin-top: 3px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .line-look li div i {
+  float: left;
+  height: 8px;
+  background: #00CCCC;
+  transition: .3s;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .line-look li span {
+  padding-left: 20px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .line-look li:last-child {
+  border: none;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .line-look .handle-btn {
+  margin-top: -6px;
+  margin-right: 20px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .line-look li:hover .handle-btn {
+  display: block;
+}
+
+.my-resume .left-bookrack .data-item dd .handle-btn {
+  display: none;
+  margin-top: 4px;
+}
+
+.my-resume .left-bookrack .data-item dd .handle-btn i {
+  color: #000000;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  float: left;
+  line-height: 24px;
+  text-align: center;
+  margin-left: 8px;
+}
+
+.my-resume .left-bookrack .data-item dd .handle-btn .icon-bianji:hover {
+  transition: .3s;
+  color: #fff;
+  background: #2FD2D2;
+}
+
+.my-resume .left-bookrack .data-item dd .handle-btn .icon-shanchu:hover {
+  transition: .3s;
+  color: #fff;
+  background: #FB7373;
+}
+
+.my-resume .left-bookrack .data-item dd .compile-content {
+  padding: 30px 0;
+}
+
+.my-resume .left-bookrack .data-item dd .compile-content .buttons {
+  margin-top: 0;
+}
+
+.my-resume .left-bookrack .data-item dd .experience-list .item-list {
+  border-bottom: 1px dashed #E5E5E5;
+  padding-left: 30px;
+}
+
+.my-resume .left-bookrack .data-item dd .experience-list .item-list li span {
+  text-align: left;
+}
+
+.my-resume .left-bookrack .data-item dd .experience-list .item-list:last-child {
+  border: none;
+}
+
+.my-resume .left-bookrack .data-item dd .user-project {
+  padding-bottom: 10px;
+}
+
+.my-resume .left-bookrack .data-item dd .user-project .item-list {
+  padding-left: 30px;
+  border-bottom: 1px dashed #E5E5E5;
+}
+
+.my-resume .left-bookrack .data-item dd .user-project .item-list:last-child {
+  border: none;
+}
+
+.my-resume .left-bookrack .data-item dd .user-project .item-list li span {
+  text-align: left;
+}
+
+.my-resume .left-bookrack .no-t-p .compile-content {
+  padding-top: 0 !important;
+}
+
+.my-resume .l-b {
+  border-left: 3px solid #00cccc;
+  padding-left: 17px !important;
+}
+
+.my-resume .right-bookrack {
+  float: right;
+  width: 220px;
+  position: relative;
+}
+
+.my-resume .right-bookrack .top-ul {
+  background: #F7F7F7;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  height: 160px;
+}
+
+.my-resume .right-bookrack .top-ul li {
+  padding: 0 20px;
+}
+
+.my-resume .right-bookrack .top-ul .li-1 {
+  margin-bottom: 20px;
+}
+
+.my-resume .right-bookrack .top-ul .li-2 {
+  padding-bottom: 20px;
+}
+
+.my-resume .right-bookrack .top-ul .li-2 .p-1 {
+  margin-bottom: 14px;
+}
+
+.my-resume .right-bookrack .top-ul .li-2 .p-1 span {
+  color: #00cccc;
+}
+
+.my-resume .right-bookrack .top-ul .li-2 .p-2 {
+  height: 6px;
+  overflow: hidden;
+  background: #EEEEEE;
+  border-radius: 2px;
+}
+
+.my-resume .right-bookrack .top-ul .li-2 .p-2 i {
+  float: left;
+  background: #00CCCC;
+  height: 6px;
+  border-radius: 2px;
+}
+
+.my-resume .right-bookrack .top-ul .li-3 button {
+  float: left;
+}
+
+.my-resume .right-bookrack .top-ul .li-3 .blueBtn {
+  margin-right: 20px;
+}
+
+.my-resume .right-bookrack .top-ul .li-3 .xy-select li {
+  line-height: 34px;
+}
+
+.my-resume .right-bookrack .list-box {
+  position: fixed;
+  top: 100px;
+  width: 220px;
+  background: #fff;
+}
+
+.my-resume .right-bookrack .right-list li {
+  overflow: hidden;
+  height: 40px;
+  cursor: pointer;
+  border-left: 1px solid #E5E5E5;
+}
+
+.my-resume .right-bookrack .right-list li i, .my-resume .right-bookrack .right-list li b {
+  font-style: normal;
+  font-weight: normal;
+  line-height: 40px;
+}
+
+.my-resume .right-bookrack .right-list li i, .my-resume .right-bookrack .right-list li span {
+  float: left;
+  line-height: 40px;
+}
+
+.my-resume .right-bookrack .right-list li i {
+  width: 48px;
+  height: 40px;
+}
+
+.my-resume .right-bookrack .right-list li .i-1 {
+  background: url(../../img/pupil/nav-icon-2.png) no-repeat 20px 14px;
+}
+
+.my-resume .right-bookrack .right-list li .i-2 {
+  background: url(../../img/pupil/nav-icon-2.png) no-repeat 20px -36px;
+}
+
+.my-resume .right-bookrack .right-list li .i-3 {
+  background: url(../../img/pupil/nav-icon-2.png) no-repeat 20px -86px;
+}
+
+.my-resume .right-bookrack .right-list li .i-4 {
+  background: url(../../img/pupil/nav-icon-2.png) no-repeat 20px -136px;
+}
+
+.my-resume .right-bookrack .right-list li .i-5 {
+  background: url(../../img/pupil/nav-icon-2.png) no-repeat 20px -186px;
+}
+
+.my-resume .right-bookrack .right-list li .i-6 {
+  background: url(../../img/pupil/nav-icon-2.png) no-repeat 20px -236px;
+}
+
+.my-resume .right-bookrack .right-list li .i-7 {
+  background: url(../../img/pupil/nav-icon-2.png) no-repeat 20px -286px;
+}
+
+.my-resume .right-bookrack .right-list li .i-8 {
+  background: url(../../img/pupil/nav-icon-2.png) no-repeat 20px -336px;
+}
+
+.my-resume .right-bookrack .right-list li b {
+  padding-right: 22px;
+}
+
+.my-resume .right-bookrack .right-list li .iconfont {
+  color: #D5D5D5;
+}
+
+.my-resume .right-bookrack .right-list li b {
+  float: right;
+}
+
+.my-resume .right-bookrack .right-list li.active {
+  border-left: 2px solid #00cccc;
+}
+
+.my-resume .right-bookrack .right-list li.active span {
+  color: #00cccc;
+}
+
+.my-resume .right-bookrack .right-list li.active i {
+  width: 47px;
+}
+
+.my-resume .right-bookrack .right-list li.finish b {
+  color: #00cccc;
+}
+
+.my-resume .right-bookrack .right-list li:hover {
+  border-left: 2px solid #00cccc;
+}
+
+.my-resume .right-bookrack .right-list li:hover span {
+  transition: .3s;
+  color: #00cccc;
+}
+
+.my-resume .right-bookrack .right-list li:hover i {
+  width: 47px;
+  background-position-x: 19px;
+}
+
+.my-resume .resume-analyze-1 {
+  border: 1px solid #E5E5E5;
+  padding: 0 20px;
+  width: 1004px;
+}
+
+.my-resume .resume-analyze-1 .titles {
+  font-size: 18px;
+  line-height: 46px;
+  border-bottom: 1px solid #E5E5E5;
+  color: #000;
+}
+
+.my-resume .resume-analyze-1 .titles span {
+  float: right;
+  font-size: 14px;
+  color: #00bbee;
+  line-height: 46px;
+}
+
+.my-resume .resume-analyze-1 .left-box-2, .my-resume .resume-analyze-1 .right-box-2 {
+  width: 480px;
+  float: left;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl dt, .my-resume .resume-analyze-1 .right-box-2 dl dt {
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-1, .my-resume .resume-analyze-1 .right-box-2 dl .d-1 {
+  overflow: hidden;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-1 span, .my-resume .resume-analyze-1 .left-box-2 dl .d-1 div, .my-resume .resume-analyze-1 .right-box-2 dl .d-1 span, .my-resume .resume-analyze-1 .right-box-2 dl .d-1 div {
+  float: left;
+  line-height: 38px;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-1 i, .my-resume .resume-analyze-1 .right-box-2 dl .d-1 i {
+  font-style: normal;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-1 .s-1, .my-resume .resume-analyze-1 .right-box-2 dl .d-1 .s-1 {
+  color: #999;
+  width: 60px;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-1 div, .my-resume .resume-analyze-1 .right-box-2 dl .d-1 div {
+  background: #EEEEEE;
+  height: 6px;
+  width: 180px;
+  border-radius: 2px;
+  margin-top: 16px;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-1 div i, .my-resume .resume-analyze-1 .right-box-2 dl .d-1 div i {
+  float: left;
+  height: 6px;
+  background: #00cccc;
+  border-radius: 2px;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-1 .s-2, .my-resume .resume-analyze-1 .right-box-2 dl .d-1 .s-2 {
+  padding-left: 10px;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-1 .s-2 .i-1, .my-resume .resume-analyze-1 .right-box-2 dl .d-1 .s-2 .i-1 {
+  color: #999;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-1 .s-2 .i-2, .my-resume .resume-analyze-1 .right-box-2 dl .d-1 .s-2 .i-2 {
+  color: #ff9900;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-2 .layui-form-item, .my-resume .resume-analyze-1 .right-box-2 dl .d-2 .layui-form-item {
+  margin: 0;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-2 .layui-form-label, .my-resume .resume-analyze-1 .right-box-2 dl .d-2 .layui-form-label {
+  width: 47px;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-2 .layui-form-label span:after, .my-resume .resume-analyze-1 .right-box-2 dl .d-2 .layui-form-label span:after {
+  content: '';
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-2 .layui-form-label span, .my-resume .resume-analyze-1 .right-box-2 dl .d-2 .layui-form-label span {
+  text-align: left;
+  float: left;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-2 .layui-form-select, .my-resume .resume-analyze-1 .right-box-2 dl .d-2 .layui-form-select {
+  width: 300px;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .echarts-box, .my-resume .resume-analyze-1 .right-box-2 dl .echarts-box {
+  height: 323px;
+}
+
+.my-resume .resume-analyze-2 {
+  padding-top: 23px;
+}
+
+.none-bg {
+  background: none !important;
+}
+
+.clearMP {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.my-resume-form {
+  background: #F7F7F7;
+}
+
+.my-resume-form .fillSchool {
+  border: 1px solid #F7F7F7;
+}
+
+.my-resume-form .fillSchool:hover .fillSchool_delete {
+  display: none;
+}
+
+.my-resume-form .certificate .bookImg {
+  margin-left: 140px;
+}
+
+.my-resume-form .certificate .bookUpload span.tips {
+  position: relative;
+  right: 77px;
+  top: 21px;
+}
+
+.my-resume-form .layui-form {
+  padding: 0;
+  padding-top: 30px;
+}
+
+.my-resume-form .layui-form .icon-quxiao1 {
+  color: inherit;
+}
+
+.my-resume-form .layui-form .layui-form-label {
+  width: 140px;
+}
+
+.my-resume-form .layui-form .user-img .layui-form-label {
+  margin-top: 38px;
+}
+
+.my-resume-form .layui-form .user-img .layui-input-block div {
+  position: relative;
+  width: 86px;
+  height: 106px;
+  border: 2px solid #fff;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.my-resume-form .layui-form .user-img .layui-input-block div img {
+  width: 100%;
+}
+
+.my-resume-form .layui-form .user-img .layui-input-block div a {
+  color: #00cccc;
+  position: absolute;
+  top: 45px;
+  left: 93px;
+  white-space: nowrap;
+}
+
+.my-resume-form .layui-form .more {
+  width: 100%;
+  padding-right: 30px;
+}
+
+.my-resume-form .layui-form .more a {
+  color: #00cccc;
+  font-size: 12px;
+}
+
+.my-resume-form .layui-form .more i {
+  font-size: 16px;
+}
+
+.my-resume-form .layui-form .more .more-content {
+  padding-top: 20px;
+}
+
+.my-resume-form .layui-form .buttons {
+  width: 180px;
+  margin: 30px auto;
+  padding-top: 10px;
+  margin-left: 292px;
+}
+
+.resume-analyze-2 .left-box {
+  width: 664px !important;
+}
+
+.resume-analyze-2 .left-box .position-list li {
+  padding: 10px 0 12px 0 !important;
+}
+
+.resume-analyze-2 .left-box .position-list li .div-1 {
+  width: 322px !important;
+  position: relative;
+  padding: 0 !important;
+}
+
+.resume-success .left-box .title{
+	border-bottom: none !important;
+}
+
+.resume-success .left-box .title a {
+  color: #00bbee;
+  font-size: 14px;
+  line-height: 44px;
+}
+
+.resume-success .right-box .tier-3 {
+  padding: 0 19px;
+  border: 1px solid #E5E5E5;
+}
+
+.resume-success .right-box .tier-3 .title {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 44px;
+  border-bottom: 1px solid #E5E5E5;
+  margin-bottom: 20px;
+}
+
+.resume-success .right-box .tier-3 .title a {
+  color: #00bbee;
+  font-size: 14px;
+  line-height: 44px;
+}
+
+.resume-success .right-box .tier-3 dl {
+  margin-bottom: 16px;
+  box-shadow: 0 3px 10px #F2F2F2;
+}
+
+.resume-success .right-box .tier-3 dl dt {
+  text-align: center;
+  width: 280px;
+  height: 160px;
+  overflow: hidden;
+}
+
+.resume-success .right-box .tier-3 dl dt img {
+  width: 100%;
+}
+
+.resume-success .right-box .tier-3 dl dd {
+  margin: 0 8px 0 15px;
+}
+
+.resume-success .right-box .tier-3 dl .d-1 {
+  font-size: 16px;
+  color: #333;
+  padding: 20px 0 16px 0;
+}
+
+.resume-success .right-box .tier-3 dl .d-2 {
+  color: #999;
+}
+
+.resume-success .right-box .tier-3 dl .d-2 i {
+  font-style: normal;
+}
+
+.resume-success .right-box .tier-3 dl .d-2 .p-1 span, .resume-success .right-box .tier-3 dl .d-2 .p-1 i {
+  float: left;
+}
+
+.resume-success .right-box .tier-3 dl .d-2 .p-1 i {
+  color: #FF9900;
+  margin-right: 5px;
+  margin-top: -1px;
+}
+
+.resume-success .right-box .tier-3 dl .d-2 .p-2 i {
+  color: #333;
+  margin: 5px;
+}
+
+.resume-success .right-box .tier-3 dl .d-3 {
+  height: 74px;
+  padding-top: 45px;
+  font-size: 16px;
+  color: #ff9900;
+}
+
+.report .left {
+  width: 764px;
+}
+
+.report .right {
+  margin-left: 20px;
+  width: 220px;
+}
+
+.report .right .position-more {
+  border: 1px solid #E5E5E5;
+  padding: 0 20px;
+  padding-bottom: 38px;
+}
+
+.report .right .position-more .lists li {
+  line-height: 37px;
+  text-indent: 4px;
+  border-bottom: 1px dashed #E5E5E5;
+  width: 180px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.report .right .position-more .lists li:hover {
+  transition: .3s;
+  color: #00cccc;
+}
+
+.report .right .position-more .lists li:last-child {
+  border: none;
+}
+
+.report .skill {
+  border: 1px solid #E5E5E5;
+  padding: 0 20px;
+  margin-bottom: 24px;
+}
+
+.report .professiona {
+  border: 1px solid #E5E5E5;
+  padding: 0 20px;
+  padding-bottom: 42px;
+}
+
+.report .professiona .professiona-select {
+  width: 348px;
+  padding: 20px 0 28px 0;
+}
+
+.report .professiona .professiona-select .layui-unselect {
+  float: left;
+  width: 300px;
+}
+
+.report .professiona .professiona-select .labels {
+  color: #999;
+  line-height: 34px;
+  width: 46px;
+}
+
+.report .professiona .echarts-box {
+  overflow: hidden;
+}
+
+.report .professiona .echarts-box li {
+  width: 361px;
+  height: 258px;
+  float: left;
+}
+
+.report .title {
+  font-size: 16px;
+  line-height: 44px;
+  border-bottom: 1px solid #E5E5E5;
+  font-weight: normal;
+  text-indent: 3px;
+}
+
+.report .title a {
+  color: #00bbee;
+  font-size: 14px;
+  line-height: 44px;
+  float: right;
+}
+
+.rainbow li {
+  overflow: hidden;
+  padding-bottom: 26px;
+}
+
+.rainbow li span {
+  float: left;
+  font-size: 12px;
+}
+
+.rainbow li .s-1 {
+  width: 130px;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.rainbow li .s-2 {
+  width: 380px;
+  height: 6px;
+  background: #EEEEEE;
+  border-radius: 2px;
+  margin-top: 3px;
+}
+
+.rainbow li .s-2 b {
+  float: left;
+  height: 6px;
+  background: #608EFE;
+  border-radius: 2px;
+}
+
+.rainbow li .s-2 .c-1 {
+  background: linear-gradient(to right, #6B82FE, #28CCFD);
+}
+
+.rainbow li .s-2 .c-2 {
+  background: linear-gradient(to right, #FF6C88, #FF938B);
+}
+
+.rainbow li .s-2 .c-3 {
+  background: linear-gradient(to right, #0CB7E0, #28F09D);
+}
+
+.rainbow li .s-2 .c-4 {
+  background: linear-gradient(to right, #7D7DFD, #EF82EE);
+}
+
+.rainbow li .s-2 .c-5 {
+  background: linear-gradient(to right, #6A83FE, #28CCFD);
+}
+
+.rainbow li .s-3 {
+  width: 112px;
+  color: #999;
+  padding-left: 20px;
+}
+
+
+/* 我的简历  曾洋洋  END*/
+
+/* 我的项目  弹窗  */
+.layui-layer-page .layui-layer-content {
+  overflow: visible !important;
+}
+
+.xuanyuan-pop .layui-layer-title {
+  background: #fff;
+  line-height: 52px;
+  height: 52px;
+  font-size: 14px;
+  padding: 0 80px 0 25px;
+}
+
+.xuanyuan-pop .layui-layer-setwin {
+  top: 18px;
+  right: 18px;
+}
+
+.xuanyuan-pop .layui-layer-setwin a {
+  background: url(../../img/pop-close.png) no-repeat center center;
+}
+
+.xuanyuan-pop .layui-layer-setwin .layui-layer-close1:hover {
+  background: url(../../img/pop-close-hover.png) no-repeat center center;
+}
+
+.xuanyuan-pop .layui-form {
+  padding-top: 30px;
+  padding-bottom: 0;
+}
+
+.xuanyuan-pop .layui-form .layui-form-item {
+  margin-bottom: 25px;
+}
+
+.xuanyuan-pop .layui-form .layui-form-label {
+  width: 183px!important;
+}
+
+.xuanyuan-pop .layui-form .layui-input-block {
+  /*width: 302px;*/
+}
+
+.xuanyuan-pop .layui-form .form-hint-content {
+  left: 505px;
+}
+
+.xuanyuan-pop .layui-form .but-2-box {
+  padding-top: 5px;
+}
+
+.xuanyuan-pop .but-2-box {
+  margin: 0 auto;
+}
+
+.xuanyuan-pop .layui-input {
+  width: 302px;
+}
+
+.xuanyuan-pop .layui-form-select {
+  width: 302px;
+}
+.xuanyuan-pop .layui-unselect {
+	float:left;
+}
+
+.prop-list{}
+.prop-list .iconfont,.prop-list li{
+	 font-size:14px;
+}
+.prop-list li{margin-top:10px;}
+.prop-list .iconfont{
+	margin:0 10px;
+}
+
+.xuanyuan-pop .texts{
+	padding:0px 26px 0 26px;
+}
+.xuanyuan-pop .texts img{width:100%}
+.xuanyuan-pop .texts p {padding:15px 0;}
+
+/* 我的项目  弹窗  END*/
+
+/* 我的实训   */
+.content-list dl {
+  overflow: hidden;
+  padding: 19px 0 19px 9px;
+  border-bottom: 1px solid #DBDBDB;
+}
+
+ .content-list dl dt,  .content-list dl dd {
+  float: left;
+}
+
+ .content-list dl dt {
+  position: relative;
+}
+
+ .content-list dl dt img {
+  width: 172px;
+  height: 96px;
+  border: 1px solid #D8D8D8;
+}
+
+ .content-list dl dt span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 24px;
+  font-size: 12px;
+  color: #fff;
+  padding: 0 5px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+ .content-list dl .d-1 {
+  padding-left: 20px;
+  width: 466px;
+}
+
+ .content-list dl .d-1 h3 {
+  font-weight: normal;
+  line-height: 24px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+ .content-list dl .d-1 h3 span {
+  font-weight: normal;
+  margin-left: 10px;
+  font-size: 14px;
+  padding-top: 7px;
+}
+
+ .content-list dl .d-1 div {
+  padding-top: 12px;
+}
+
+ .content-list dl .d-1 div p {
+  width: 320px;
+  height: 6px;
+  background: #D8D8D8;
+}
+
+ .content-list dl .d-1 div p span {
+  transition: .3s;
+  display: block;
+  height: 6px;
+  background: #00CCCC;
+}
+
+ .content-list dl .d-1 div b {
+  color: #009999;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+
+ .content-list dl .d-1 .p-1 {
+  font-size: 12px;
+  color: #666;
+}
+
+.content-list dl .d-1 i{
+	font-style: normal;
+}
+
+ .content-list dl .d-1 .p-2 {
+  font-size: 14px;
+  margin-top: 16px;
+  color: #666;
+}
+
+ .content-list dl .d-1 .p-3 {
+  padding-top: 17px;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+ .content-list dl .d-1 .p-3 span {
+  float: left;
+  width: 183px;
+  margin-bottom: 5px;
+}
+
+ .content-list dl .d-1 .p-3 span i {
+  color: #999;
+}
+
+ .content-list dl .d-1:hover h3 {
+  transition: .3s;
+  color: #00cccc;
+}
+
+ .content-list dl .d-2 {
+  width: 257px;
+  height: 95px;
+}
+
+ .content-list dl .d-2 button {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.content-list dd span{
+	color: #666;
+	display: block;
+	padding-bottom: 5px;
+}
+
+.content-list dd.d-2 p{
+	color: #333;
+	padding: 3px 0;
+}
+
+/* 我的实训 END*/
+
+/* 我的实训-详情 */
+.exerDetail{
+	border-top: solid 1px #ddd;
+	margin-top: 30px;
+	padding-top: 30px;
+}
+
+.exerDetail h1{
+	font-size: 16px;
+	color: #333;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+.exerDetail .demo{
+	padding-bottom: 30px;
+	line-height: 24px !important;
+	font-size: 14px !important;
+	color: #666 !important;
+}
+/* 我的实训-详情  END*/
+
+/* 我的订单  */
+
+.indentPay .table-box table {
+  width: 100%;
+  border: 1px solid #DDDDDD;
+  margin-bottom: 20px;
+}
+
+.indentPay .table-box table thead {
+  background: #F3F3F3;
+}
+
+.indentPay .table-box table thead tr {
+  border-bottom: 2px solid #DDDDDD;
+}
+
+.indentPay .table-box table thead tr td {
+  color: #666;
+  line-height: 44px;
+  text-indent: 7px;
+}
+
+.indentPay .table-box table thead tr td .span-1 {
+  margin-left: 30px;
+}
+
+.indentPay .table-box table thead tr td .span-2 {
+  color: #00cccc;
+}
+
+.indentPay .table-box table thead tr td .span-3 {
+  display: block;
+  text-align: center;
+}
+
+.indentPay .table-box table tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.indentPay .table-box table tbody tr td img {
+  width: 78px;
+  height: 44px;
+  margin: 20px;
+  margin-left: 11px;
+}
+
+.indentPay .table-box table tbody tr .pay {
+  text-align: center;
+  border-left: 1px solid #ddd;
+}
+
+.indentPay .table-box table tbody tr .pay p {
+  font-size: 18px;
+  color: #ff9933;
+  padding-bottom: 10px;
+}
+
+.indentPay .table-box table tbody tr td button{
+	display: block;
+	margin: 0 auto;
+}
+
+.indentPay .table-box table tbody tr td button.exitBtn{
+	color: #333;
+	margin: 10px auto;
+}
+
+.indentPay .table-box table tbody tr td button.exitBtn:hover{
+	color: #3399ff;
+}
+
+/* 我的订单  END*/

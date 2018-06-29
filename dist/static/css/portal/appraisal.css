@@ -1,0 +1,110 @@
+body {
+  background: #fff;
+}
+
+i {
+  font-style: normal;
+}
+
+b {
+  font-weight: normal;
+}
+
+.navbread {
+  height: 72px;
+  line-height: 72px;
+}
+
+.banner {
+  height: 400px;
+  background: url(../../img/banner-1.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.appraisal .enterChoose {
+  margin: 29px 0;
+}
+
+.appraisal .exam-list dl {
+  width: 287px;
+  height: 248px;
+  border: 1px solid #fff;
+  float: left;
+  margin: 0 6px;
+  margin-bottom: 21px;
+  background: #fafafa;
+  cursor: pointer;
+  transition:All 0.3s ease-in-out;
+	-webkit-transition:All 0.3s ease-in-out;
+	-moz-transition:All 0.3s ease-in-out;
+	-o-transition:All 0.3s ease-in-out;
+}
+
+.appraisal .exam-list dl dt img {
+  width: 285px;
+  height: 160px;
+}
+
+.appraisal .exam-list dl .d-1 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 58px;
+  color: #333;
+  text-indent: 6px;
+}
+
+.appraisal .exam-list dl .d-2 {
+  font-size: 14px;
+  color: #999;
+  text-indent: 13px;
+}
+
+.appraisal .exam-list dl .d-2 span {
+  color: #333;
+  margin-right: 4px;
+}
+
+.appraisal .exam-list dl:hover {
+  border: 1px solid #3399fe;
+  box-shadow: 1px 3px 5px #DAEDFF;
+  -webkit-box-shadow: 1px 3px 5px #DAEDFF;
+  -moz-box-shadow: 1px 3px 5px #DAEDFF;
+  transform:scale(1.02);
+	-webkit-transform:scale(1.02);
+	-moz-transform:scale(1.02);
+	-o-transform:scale(1.02);
+	-ms-transform:scale(1.02);
+}
+
+.pops .model-2 ul {
+  text-align: center;
+  padding-top: 28px;
+}
+
+.pops .model-2 ul .li-1 {
+  line-height: 78px;
+  font-size: 18px;
+  color: #3399ff;
+}
+
+.pops .model-2 ul .li-2 {
+  font-size: 14px;
+  padding-bottom: 14px;
+  color: #666;
+}
+
+.pops .model-2 ul .li-3 {
+  color: #666;
+  font-size: 14px;
+}
+
+.pops .model-2 ul .li-4 {
+  padding: 79px 0 70px 0;
+  width: 230px;
+  margin: 0 auto;
+}
+
+.pops .model-2 ul .li-4 .blueBtn {
+  margin: 0;
+  margin-left: 20px;
+}

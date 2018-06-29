@@ -1,0 +1,1896 @@
+/* 求职应聘-职位详情  */
+.particulars {
+  background: #F6F6F6;
+  padding: 30px;
+  padding-bottom: 0;
+}
+
+.particulars .leftbox {
+  width: 752px;
+}
+
+.particulars .leftbox .z-options {
+  background: #fff;
+  padding: 21px 20px;
+  margin-bottom: 10px;
+}
+
+.particulars .leftbox .z-options h3 {
+  font-weight: bold;
+  font-size: 14px;
+  border-left: 3px solid #00CCCC;
+  margin-bottom: 21px;
+  padding-left: 5px;
+  margin-left: 10px;
+}
+
+.particulars .leftbox .z-options h3 span {
+  color: #999;
+  margin: 0 5px;
+}
+
+.particulars .leftbox .z-options h3 span i {
+  margin: 0 5px;
+  font-style: normal;
+}
+
+.particulars .leftbox .z-options .myoption li {
+  float: left;
+  padding-right: 15px;
+}
+
+.particulars .leftbox .z-options .myoption li .blueBtn {
+  margin-left: 30px;
+}
+
+.particulars .leftbox .z-options .myoption .li-1 .layui-input, .particulars .leftbox .z-options .myoption .li-2 .layui-input, .particulars .leftbox .z-options .myoption .li-3 .layui-input {
+  width: 160px;
+  height: 34px;
+}
+
+.particulars .leftbox .z-options .myoption .li-3 .layui-input {
+  width: 200px;
+  height: 34px;
+}
+
+.particulars .leftbox .details {
+  padding: 30px 37px 0 30px;
+  margin-bottom: 10px;
+  background: url(../../img/shouc-1.png) no-repeat right top #fff;
+  position: relative;
+}
+
+.particulars .leftbox .details h2 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.particulars .leftbox .details h2 span {
+  font-size: 14px;
+  color: #ff9933;
+  margin-left: 40px;
+}
+
+.particulars .leftbox .details h2 button {
+  font-size: 14px;
+}
+
+.particulars .leftbox .details h2 b {
+  font-weight: normal;
+  font-size: 12px;
+  display: inline-block;
+  line-height: 24px;
+  padding: 0 11px;
+  background: #F4F4F4;
+  color: #999;
+  position: relative;
+  top: -2px;
+  margin-left: 5px;
+}
+
+.particulars .leftbox .details h3 {
+  padding-bottom: 32px;
+  border-bottom: 1px dotted #E3E3E3;
+  font-size: 14px;
+}
+
+.particulars .leftbox .details h3 .iconfont {
+  color: #CCCCCC;
+  margin-right: 5px;
+  position: relative;
+  top: 1px;
+}
+
+.particulars .leftbox .details h3 span {
+  margin-right: 15px;
+}
+
+.particulars .leftbox .details .like-but {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.particulars .leftbox .details .uls-box ul {
+  line-height: 24px;
+  padding-bottom: 24px;
+  color: #444;
+}
+
+.list-titleJob {
+  font-size: 14px;
+  border-left: 3px solid #00CCCC;
+  padding-left: 5px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.list-titleJob a {
+  font-size: 12px;
+  color: #999;
+  font-weight: normal;
+  line-height: 14px;
+}
+
+.list-titleJob a span {
+  margin-left: 8px;
+  font-size: 12px;
+  line-height: 14px;
+  position: relative;
+  top: -1px;
+}
+
+.particulars .leftbox .details .uls-box ul li {
+  line-height: 24px;
+}
+
+.particulars .leftbox .details .uls-box ul .ul-title {
+  line-height: 1;
+  padding-bottom: 12px;
+}
+
+.particulars .leftbox .collect {
+  background: url(../../img/shouc-2.png) no-repeat right top #fff;
+}
+
+.rightbox {
+  width: 370px;
+}
+
+.rightbox .enterprise {
+  padding: 21px 20px;
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+.rightbox .enterprise dl {
+  padding-bottom: 10px;
+}
+
+.rightbox .enterprise dl dt {
+  border: 1px solid #D8D8D8;
+  display: inline-block;
+}
+
+.rightbox .enterprise dl dt img {
+  width: 96px;
+  height: 96px;
+  display: block;
+}
+
+.rightbox .enterprise dl dd {
+  padding-left: 20px;
+}
+
+.rightbox .enterprise dl dd p {
+  line-height: 22px;
+  color: #999;
+}
+
+.rightbox .enterprise dl dd .p-1 {
+  line-height: 45px;
+  font-size: 16px;
+  color: #333;
+}
+
+.rightbox .enterprise .enterprise-content {
+  line-height: 24px;
+  color: #444;
+  max-height: 96px;
+  width: 328px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rightbox .enterprise .enterprise-content .open-text {
+  color: #00CCCC;
+  cursor: pointer;
+}
+
+.rightbox .linkman {
+  padding: 20px;
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+.rightbox .linkman .list-title {
+  margin: 0;
+  margin-bottom: 14px;
+}
+
+.rightbox .linkman ul li {
+  line-height: 24px;
+  padding-left: 7px;
+}
+
+.rightbox .linkman ul li span {
+  color: #666;
+}
+
+.rightbox .linkman ol li {
+  color: #444;
+  line-height: 28px;
+  width: 330px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.rightbox .linkman ol li:before {
+  content: '';
+  font-size: 12px;
+  background: #00CCCC;
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin: 2px;
+  margin-right: 5px;
+}
+
+.rightbox .list-title {
+  font-size: 14px;
+  border-left: 3px solid #00CCCC;
+  padding-left: 5px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.rightbox .list-title a {
+  font-size: 12px;
+  color: #999;
+  font-weight: normal;
+  line-height: 14px;
+}
+
+.rightbox .list-title a span {
+  margin-left: 8px;
+  font-size: 12px;
+  line-height: 14px;
+  position: relative;
+  top: -1px;
+}
+
+.rightbox .icon-pinglun {
+  color: #00cccc;
+  margin: 0px 0 0 10px;
+  position: relative;
+  top: 1px;
+  cursor: pointer;
+}
+
+.uls-box {
+  border-bottom: 1px dotted #E3E3E3;
+  overflow: hidden;
+  padding-left: 10px;
+}
+
+.uls-box ul {
+  padding-left: 8px;
+}
+
+.list-title {
+  overflow: hidden;
+}
+
+.list-title a {
+  color: #00CCCC;
+  padding: 0 18px;
+}
+
+.particulars .matching {
+  height: 140px;
+}
+
+.particulars .matching dl {
+  width: 480px;
+  position: relative;
+}
+
+.particulars .matching dl dt {
+  width: 16px;
+  height: 16px;
+  border: 3px solid #00CCCC;
+  border-radius: 50%;
+  position: absolute;
+  top: -4px;
+  background: #fff;
+  transition: 1s;
+}
+
+.particulars .matching dl dt span {
+  width: 50px;
+  line-height: 24px;
+  height: 24px;
+  text-align: center;
+  color: #fff;
+  background: #00CCCC;
+  position: absolute;
+  top: -33px;
+  left: -20px;
+  font-size: 12px;
+}
+
+.particulars .matching dl dt span i {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: red;
+  top: 21px;
+  left: 22px;
+  transform: rotate(45deg);
+  background: #00cccc;
+}
+
+.particulars .matching dl dd {
+  float: left;
+  width: 30%;
+  height: 8px;
+}
+
+.particulars .matching dl .d-1 {
+  background: #B2F0F0;
+}
+
+.particulars .matching dl .d-2 {
+  background: #66E0E0;
+}
+
+.particulars .matching dl .d-3 {
+  background: #00CCCC;
+}
+
+.pops .apply-model dl {
+  overflow: hidden;
+  padding: 33px 0 13px 0;
+}
+
+.pops .apply-model dl dt, .pops .apply-model dl dd {
+  float: left;
+}
+
+.pops .apply-model dl dt {
+  padding-right: 23px;
+}
+
+.pops .apply-model .position-check dd span {
+  color: #00cccc;
+  font-weight: bold;
+  margin-right: 19px;
+}
+
+.pops .apply-model .deliver dd p {
+  margin-bottom: 7px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 438px;
+}
+
+.pops .apply-model .deliver dd p .layui-btn {
+  width: 86px;
+  height: 34px;
+  line-height: 34px;
+}
+
+.pops .apply-model .deliver dd p .layui-form-radio {
+  margin: 0;
+}
+
+.pops .apply-model .deliver dd p .layui-icon {
+  position: relative;
+  top: 1px;
+}
+
+.pops .apply-model .deliver dd p .check-file {
+  display: block;
+  padding-left: 30px;
+  padding-top: 12px;
+  font-size: 12px;
+  color: #00cccc;
+}
+
+.pops .apply-model .deliver dd p .check-file i {
+  color: #C2D0DE;
+  position: relative;
+  cursor: pointer;
+  top: 1px;
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+.pops .apply-model .deliver dd p .check-file i:hover {
+  color: #F30903;
+}
+
+.pops .apply-model .buts {
+  padding-left: 85px;
+}
+
+.pops button {
+  margin: 0 10px;
+}
+
+.pops .z-message {
+  color: #A8A8A8;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.pops .model-2 {
+  padding: 68px 0 40px 0;
+}
+
+.pops .model-2 ul li {
+  text-align: center;
+}
+
+.pops .model-2 ul li.li-1 {
+  font-size: 18px;
+  color: #00cccc;
+  padding-bottom: 20px;
+}
+
+.pops .model-2 ul li.li-2,
+.pops .model-2 ul li.li-3 {
+  font-size: 14px;
+  color: #666;
+  padding: 6px;
+}
+
+.pops .model-2 ul li.li-4 {
+  padding-top: 40px;
+}
+
+.pops .model-2 ul li.li-4 button {
+  margin: 0 9px;
+}
+/* 求职应聘-职位详情  END*/
+
+
+/* 实训营  */
+.practical .card-item {
+  width: 280px;
+  height: 283px;
+  margin: 0 10px 20px 10px;
+}
+
+.practical .card-item dl {
+  width: 278px;
+  height: 281px;
+}
+
+.practical .card-item dl dd {
+  width: 278px;
+  padding: 0 14px;
+}
+
+.practical .card-item img {
+  height: 160px;
+}
+
+.practical .card-item dl dd .p-1 {
+  line-height: 1;
+  padding: 20px 0 10px 0;
+  width: 250px;
+}
+
+.practical .card-item dl dd .p-2 {
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+
+.practical .card-item dl dd .p-2 span {
+  float: left;
+}
+
+.practical .card-item dl dd .p-2 .s-1 {
+  padding-right: 6px;
+}
+
+.practical .card-item dl dd .p-2 .s-2 i {
+  color: #FBC639;
+  float: left;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.practical .card-item dl dd .p-2 .s-3 {
+  float: right;
+}
+
+.practical .card-item dl dd .p-2 .s-3 i {
+  font-style: normal;
+  color: #333;
+  margin: 4px;
+}
+
+.practical .card-item dl dd .p-3 {
+  line-height: 22px;
+}
+
+.practical .card-item dl dd .p-4 {
+  font-size: 14px;
+  padding-bottom: 22px;
+}
+
+.practical .card-item dl dd .p-4 b {
+  font-weight: normal;
+}
+
+.practical .card-item dl dd .p-4 span {
+  color: #666;
+}
+
+.practical .card-item dl dt p i {
+  background: rgba(0, 0, 0, 0.5);
+  color: #FFCCCC;
+}
+
+.practical .card-item dl dt p i:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.practical .card-item dl dt.star p i {
+  color: #FF6666;
+  display: block;
+}
+
+.practical .card-item dl dt.star {
+  display: block;
+}
+
+.practical .card-item dl dt p i:hover {
+  transition: .3s;
+  color: #FF6666;
+}
+
+.practical .card-item:hover .p-3 {
+  height: 65px;
+}
+
+.practical .table-box {
+  width: auto;
+}
+
+/* 实训营  END*/
+
+
+/* 岗位匹配  */
+.analyze .title {
+  padding-left: 33px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 47px;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.analyze .banner {
+  height: 117px;
+  position: relative;
+}
+
+.analyze .banner span {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.analyze .banner .s-1 {
+  font-size: 52px;
+  letter-spacing: 10px;
+  text-shadow: 0 8px 8px #EBEFF0;
+  color: #FFFFFF;
+  top: -7px;
+}
+
+.analyze .banner .s-2 {
+  font-size: 38px;
+  top: 20px;
+}
+
+.analyze .top-box {
+  background: #FFFFFF;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.analyze .top-box ul {
+  padding-top: 20px;
+  padding-bottom: 67px;
+  padding-left: 28px;
+  width: 570px;
+  margin-right: 20px;
+}
+
+.analyze .top-box ul .li1, .analyze .top-box ul .li-2 {
+  line-height: 34px;
+}
+
+.analyze .top-box ul .li-3 {
+  margin-top: 20px;
+}
+
+.analyze .top-box ul .li-4 {
+  margin-top: 30px;
+}
+
+.analyze .echarts-list li {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.analyze .echarts-list li dl {
+  padding: 0 20px;
+  width: 590px;
+  background: #fff;
+  float: left;
+}
+
+.analyze .echarts-list li dl dd {
+  height: 352px;
+}
+
+.analyze .echarts-list li .d-1 {
+  margin-right: 20px;
+}
+
+
+/*百分比进度条*/
+.analyze .matching {
+  height: auto;
+}
+
+.analyze .matching dl {
+  width: 480px;
+  position: relative;
+}
+
+.analyze .matching dl dt {
+  width: 16px;
+  height: 16px;
+  border: 3px solid #00CCCC;
+  border-radius: 50%;
+  position: absolute;
+  top: -4px;
+  background: #fff;
+  transition: 1s;
+}
+
+.analyze .matching dl dt span {
+  width: 50px;
+  line-height: 24px;
+  height: 24px;
+  text-align: center;
+  color: #fff;
+  background: #00CCCC;
+  position: absolute;
+  top: -33px;
+  left: -20px;
+  font-size: 12px;
+}
+
+.analyze .matching dl dt span i {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: red;
+  top: 21px;
+  left: 22px;
+  transform: rotate(45deg);
+  background: #00cccc;
+}
+
+.analyze .matching dl dd {
+  float: left;
+  width: 30%;
+  height: 8px;
+}
+
+.analyze .matching dl .d-1 {
+  background: #B2F0F0;
+}
+
+.analyze .matching dl .d-2 {
+  background: #66E0E0;
+}
+
+.analyze .matching dl .d-3 {
+  background: #00CCCC;
+}
+
+.analyze .matching dl.orange .d-1 {
+  background: #FFE0B2;
+}
+
+.analyze .matching dl.orange .d-2 {
+  background: #FFC266;
+}
+
+.analyze .matching dl.orange .d-3 {
+  background: #FF9900;
+}
+
+.analyze .matching .list-title{font-size:14px;padding-left:5px;border-left:3px solid #00cccc;height:20px;line-height: 20px;font-weight: normal;}
+.analyze .matching .list-title i{font-style: normal;color:#999;padding-left:12px;line-height: 20px;}
+.analyze .matching dl.orange dt{
+	    border: 3px solid #FF9900;
+}
+.analyze .matching dl.orange dt span,.matching dl.orange dt span i{
+		background:#FF9900;
+}
+/* 岗位匹配  END*/
+
+
+/* 简历发送成功  */
+.resume-success .hints {
+  padding: 23px 0 68px 0;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.resume-success .hints dd, .resume-success .hints dt {
+  float: left;
+}
+
+.resume-success .hints dd {
+  padding-top: 55px;
+  font-size: 18px;
+  text-indent: 14px;
+}
+
+.resume-success .left-box {
+  border: 1px solid #E5E5E5;
+  padding: 0 20px;
+  width: 860px;
+}
+
+.resume-success .left-box .title {
+  font-size: 16px;
+  line-height: 44px;
+  padding-left: 3px;
+}
+
+.resume-success .left-box .title span {
+  background: #00CCCC;
+  font-size: 12px;
+  color: #fff;
+  width: 78px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.resume-success .left-box .position-list li {
+  border-top: 1px solid #EBEBEB;
+  padding: 10px 0 13px 0;
+}
+
+.resume-success .left-box .position-list li .div-1 {
+  width: 444px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.resume-success .left-box .position-list li .div-1 .layui-form-checkbox {
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+.resume-success .left-box .position-list li .div-1 p {
+  line-height: 36px;
+}
+
+.resume-success .left-box .position-list li .div-1 .p-1 {
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.resume-success .left-box .position-list li .div-1 .p-1:hover {
+  transition: .3s;
+  color: #00cccc;
+}
+
+.resume-success .left-box .position-list li .div-1 .p-2 {
+  font-size: 14px;
+  color: #666;
+}
+
+.resume-success .left-box .position-list li .div-1 .p-2 .s-1 {
+  font-size: 16px;
+  color: #ff9900;
+}
+
+.resume-success .left-box .position-list li .div-1 .p-3 {
+  color: #999;
+  font-size: 12px;
+}
+
+.resume-success .left-box .position-list li .div-2 p {
+  line-height: 36px;
+}
+
+.resume-success .left-box .position-list li .div-2 .p-1 {
+  font-size: 14px;
+  color: #333;
+}
+
+.resume-success .left-box .position-list li .div-2 .p-2 {
+  font-size: 14px;
+  color: #666;
+}
+
+.resume-success .left-box .position-list li .div-2 .p-3 {
+  padding-top: 5px;
+  overflow: hidden;
+}
+
+.resume-success .left-box .position-list li .div-2 .p-3 span {
+  float: left;
+  width: 78px;
+  line-height: 24px;
+  text-align: center;
+  background: #F4F4F4;
+  font-size: 12px;
+  color: #999;
+  margin-right: 5px;
+}
+
+.resume-success .right-box {
+  width: 320px;
+  margin-left: 20px;
+}
+
+.resume-success .right-box .tier-1 {
+  text-align: center;
+  border: 1px solid #E5E5E5;
+  margin-bottom: 10px;
+  height: 104px;
+  overflow: hidden;
+}
+
+.resume-success .right-box .tier-2 {
+  border: 1px solid #E5E5E5;
+  padding: 0 20px;
+}
+
+.resume-success .right-box .tier-2 dt, .resume-success .right-box .tier-2 dd {
+  line-height: 44px;
+}
+
+.resume-success .right-box .tier-2 dt {
+  border-bottom: 1px solid #E5E5E5;
+  font-size: 16px;
+}
+
+.resume-success .right-box .tier-2 dd {
+  color: #666;
+  white-space: nowrap;
+  width: 278px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-bottom: 1px dashed #E5E5E5;
+  cursor: pointer;
+}
+
+.resume-success .right-box .tier-2 dd:last-child {
+  border: none;
+}
+
+.resume-success .right-box .tier-2 dd:hover {
+  color: #00cccc;
+}
+
+.resume-success .content {
+  padding-bottom: 60px;
+}
+/* 简历发送成功  END*/
+
+
+/* 能力测评-首页  */
+.appraisalBanner {
+  height: 400px;
+  background: url(../../img/banner-1.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.appraisal .enterChoose {
+  margin: 29px 0;
+}
+
+.appraisal .exam-list dl {
+  width: 280px;
+  height: 248px;
+  border: 1px solid #eee;
+  float: left;
+  margin: 0 10px;
+  margin-bottom: 20px;
+  background: #fff;
+  cursor: pointer;
+  transition:All 0.3s ease-in-out;
+	-webkit-transition:All 0.3s ease-in-out;
+	-moz-transition:All 0.3s ease-in-out;
+	-o-transition:All 0.3s ease-in-out;
+}
+
+.appraisal .exam-list dl dt img {
+  width: 278px;
+  height: 160px;
+}
+
+.appraisal .exam-list dl .d-1 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 58px;
+  color: #333;
+  text-indent: 6px;
+}
+
+.appraisal .exam-list dl .d-2 {
+  font-size: 14px;
+  color: #999;
+  text-indent: 13px;
+}
+
+.appraisal .exam-list dl .d-2 span {
+  color: #333;
+  margin-right: 4px;
+}
+
+.appraisal .exam-list dl:hover {
+  /*border: 1px solid #3399fe;
+  box-shadow: 1px 3px 5px #DAEDFF;
+  -webkit-box-shadow: 1px 3px 5px #DAEDFF;
+  -moz-box-shadow: 1px 3px 5px #DAEDFF;
+  transform:scale(1.02);
+	-webkit-transform:scale(1.02);
+	-moz-transform:scale(1.02);
+	-o-transform:scale(1.02);
+	-ms-transform:scale(1.02);*/
+	box-shadow: 0 5px 20px #D2D2D2;
+}
+
+.newPop .model-2 ul {
+  text-align: center;
+  padding-top: 28px;
+}
+
+.newPop .model-2 ul .li-1 {
+  line-height: 78px;
+  font-size: 18px;
+  color: #00cccc;
+}
+
+.newPop .model-2 ul .li-2 {
+  font-size: 14px;
+  padding-bottom: 14px;
+  color: #666;
+}
+
+.newPop .model-2 ul .li-3 {
+  color: #666;
+  font-size: 14px;
+}
+
+.newPop .model-2 ul .li-4 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.newPop .firm-logo{position:absolute;top:20px;left:20px;}
+.newPop .firm-logo img{width:46px;height:46px;border:1px solid #D7D7D7; border-radius: 3px;}
+.newPop .firm-logo span{font-size:16px;color:#666;padding:0 8px;line-height:48px;}
+
+/* 能力测评-首页  END*/
+
+/* 能力测评-测评页  */
+.protalTest .testFl{ width: 900px !important;}
+.protalTest .testView_demo p.title{ padding: 0 80px;}
+.protalTest .testView_demoList li{ 
+	padding: 0 80px 15px 80px; 
+	-webkit-transition: background-color .3s linear; 
+	-moz-transition: background-color .3s linear; 
+	-o-transition: background-color .3s linear;
+}
+.protalTest .testView_demoList li:hover{ background: #fff;}
+.protalTest .testView_demoList li:hover .demoTit span.question-num{ border: solid 2px #00cccc; color: #00cccc;}
+.protalTest .demoCont .layui-input-block:hover{
+	background: #b7e9fc;
+}
+.protalTest .testFr{ position:fixed; }
+.protalTest .testSubmit{
+	text-align: center;
+	padding-top: 20px;
+}
+
+
+.testFl {
+  width: 800px;
+}
+
+.testFr {
+  width: 280px;
+  background: #f6f6f6;
+  padding: 15px 25px;
+  margin-top: 56px;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.testName {
+  padding: 0 10px;
+  margin-bottom: 30px;
+}
+
+.testName h1 {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.testName table {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.testName table thead td {
+  height: 48px;
+  border-top: solid 1px #ddd;
+  border-bottom: solid 2px #ddd;
+  text-align: center;
+  background: #eef7ff;
+  font-size: 14px;
+  color: #333;
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.testName table td:first-child {
+  text-align: left;
+}
+
+.testName table tbody td {
+  height: 46px;
+  line-height: 46px;
+  border-bottom: solid 1px #ddd;
+  background: #fff;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.testName table tbody td a {
+  color: #00cccc;
+  padding: 5px;
+}
+
+.testName table tbody td a:hover {
+  background: #00cccc;
+  color: #fff;
+}
+
+.testName table tbody .layui-input-block {
+  margin-left: 42px !important;
+}
+
+.testName table tbody .layui-form-item {
+  margin-bottom: 0 !important;
+}
+
+.testFr .testTit {
+  padding-top: 0 !important;
+}
+
+.testAll li {
+  border-top: solid 1px #ccc;
+  margin: 15px 0;
+  padding: 5px 0;
+}
+
+.testAll_bottom span {
+  display: inline-block;
+  width: 36px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  background: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.testAll_bottom span:hover {
+  background: rgba(255, 213, 109, 0.5);
+}
+
+.testAll_bottom span.on {
+  background: #ffd56d;
+}
+
+.testAll_bottom span.over {
+  background: #b7e9fc;
+}
+
+.testAll_top {
+  padding-top: 5px;
+}
+
+.testAll_top p {
+  color: #666;
+  float: left;
+  display: block;
+}
+
+.testAll_top a {
+  display: block;
+  float: right;
+  color: #999999;
+  font-size: 12px;
+}
+
+.testAll_top a i {
+  position: relative;
+  top: -2px;
+  margin-left: 3px;
+}
+
+.testAll_top a:hover {
+  color: #00cccc;
+}
+
+.testAdd a {
+  color: #00cccc;
+}
+
+.testAdd a i {
+  margin-right: 5px;
+}
+
+.testClear {
+  margin-bottom: 130px;
+}
+
+.tableBtns {
+  padding-top: 20px;
+}
+
+.tableBtns i.fa {
+  position: relative;
+  top: -1px;
+  margin-right: 3px;
+}
+
+.testView {
+  background: #f6f6f6;
+  padding-top: 40px;
+  margin-top: 55px;
+}
+
+.testView_tit {
+  color: #00cccc;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.testView_demo p.title {
+  padding: 0 40px;
+}
+
+.testView_demoList {
+  margin-top: 20px;
+}
+
+.testView_demoList .answer {
+  color: #02a64f;
+  padding: 10px 10px 0 10px;
+}
+
+.layui-form-radioed span {
+  color: #00cccc;
+}
+
+.error .layui-form-radioed span {
+  color: #fa0101;
+}
+
+.error .layui-form-radio i:hover, .error .layui-form-radioed i {
+  color: #fa0101 !important;
+}
+
+.error .layui-form-checked span {
+  color: #fa0101 !important;
+}
+
+.error .layui-form-checked i:hover, .error .layui-form-checked i {
+  color: #fff !important;
+  border-color: #fa0101 !important;
+  background-color: #fa0101 !important;
+}
+
+.testView_demoList li {
+  position: relative;
+  padding: 0 40px 15px 40px;
+}
+
+.testView_demoList li a {
+  display: block;
+  position: absolute;
+  right: 50px;
+  top: 45px;
+  color: #c7d5e1;
+}
+
+.testView_demoList li a:hover {
+  color: #00cccc;
+}			
+/* 能力测评-测评页  END*/
+
+/* 能力测评-结果   */
+.result .res {
+  box-shadow: 0 4px 9px #D4E9FF;
+  margin-bottom: 39px;
+  border-radius: 5px;
+}
+
+.result .res .res-message {
+  width: 415px;
+  margin: 0 auto;
+  padding: 37px 0 80px 0;
+}
+
+.result .res .res-message .li-1 {
+  width: 207px;
+  margin: 0 auto;
+  position:relative;
+}
+
+.result .res .res-message .li-1 img {
+  margin-left: 65px;
+}
+
+.result .res .res-message .li-1 .img-box {
+  width: 150px;
+  height: 85px;
+}
+
+.result .res .res-message .li-1 .jieguo-1 {
+  background: url(../../img/jieguo.png) no-repeat 0 0;
+}
+
+.result .res .res-message .li-1 .jieguo-2 {
+  background: url(../../img/jieguo.png) no-repeat 0 -109px;
+}
+
+.result .res .res-message .li-1 .jieguo-3 {
+  background: url(../../img/jieguo.png) no-repeat 0 -215px;
+}
+
+.result .res .res-message .li-1 span {
+  font-size: 36px;
+  color: #ff941a;
+  position: absolute;
+  top: 40px;
+  left:150px;
+  white-space: nowrap;
+}
+
+.result .res .res-message .li-1 span i {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.result .res .res-message .li-2 {
+  font-size: 16px;
+  padding: 23px 0 17px 0;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.result .res .res-message .li-2 b {
+  font-weight: bold;
+  font-size: 24px;
+  color: #00cccc;
+}
+
+.result .res .res-message .li-3 {
+  color: #999;
+  font-size: 14px;
+  text-align: center;
+}
+
+.result .res .res-message .li-3 span {
+  margin: 0 5px;
+  color: #f42d2d;
+}
+
+.result .res .res-message .li-4 {
+  text-align: center;
+}
+
+.result .res .res-message .li-4 a {
+  color: #00cccc;
+}
+
+.result .recommend h3 {
+  line-height: 57px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.result .recommend .list {
+  padding-bottom: 30px;
+}
+
+.result .recommend .list dl {
+  width: 586px;
+  height: 138px;
+  border: 1px solid #fff;
+  line-height: 1;
+  float: left;
+  margin: 0 7px;
+  margin-bottom: 11px;
+}
+
+.result .recommend .list dl dt img {
+  width: 210px;
+  height: 118px;
+  margin: 9px 33px 0 9px;
+}
+
+.result .recommend .list dl dd {
+  width: 332px;
+}
+
+.result .recommend .list dl dd .p-1 {
+  padding: 26px 0 19px 0;
+  font-size: 16px;
+}
+
+.result .recommend .list dl dd .d-1 {
+  padding-right: 43px;
+}
+
+.result .recommend .list dl dd .d-1 p {
+  color: #999;
+}
+
+.result .recommend .list dl dd .d-1 i {
+  color: #FBC639;
+  float: right;
+  margin-left: 5px;
+  position: relative;
+  top: -1px;
+}
+
+.result .recommend .list dl dd .d-1 .p-2 {
+  color: #999;
+  font-size: 14px;
+}
+
+.result .recommend .list dl dd .d-1 .p-2 span {
+  margin: 5px;
+  color: #333;
+}
+
+.result .recommend .list dl dd .p-3 {
+  font-size: 18px;
+  color: #fc702a;
+  padding-top: 20px;
+}
+
+.result .recommend .list dl:hover {
+  transition: .3s;
+  border: 1px solid #CFDDEC;
+  box-shadow: 1px 3px 5px #DAEDFF;
+  cursor: pointer;
+}
+
+/* 能力测评-结果 END */
+
+/* 项目库  */
+.plist {
+  border-bottom: 1px solid #DBDBDB;
+}
+
+.plist dl {
+  border: 1px solid #DBDBDB;
+  padding: 29px 30px 30px 20px;
+  border-bottom: 1px solid #fff;
+  transition:All 0.3s ease-in-out;
+	-webkit-transition:All 0.3s ease-in-out;
+	-moz-transition:All 0.3s ease-in-out;
+	-o-transition:All 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+.plist dl dt, .plist dl dd {
+  float: left;
+  height: 98px;
+}
+
+.plist dl dt {
+  padding-right: 22px;
+}
+
+.plist dl dt img {
+  width: 98px;
+  height: 98px;
+}
+
+.plist dl .d-1 h3, .plist dl .d-1 p {
+  width: 508px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.plist dl .d-1 h3 {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.plist dl .d-1 h3 div {
+  float: left;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.plist dl .d-1 h3 .div-2 {
+  padding-left: 24px;
+}
+
+.plist dl .d-1 h3 .div-2 span {
+  margin-right: 8px;
+  display: inline-block;
+  line-height: 24px;
+  padding: 0 10px;
+  background: #f4f4f4;
+  font-size: 12px;
+  color: #999;
+  font-weight: normal;
+  max-width: 100px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.plist dl .d-1 p {
+  color: #999;
+}
+
+.plist dl .d-1 .p-1 {
+  padding: 18px 0 18px 0;
+  color: #333;
+}
+
+.plist dl .d-2 {
+  width: 133px;
+  text-align: center;
+  color: #ff9933;
+}
+
+.plist dl .d-3 {
+  width: 308px;
+  padding: 0 88px 0 119px;
+}
+
+.plist dl .d-3 .p-1 {
+  color: #666;
+  padding-bottom: 26px;
+}
+
+.plist dl .d-3 .p-1 span {
+  color: #333;
+}
+
+.plist dl .d-3 .p-1 i {
+  padding: 0 6px;
+}
+
+.plist dl .d-3 .p-1 b {
+  cursor: pointer;
+}
+
+.plist dl .d-3 .p-1 b:hover {
+  transition: .3s;
+  color: #00cccc;
+}
+
+.plist dl .d-3 .p-2 span {
+  color: #fa0101;
+  margin: 5px;
+}
+
+.plist dl .d-4 {
+  color: #666;
+}
+
+.plist dl:hover {
+  box-shadow: 0 5px 20px #D2D2D2;
+}
+
+.plist dl:hover .d-1 h3 div {
+  transition: .3s;
+  color: #00cccc;
+}
+
+/* 项目库  END*/
+
+/* 项目库详情  */
+.project-details .leftbox-2 {
+  width: 810px;
+}
+
+.project-details .leftbox-2 .titlebox {
+  padding: 30px 0 19px 29px;
+  margin-bottom: 20px;
+  border: 1px solid #EDEDED;
+}
+
+.project-details .leftbox-2 .titlebox .p-title {
+  padding-bottom: 15px;
+}
+
+.project-details .leftbox-2 .titlebox .p-title h3 {
+  font-size: 22px;
+  font-weight: bold;
+  float: left;
+  padding-right: 20px;
+}
+
+.project-details .leftbox-2 .titlebox .p-title span {
+  margin-right: 8px;
+  display: inline-block;
+  line-height: 24px;
+  padding: 0 10px;
+  background: #F4F4F4;
+  font-size: 12px;
+  color: #999;
+  font-weight: normal;
+}
+
+.project-details .leftbox-2 .titlebox ul li {
+  float: left;
+}
+
+.project-details .leftbox-2 .titlebox .ul-1 {
+  font-size: 14px;
+  color: #797979;
+  padding-bottom: 40px;
+}
+
+.project-details .leftbox-2 .titlebox .ul-1 li {
+  padding-right: 36px;
+}
+
+.project-details .leftbox-2 .titlebox .ul-1 li span {
+  margin: 5px;
+}
+
+.project-details .leftbox-2 .titlebox .ul-1 li .iconfont {
+  position: relative;
+  font-size: 14px;
+  margin: 5px;
+}
+
+.ul-1 li a{
+	color: #999;
+}
+
+.ul-1 li a:hover{
+	color: #00cccc;
+}
+
+.project-details .leftbox-2 .titlebox .p-1 {
+  color: #676767;
+}
+
+.project-details .leftbox-2 .titlebox .p-1 span {
+  color: #FE9C31;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.project-details .leftbox-2 .titlebox .ul-2 {
+  padding: 18px 0;
+}
+
+.project-details .leftbox-2 .titlebox .ul-2 li, .project-details .leftbox-2 .titlebox .ul-3 li {
+  width: 371px;
+  color: #676767;
+}
+
+.project-details .leftbox-2 .titlebox .ul-2 li span, .project-details .leftbox-2 .titlebox .ul-3 li span {
+  margin: 5px;
+}
+
+.project-details .leftbox-2 .titlebox .ul-2 li .span-1, .project-details .leftbox-2 .titlebox .ul-3 li .span-1 {
+  margin: 0;
+  margin-right: 5px;
+}
+
+.project-details .leftbox-2 .titlebox .p-2 {
+  padding-top: 25px;
+}
+
+.project-details .leftbox-2 .contents {
+  padding: 17px 30px 7px 29px;
+  margin-bottom: 41px;
+  border: 1px solid #EDEDED;
+}
+
+.project-details .leftbox-2 .contents dl {
+  padding-bottom: 32px;
+}
+
+.project-details .leftbox-2 .contents dl dt {
+  line-height: 44px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.project-details .leftbox-2 .contents dl dd {
+  line-height: 35px;
+}
+
+.project-details .leftbox-2 .contents dl dd p {
+  line-height: 35px;
+}
+
+.project-details .leftbox-2 .contents .bold {
+  font-weight: bold;
+}
+
+.project-details .leftbox-2 .contents .bottom-add-40 {
+  padding-bottom: 40px;
+}
+
+.project-details .rightbox .enterprise {
+  border: 1px solid #EDEDED;
+}
+
+.project-details .rightbox .linkman {
+  padding: 0;
+  padding-top: 20px;
+}
+
+.project-details .top-show {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 801;
+  background: #fff;
+  box-shadow: 1px 3px 5px #e1f5f5;
+}
+
+.project-details .top-show ul {
+  width: 1200px;
+  margin: auto;
+  height: 81px;
+}
+
+.project-details .top-show .li-1, .project-details .top-show .li-2 {
+  float: left;
+}
+
+.project-details .top-show li {
+  line-height: 81px;
+}
+
+.project-details .top-show .li-1 {
+  font-weight: bold;
+  font-size: 22px;
+  padding-right: 55px;
+}
+
+.project-details .top-show .li-2 {
+  color: #666;
+}
+
+.project-details .top-show .li-2 span {
+  font-size: 24px;
+  color: #ff9933;
+}
+
+.project-details .top-show .blueBtn {
+  padding: 0 42px;
+}
+
+/* 项目库详情  END*/
+
+/* 求职应聘  */
+.allProject-new{border-bottom:1px solid #D7D7D7;margin:30px 0;}
+.allProject-new div{cursor:pointer;float:left;line-height:32px;border-bottom:4px solid #fff;padding: 0 20px;font-size:16px;color:#666;font-weight: bold;}
+.allProject-new div.active{color:#00cccc;border-bottom-color:#00cccc}
+.allProject-new div:hover{
+	transition: .3s;
+	color:#00cccc;border-bottom-color:#00cccc;
+}
+
+
+.company-list {
+  padding-top: 10px;
+}
+
+.company-list dl {
+  width: 387px;
+  height: 183px;
+  border: 1px solid #E5E5E5;
+  padding-top: 19px;
+  font-size: 14px;
+  margin: 0 6px;
+  margin-top: 18px;
+  float: left;
+  transition:All 0.3s ease-in-out;
+	-webkit-transition:All 0.3s ease-in-out;
+	-moz-transition:All 0.3s ease-in-out;
+	-o-transition:All 0.3s ease-in-out;
+}
+
+.company-list dl dt {
+  border: 1px solid #D8D8D8;
+  margin: 0 19px;
+  margin-bottom: 20px;
+}
+
+.company-list dl dt img {
+  width: 96px;
+  height: 96px;
+}
+
+.company-list dl dd.d-1 .p-1 {
+  font-size: 16px;
+  line-height: 35px;
+}
+
+.company-list dl dd.d-1 .p-1:hover{
+	color: #00cccc;
+}
+
+.company-list dl dd.d-1 .p-2 span {
+  display: inline-block;
+  padding: 0 10px;
+  line-height: 17px;
+  background: #f4f4f4;
+  color: #999;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.company-list dl dd.d-1 .p-3 {
+  color: #999999;
+  padding-top: 23px;
+}
+
+.company-list dl dd.d-1 .p-3 span {
+  color: #333333;
+}
+
+.company-list dl dd.d-2 {
+  width: 100%;
+  line-height: 44px;
+  color: #666666;
+  background: #F4F6F8 !important;
+  padding: 0 20px 0 17px;
+}
+
+.company-list dl dd.d-2 i {
+  font-style: normal;
+  margin-right: 4px;
+  color: #666666;
+}
+
+.company-list dl dd.d-2 .fr {
+  color: #999999;
+}
+
+.company-list dl.underway {
+  background: url(../../img/jinxin.png) no-repeat right top;
+  cursor: pointer;
+}
+	
+.company-list dl:hover {
+	/*transform:scale(1.02);
+	-webkit-transform:scale(1.02);
+	-moz-transform:scale(1.02);
+	-o-transform:scale(1.02);
+	-ms-transform:scale(1.02);
+  border: 1px solid #3399ff;
+  box-shadow: 1px 3px 5px #DAEDFF;
+  -webkit-box-shadow: 1px 3px 5px #DAEDFF;
+  -moz-box-shadow: 1px 3px 5px #DAEDFF;*/
+  box-shadow: 0 5px 20px #D2D2D2;
+}
+
+.company-list dl:hover dd.d-2{
+	background: #fff;
+}
+
+.company-list dl.abort {
+  background: url(../../img/jiezhi.png) no-repeat right top;
+}
+
+
+.project-list {
+  padding-top: 30px;
+}
+
+.project-list table th, .project-list table td {
+  text-align: left;
+  padding-left: 25px;
+}
+
+.project-list table thead tr {
+  background: #F4F4F4;
+
+}
+
+.project-list table thead tr th {
+  line-height: 39px;
+  font-size: 14px;
+}
+
+.project-list table tbody tr{
+	border:2px solid #fff;
+	border-bottom-color:#DBDBDB;
+	border-left:0;
+	border-right:0;
+}
+
+.project-list table tbody tr td {
+  font-size: 14px;
+  line-height: 53px;
+}
+
+.project-list table tbody tr td:first-child{
+	font-size: 16px;
+}
+
+.project-list table tbody tr .gray {
+  color: #999;
+}
+
+.project-list table tbody tr .price {
+  color: #00cccc;
+}
+
+.project-list table tbody tr:hover .positon-name{
+	transition: .3s;
+	color:#00cccc;
+}
+/* 求职应聘   END*/

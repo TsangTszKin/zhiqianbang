@@ -1,0 +1,82 @@
+.contant {
+  background: #F7F7F7;
+}
+
+.analyze .title {
+  padding-left: 33px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 47px;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.analyze .banner {
+  height: 117px;
+  position: relative;
+}
+
+.analyze .banner span {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.analyze .banner .s-1 {
+  font-size: 52px;
+  letter-spacing: 10px;
+  text-shadow: 0 8px 8px #EBEFF0;
+  color: #FFFFFF;
+  top: -7px;
+}
+
+.analyze .banner .s-2 {
+  font-size: 38px;
+  top: 20px;
+}
+
+.analyze .top-box {
+  background: #FFFFFF;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.analyze .top-box ul {
+  padding-top: 20px;
+  padding-bottom: 67px;
+  padding-left: 28px;
+  width: 570px;
+  margin-right: 20px;
+}
+
+.analyze .top-box ul .li1, .analyze .top-box ul .li-2 {
+  line-height: 34px;
+}
+
+.analyze .top-box ul .li-3 {
+  margin-top: 20px;
+}
+
+.analyze .top-box ul .li-4 {
+  margin-top: 30px;
+}
+
+.analyze .echarts-list li {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.analyze .echarts-list li dl {
+  padding: 0 20px;
+  width: 590px;
+  background: #fff;
+  float: left;
+}
+
+.analyze .echarts-list li dl dd {
+  height: 352px;
+}
+
+.analyze .echarts-list li .d-1 {
+  margin-right: 20px;
+}

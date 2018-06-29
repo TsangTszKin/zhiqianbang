@@ -1,0 +1,195 @@
+/* 课程计划  */
+.lessonTable{
+	padding: 20px 0;
+}
+
+.mrTop_searchBar span.tips{
+	font-size: 12px;
+	color: #999;
+	padding-left: 10px;
+}
+
+.mrTop_searchBar span.tips a{
+	color: #00bbee;
+	transition: all .3s linear;
+}
+
+.mrTop_searchBar span.tips a:hover{
+	color: #ff782c;
+}
+
+.mrTop_searchBar li.add{
+	float: left !important;
+}
+
+.mrTop_searchBar li.search{
+	float: right !important;
+}
+
+.lessonUse_btn{
+	padding: 15px 17px;
+}
+
+.lessonUse_down .layui-form-checkbox{
+	margin-right: 15px;
+}
+
+.lessonUse_btn button{
+	margin-right: 10px;
+}
+/* 课程计划 END*/
+
+/* 新建课程计划  */
+.lessonNew .layui-form-item .fillTag{
+	padding-left: 168px;
+}
+
+.lessonNew .layui-form-item .img-box{
+	height: 52px;
+}
+
+.lessonNew .layui-form-item .addimg{
+	width: 128px;
+	height: 72px;
+	padding-top: 20px;
+	top: -20px;
+}
+
+/* 新建课程计划  END*/
+
+/* 新建课程  */
+.classNew{
+	padding-top: 0 !important;
+}
+
+.lessonReview{
+	color: #00bbee;
+	font-size: 14px;
+	transition: all .3s linear;
+	margin-left: 10px;
+}
+
+.lessonReview:hover{
+	color: #ff9900;
+}
+
+.lessonVideo_tip{
+	font-size: 12px;
+	color: #999;
+	padding-left: 10px;
+}
+
+.lessonVideo_upload{
+	padding-left: 168px;
+	padding-top: 44px;
+}
+
+.lessonVideo_upload span i{
+	color: #00bbee;
+	margin-right: 10px;
+	font-size: 16px;
+}
+
+/* 新建课程  END*/
+
+/* 选择视频  */
+.lessonVideo_top{
+	margin: 30px 0;
+}
+
+.lessonVide_card{
+}
+
+.lessonVideo_card li{
+	float: left;
+	width: 230px;
+	height: 162px;
+	background: #f7f7f7;
+	margin: 0 5px 20px 5px;
+	position: relative;
+	transition: all .3s linear;
+	cursor: pointer;
+}
+
+.lessonVideo_card li:hover{
+	box-shadow: 0px 3px 9px 1px #b5b5b5;
+	-webkit-box-shadow: 0px 3px 9px 1px #b5b5b5;
+	-moz-box-shadow: 0px 3px 9px 1px #b5b5b5;
+}
+
+.lessonVideo_card li:hover .videoTxt{
+	color: #00cccc;
+}
+
+.lessonVideo_card li:hover .videoCheck i,
+.lessonVideo_card li .videoCheck_on i{
+	background-position: -22px 0 !important;
+}
+
+.lessonVideo_card li .videoImg{
+	width: 230px;
+	height: 130px;
+}
+
+.videoImg img{
+	width: 100%;
+	height: 100%;
+}
+
+.videoTxt{
+	padding: 0 10px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 12px;
+	overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    transition: all .3s linear;
+}
+
+.videoCheck{
+	display: block;
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	z-index: 20;
+	top: 10px;
+	right: 10px;
+}
+
+.videoCheck i{
+	display: block;
+	width: 22px;
+	height: 22px;
+	background: url(../../img/videoCheck.png) no-repeat center;
+	background-position: 0 0;
+	transition: all .3s linear;
+}
+
+.videoChoose{
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 60px;
+	line-height: 60px;
+	z-index: 800;
+	background: #fff;
+	box-shadow: 0px 0px 9px 4px #ebebeb;
+}
+
+.videoChoose_title{
+	line-height: 60px;
+	font-size: 14px;
+	color: #999999;
+}
+
+.videoChoose_title span{
+	color: #333;
+	padding-left: 12px;
+}
+
+.videoChoose_btn button{
+	margin: 13px 10px;
+}
+/* 选择视频  END*/

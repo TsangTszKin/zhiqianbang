@@ -1,0 +1,306 @@
+.person{
+	padding: 40px 0;
+}
+
+.personFl{
+	width: 620px;
+}
+
+.personFr{
+	width: 260px;
+	box-shadow: 0px 0px 22px 0px #e8e8e8;
+	-webkit-box-shadow: 0px 0px 22px 0px #e8e8e8;
+	-mo-box-shadow: 0px 0px 22px 0px #e8e8e8;
+	padding: 18px 20px;
+}
+
+.person_chart{
+	width: 620px;
+	height: 300px;
+	box-shadow: 0px 0px 22px 0px #e8e8e8;
+	-webkit-box-shadow: 0px 0px 22px 0px #e8e8e8;
+	-mo-box-shadow: 0px 0px 22px 0px #e8e8e8;
+	padding-top: 18px;
+	padding-left: 17px;
+}
+
+.chart{
+	width: 363px;
+	height: 282px;
+}
+
+.people{
+	width: 220px;
+	padding-right: 20px;
+}
+
+.peopleTop{
+	width: 200px;
+	height: 72px;
+	background: url(../../img/person.jpg) no-repeat center;
+	color: #fff;
+	overflow: hidden;
+	padding: 10px 18px;
+}
+
+.peopleTop p{
+	font-size: 12px;
+	width: 100%;
+	line-height: 22px;
+	padding: 1px 0;
+}
+
+.peopleTop span{
+	display: inline-block;
+}
+
+.peopleTop span.tl{
+	text-align: left;
+	float: left;
+	font-size: 14px;
+}
+
+.peopleTop span.tr{
+	text-align: right;
+	float: right;
+	font-size: 12px;
+}
+
+.peopleTop span.tr b{
+	font-size: 16px;
+	padding: 0 3px;
+}
+
+.peopleList{
+	padding-top: 22px;
+}
+
+.peopleList li{
+	padding: 12px 20px 12px 2px;
+	border-bottom: solid 1px #ddd;
+}
+
+.peopleList li:last-child{
+	border-bottom: none;
+}
+
+.peopleList li p{
+	height: 16px;
+	line-height: 16px;
+	color: #333;
+	font-size: 12px;
+}
+
+.peopleList li p.tl{
+	float: left;
+	padding-left: 12px;
+}
+
+.peopleList li p.tr{
+	float: right;
+}
+
+.peopleList li.blue p.tl{
+	border-left: solid 4px #3399FF;
+}
+
+.peopleList li.red p.tl{
+	border-left: solid 4px #fa6060;
+}
+
+.peopleList li.orange p.tl{
+	border-left: solid 4px #ff9934;
+}
+
+.peopleTab{
+	text-align: right;
+	padding-bottom: 22px;
+}
+
+.peopleTab span{
+	display: inline-block;
+	font-size: 12px;
+	color: #666666;
+	padding: 0 12px;
+	cursor: pointer;
+	transition: color .3s linear;
+	-webkit-transition: color .3s linear;
+	-moz-transition: color .3s linear;
+	-o-transition: color .3s linear;
+}
+
+.peopleTab span.on,
+.peopleTab span:hover{
+	color: #3399ff;
+}
+
+.poersonCard{
+	padding: 20px 0;
+}
+
+.poersonCard li{
+	float: left;
+	width: 193px;
+	height: 109px;
+	padding: 25px 17px;
+}
+
+.poersonCard li.blue{
+	background: url(../../img/person1.jpg) no-repeat;
+	box-shadow: 0px 5px 23px -1px #d7d0fa;
+	-webkit-box-shadow: 0px 5px 23px -1px #d7d0fa;
+	-moz-box-shadow: 0px 5px 23px -1px #d7d0fa;
+}
+
+.poersonCard li.orange{
+	background: url(../../img/person2.jpg) no-repeat;
+	box-shadow: 0px 5px 23px -1px #fedbe4;
+	-webkit-box-shadow: 0px 5px 23px -1px #fedbe4;
+	-moz-box-shadow: 0px 5px 23px -1px #fedbe4;
+	margin-left: 20px;
+}
+
+.poersonCard li.purple{
+	background: url(../../img/person3.jpg) no-repeat;
+	box-shadow: 0px 5px 23px -1px #e4dafd;
+	-webkit-box-shadow: 0px 5px 23px -1px #e4dafd;
+	-moz-box-shadow: 0px 5px 23px -1px #e4dafd;
+	margin-left: 20px;
+}
+
+.poersonCard li p{
+	color: #ffffff;
+	font-size: 14px;
+	padding-bottom: 5px;
+	opacity: .8;
+}
+
+.poersonCard li h1{
+	font-size: 24px;
+	font-weight: normal;
+	color: #fff;
+}
+
+.personProject{
+	height: 170px;
+	box-shadow: 0px 0px 22px 0px #e8e8e8;
+	-webkit-box-shadow: 0px 0px 22px 0px #e8e8e8;
+	-mo-box-shadow: 0px 0px 22px 0px #e8e8e8;
+	padding: 17px 23px;
+}
+
+.personProject h1,
+.personFr h1{
+	color: #666666;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.personProject h1 a{
+	float: right;
+	display: block;
+	color: #666;
+	font-size: 14px;
+	transition: color .3s linear;
+	-webkit-transition: color .3s linear;
+	-moz-transition: color .3s linear;
+}
+
+.personProject h1 a:hover{
+	color: #3399FF;
+}
+
+.projectCont{
+	padding-top: 12px;
+}
+
+.project_img{
+	width: 98px;
+	height: 98px;
+	border: solid 1px #d8d8d8;
+}
+
+.project_img img{
+	width: 100%;
+	height: 100%;
+}
+
+.project_txt{
+	padding-left: 20px;
+	position: relative;
+	width: 470px;
+}
+
+.project_txt .view{
+	position: absolute;
+	color: #999999;
+	right: 0;
+	bottom: 0;
+}
+
+.project_txt .view span{
+	padding-left: 18px;
+}
+
+.project_txt .view b{
+	color: #333;
+	font-weight: normal;
+	padding-right: 4px;
+}
+
+.project_txt h1{
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.project_txt p{
+	color: #333;
+	font-size: 14px;
+	padding-top: 20px;
+}
+
+.projectDemo{
+	padding: 20px 0;
+}
+
+.projectDemo h1{
+	height: 16px;
+	line-height: 16px;
+	padding-left: 10px;
+	border-left: solid 3px #3399FF;
+	color: #999999;
+	font-size: 14px;
+	position: relative;
+}
+
+.projectDemo h1 a{
+	position: absolute;
+	right: 0;
+	color: #999;
+	transition: color .3s linear;
+	-webkit-transition: color .3s linear;
+	-moz-transition: color .3s linear;
+	font-size: 12px;
+}
+
+.projectDemo h1 a:hover{
+	color: #3399FF;
+}
+
+.projectDemo table{
+	width: 100%;
+	margin-top: 9px;
+}
+
+.projectDemo table td{
+	color: #333;
+	font-size: 12px;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 8px;
+}
+
+.projectDemo table tr:nth-child(odd) td{
+	background: #f9f9f9;
+}

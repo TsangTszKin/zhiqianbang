@@ -1,0 +1,234 @@
+body {
+  background: #fff;
+}
+
+i {
+  font-style: normal;
+}
+
+b {
+  font-weight: normal;
+}
+
+u {
+  text-decoration: none;
+}
+
+.pops .apply-model {
+  height: 356px;
+  position: relative;
+  padding-top: 50px;
+}
+
+.pops .check-file {
+  display: block;
+  padding-left: 111px;
+  margin: 10px 0;
+  font-size: 12px;
+  color: #3294FF;
+}
+
+.pops .check-file i {
+  color: #C2D0DE;
+  position: relative;
+  cursor: pointer;
+  top: 1px;
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+.pops .check-file i:hover {
+  color: #F30903;
+}
+
+.pops .layui-form .layui-input {
+  display: inline-block;
+  width: 280px;
+}
+
+.pops .layui-form .layui-btn {
+  margin-left: 10px;
+  position: relative;
+  top: -1px;
+}
+
+.pops .layui-form .layui-form-label {
+  width: 100px;
+}
+
+.pops .buts {
+  width: 318px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding-left: 0 !important;
+}
+
+.pops .buts .blueBtn-o {
+  margin-right: 20px;
+}
+
+.pops .z-message {
+  text-align: center;
+}
+
+.pops .z-message p {
+  font-size: 18px;
+  padding: 27px 0 16px 0;
+}
+
+.pops .z-message span {
+  display: block;
+  font-size: 14px;
+  color: #0099FF;
+  padding-bottom: 42px;
+}
+
+.pops .z-message .buts {
+  padding: 0;
+  margin: 0 auto;
+  position: inherit;
+  width: 220px;
+}
+
+.pops .z-message .buts .fl {
+  margin: 0;
+}
+
+.projectList .projectList_txt h1 {
+  position: relative;
+  display: inline-block;
+}
+
+.projectList .projectList_txt h1 .num {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url(../../img/minicon.png) no-repeat 0 0;
+  line-height: 14px;
+  font-size: 12px;
+  color: #fff;
+  background-size: 100%;
+  text-align: center;
+  position: absolute;
+  top: -11px;
+  right: -19px;
+}
+
+.projectList .projectList_txt p u {
+  margin-right: 8px;
+  display: inline-block;
+  line-height: 24px;
+  padding: 0 10px;
+  background: #E0F0FF;
+  font-size: 12px;
+  color: #3399ff;
+  font-weight: normal;
+  border-radius: 12px;
+}
+
+.projectList .stamp {
+  width: 120px;
+  height: 120px;
+  background: url(../../img/zicon-2.png) no-repeat 0 -47px;
+  position: absolute;
+  top: 10px;
+  left: 270px;
+  z-index: 10;
+}
+
+.projectList .stamp-2 {
+  width: 120px;
+  height: 120px;
+  background: url(../../img/zicon-3.png) no-repeat 0 0;
+  position: absolute;
+  top: 10px;
+  left: 270px;
+  z-index: 10;
+}
+
+.projectList .stamp-3 {
+  width: 120px;
+  height: 120px;
+  background: url(../../img/zicon-4.png) no-repeat 0 0;
+  position: absolute;
+  top: 10px;
+  left: 270px;
+  z-index: 10;
+}
+
+.projectList .stamp-4 {
+  width: 120px;
+  height: 120px;
+  background: url(../../img/zicon-5.png) no-repeat 0 0;
+  position: absolute;
+  top: 10px;
+  left: 270px;
+  z-index: 10;
+}
+
+/*2018.1.8 二次修改(洋洋手工)*/
+.projectList .stamp {
+  width: 61px;
+  height: 61px;
+  background: url(../../img/jiangxiang.png) no-repeat 0 0px;
+  position: absolute;
+  top: 17px;
+  left: 352px;
+  z-index: 10;
+}
+
+.projectList .stamp-2 {
+  width: 61px;
+  height: 61px;
+  background: url(../../img/jiangxiang.png) no-repeat 0 -74px;
+  position: absolute;
+  top: 17px;
+  left: 352px;
+  z-index: 10;
+}
+
+.projectList .stamp-3 {
+  width: 61px;
+  height: 61px;
+  background: url(../../img/jiangxiang.png) no-repeat 0 -145px;
+  position: absolute;
+  top: 17px;
+  left: 352px;
+  z-index: 10;
+}
+
+.projectList .stamp-4 {
+  width: 61px;
+  height: 61px;
+  background: url(../../img/jiangxiang.png) no-repeat 0 -222px;
+  position: absolute;
+  top: 17px;
+  left: 352px;
+  z-index: 10;
+}
+
+.projectList .projectList_txt h1 .num{
+	width:20px;height:20px;background-size:cover;
+	line-height:17px;
+}
+.projectList .projectList_txt h1 .news{
+	 display: inline-block;
+	 border-radius:8px;
+    padding:0px 4px;
+    height: 16px;
+    background: #F65439;
+    line-height:14px;
+    font-size: 12px;
+    color: #fff;
+    background-size: 100%;
+    text-align: center;
+    position: absolute;
+    top: -8px;
+    right: -36px;
+}
+
+

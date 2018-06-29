@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<!--
+    	作者：AgnesXu
+    	时间：2017-07-25
+    	描述：index
+    -->
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="HandheldFriendly" content="true">
+
+	<!-- X-UA-Compatible是自从IE8新加的一个设置，对于IE8以下的浏览器是不识别的。 通过在meta中设置X-UA-Compatible的值，可以指定网页的兼容性模式设置。 -->
+	<!-- 解决CSS在,IE6,IE7,IE8,IE9,IE10 中的各种兼容性问题。 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<!-- IE=edge告诉IE使用最新的引擎渲染网页，chrome=1则可以激活Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=5/6/7/8/9/10/Edge">
+	<!-- 告诉IE浏览器，IE8/9都会以IE5，6，7，8，9，10，Edge引擎来渲染页面 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7/8/9/10">
+	<!-- 模仿IE7，8，9，10的行为 -->
+	<meta name="description" content="轩辕实习工场是以就业为导向，为大学生提供云计算和大数据专业的实践教学与技能、素质培训，实现双证就业；平台提供线上实习、实习协调、创新创业、继续教育、培训认证等服务。">
+	<script type="text/javascript">
+		if (!-[1, ] && document.documentMode <= '8') {
+			alert(
+				'\u4f60\u7684\u6d4f\u89c8\u5668\u7248\u672c\u592a\u006c\u006f\u0077\u4e86\u002c\u5df2\u7ecf\u548c\u65f6\u4ee3\u8131\u8f68\u4e86\u002c\u8bf7\u66f4\u65b0\u5230\u0069\u0065\u0039\u53ca\u5176\u4ee5\u4e0a\u7684\u7248\u672c\uff1b\u6216\u4f7f\u7528\u8c37\u6b4c\uff0c\u706b\u72d0\uff0c\u0033\u0036\u0030\u7b49\u6d4f\u89c8\u5668\u8bbf\u95ee'
+			);
+		} // !-[1, ]这是一个判断IE浏览器的精简脚本; documentMode 是 IE 浏览器特定属性
+	</script>
+	<style type="text/css">
+		.pops .simditor-body {
+			min-height: 150px !important;
+		}
+	</style>
+
+	<title>轩辕职塑云</title>
+	<link rel="icon" href="/static/img/favicon.png" type="image/x-icon" />
+	<link rel="shortcut icon" href="/static/img/favicon.png" type="image/x-icon" />
+
+	<link rel="stylesheet" href="/static/css/common.css" />
+	<link rel="stylesheet" href="/static/css/fontCss/font-awesome.min.css" />
+	<link rel="stylesheet" href="/static/css/index.css" />
+	<link rel="stylesheet" href="/static/layui/css/layui.css" />
+	<link rel="stylesheet" href="/static/iconfont/iconfont.css" />
+	<link rel="stylesheet" href="/static/new-iconfont/iconfont.css" />
+	<link rel="stylesheet" href="/static/font/zqb-iconfont/iconfont.css" />
+	<link rel="stylesheet" href="/static/simditor-2.3.5/simditor-2.3.5/simditor.css" />
+	<link rel="stylesheet" href="/static/css/formCommon.css" />
+	<link rel="stylesheet" href="/static/css/cardCommon.css" />
+</head>
+
+<body>
+	<app></app>
+	<div id="vueDialog"></div>
+	<!--<script src="/static/build.js"></script>-->
+	<script type="text/javascript" src="/static/js/jquery-1.7.2-min.js"></script>
+	<script type="text/javascript" src="/static/js/flexslider/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="/static/js/goup/jquery.goup.min.js"></script>
+	<script type="text/javascript" src="/static/js/common.js"></script>
+	<script src="/static/simditor-2.3.5/module.min.js"></script>
+	<script src="/static/simditor-2.3.5/hotkeys.min.js"></script>
+	<script src="/static/simditor-2.3.5/uploader.min.js"></script>
+	<script src="/static/simditor-2.3.5/simditor.min.js"></script>
+	<script src="/static/js/common-zy.js"></script>
+	<script src="/static/layui/layui.js"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=NBm5pQpCnBbVPrgFL7wsipT9BjPrl3Pk"></script>
+	<script type="text/javascript" src="/static/js/zUI.js"></script>
+	<script src="/static/echarts/echarts.min.js" ></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('.flexslider').flexslider({
+				directionNav: true,
+				pauseOnAction: false
+			});
+			// window.onload = function () {
+			// 	zytools.autoHeight(316) //内容高度小于窗口，z-main 填充最小高
+			// }
+
+		});
+		// do not delete this line
+		// ZHISU_WEB_VERSION ZHISU_SVN_VERSION PACKAGE_TIME
+		// console.log(layui);
+		layui.use(['layer', 'form', 'laydate', 'layedit', 'layim'], function () {
+			window.layui.layer = layui.layer;
+			window.layui.form = layui.form;
+			window.layui.laydate = layui.laydate;
+			window.layui.layedit = layui.layedit;
+			window.layui.layim = layui.layim;
+		});
+	</script>
+
+	<style>
+		.header_personName img {
+			top: 0px;
+		}
+
+		.logo img {
+			top: 0px;
+		}
+	</style>
+
+</html>

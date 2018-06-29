@@ -1,0 +1,114 @@
+.z-main {
+  width: auto;
+}
+
+.z-main i {
+  font-style: normal;
+}
+
+.z-main b {
+  font-weight: normal;
+}
+
+.z-main u {
+  text-decoration: none;
+}
+
+.z-main .title {
+  padding: 19px 0 32px 0;
+  font-size: 24px;
+}
+
+.z-main .nav li {
+  float: left;
+  padding: 0 10px;
+  line-height: 36px;
+  font-size: 16px;
+  border-bottom: 2px solid #fff;
+  cursor: pointer;
+}
+
+.z-main .nav li.active {
+  border-color: #0099FF;
+  color: #0099FF;
+}
+
+.z-main .nav li:hover {
+  transition: .3s;
+  border-color: #0099FF;
+  color: #0099FF;
+}
+
+.z-main .searchBar {
+  margin: 20px 0;
+  background-position-y: 11px;
+}
+
+.z-main .table-box table {
+  width: 100%;
+  border: 1px solid #DDDDDD;
+  margin-bottom: 20px;
+}
+
+.z-main .table-box table thead {
+  background: #F3F3F3;
+}
+
+.z-main .table-box table thead tr {
+  border-bottom: 2px solid #DDDDDD;
+}
+
+.z-main .table-box table thead tr td {
+  color: #666;
+  line-height: 44px;
+  text-indent: 7px;
+}
+
+.z-main .table-box table thead tr td .span-1 {
+  margin-left: 30px;
+}
+
+.z-main .table-box table thead tr td .span-2 {
+  color: #3399FF;
+}
+
+.z-main .table-box table thead tr td .span-3 {
+  display: block;
+  text-align: center;
+}
+
+.z-main .table-box table tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.z-main .table-box table tbody tr td img {
+  width: 78px;
+  height: 44px;
+  margin: 20px;
+  margin-left: 11px;
+}
+
+.z-main .table-box table tbody tr .pay {
+  text-align: center;
+  border-left: 1px solid #ddd;
+}
+
+.z-main .table-box table tbody tr .pay p {
+  font-size: 18px;
+  color: #ff9933;
+  padding-bottom: 10px;
+}
+
+.table-box table tbody tr td button{
+	display: block;
+	margin: 0 auto;
+}
+
+.table-box table tbody tr td button.exitBtn{
+	color: #333;
+	margin: 10px auto;
+}
+
+.table-box table tbody tr td button.exitBtn:hover{
+	color: #3399ff;
+}

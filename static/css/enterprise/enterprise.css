@@ -1,0 +1,1910 @@
+/* 应聘简历 */
+.mrTop{
+	background-color: #F7F7F7;
+}
+
+.mrTop_tab{
+	border-bottom: solid 1px #eee;
+}
+
+.mrTop_tab a{
+	display: inline-block;
+	padding: 22px 19px 20px 19px;
+	color: #333;
+	font-size: 14px;
+	border-bottom: solid 2px #F7F7F7;
+}
+
+.mrTop_tab a span{
+	color: #999;
+}
+
+.mrTop_tab a.on,
+.mrTop_tab a:hover{
+	border-bottom: solid 2px #00cccc;
+	color: #00cccc;
+}
+
+.mrTop_tab a.on span,
+.mrTop_tab a:hover span{
+	color: #00cccc;
+}
+
+.mrTop_searchBar{
+	padding: 20px 19px;
+}
+
+.mrTop_searchBar ul li{
+	float: left;
+	margin-right: 20px;
+}
+
+.mrTop_searchBar ul li .layui-form-select,
+.mrTop_searchBar ul li .layui-form-select .layui-input{
+	width: 122px !important;
+}
+
+.mrTop_searchBar ul li .layui-fillCheck{
+	line-height: 34px;
+	margin-left: 10px;
+}
+
+.mrTop_searchBar ul li .mrTop_searchBar_sex,
+.mrTop_searchBar ul li .mrTop_searchBar_sex .layui-form-select,
+.mrTop_searchBar ul li .mrTop_searchBar_sex .layui-form-select .layui-input{
+	width: 82px !important;
+}
+
+.mrTop_searchBar ul li .layui-form-checkbox[lay-skin=primary] span{
+	padding-right: 0 !important;
+}
+
+.mrTable{
+	padding: 15px 0;
+}
+.mrTable .showpercent{
+	margin-right: 3px;
+}
+
+.mrTable .layui-progress{
+	border-radius: 10px !important;
+    background-color: #fff !important;
+    border: solid 1px #e5e5e5;
+    width: 60px;
+    top: 3px;
+}
+
+.mrTable .layui-progress .layui-progress-bar{
+    border-radius: 10px !important;
+    height: 6px !important;
+    border: solid 1px #fff;	
+    background: -webkit-linear-gradient(left, #35bcdd , #07cdcd); /* Safari 5.1 - 6.0 */
+	  background: -o-linear-gradient(left, #35bcdd , #07cdcd); /* Opera 11.1 - 12.0 */
+	  background: -moz-linear-gradient(left, #35bcdd , #07cdcd); /* Firefox 3.6 - 15 */
+	  background: linear-gradient(to left, #35bcdd , #07cdcd); /* 标准的语法 */
+    filter:alpha(opacity=100 finishopacity=50 style=1 startx=0,starty=0,finishx=0,finishy=150) progid:DXImageTransform.Microsoft.gradient(startcolorstr=#35bcdd,endcolorstr=#07cdcd,gradientType=1);
+  	-ms-filter:alpha(opacity=100 finishopacity=50 style=1 startx=0,starty=0,finishx=0,finishy=150) progid:DXImageTransform.Microsoft.gradient(startcolorstr=#35bcdd,endcolorstr=#07cdcd,gradientType=1);
+}
+/* 应聘简历  END*/
+
+/* 推荐简历  */
+.mrTop_sort{
+	margin: 0 19px;
+	padding: 16px 0;
+	border-top: dashed 1px #d9d9d9;
+}
+
+.mrTop_sort ul li{
+	float: left;
+	color: #333;
+	font-size: 14px;
+	margin-right: 20px;
+}
+
+.mrTop_sort ul li a{
+	color: #333;
+	font-size: 14px;
+}
+
+.mrTop_sort ul li .layui-form-checkbox[lay-skin=primary] span{
+	color: #333;
+}
+
+.mr_resumes{
+	margin: 30px 0;
+	border-bottom: none;
+}
+
+.mr_resumesList{
+	border-left: solid 1px #e5e5e5;
+	border-right: solid 1px #e5e5e5;
+	border-top: solid 1px #e5e5e5;
+}
+
+.mr_resumesList li{
+	height: 167px;
+	border-bottom: solid 1px #e5e5e5;
+	padding: 29px 19px;
+	position: relative;
+}
+
+.mr_listImg{
+	width: 86px;
+	height: 106px;
+	background: #efefef;
+	text-align: center;
+	overflow: hidden;
+}
+
+.mr_listImg img{
+	max-width: 86px;
+	max-height: 106px;
+}
+
+.mr_listMess{
+	width: 377px;
+	padding-left: 20px;
+}
+
+.mr_listMess p{
+	color: #666;
+	font-size: 14px; 
+	padding: 7px 0;
+}
+
+.mr_listMess p b{
+	font-weight: normal;
+	color: #ff9900;
+}
+
+.mr_listMess p a{
+	display: block;
+}
+
+.mr_listMess p a:hover span{
+	opacity: 1;
+	color: #00cccc;
+	border-right: solid 1px #00cccc;
+}
+
+.mr_listMess p a span{
+	display: inline-block;
+	border-right: solid 1px #333;
+	height: 15px;
+	line-height: 15px;
+	color: #333;
+	font-size: 14px;
+	padding: 0 7px;
+	transition: all .3s linear;
+}
+
+.mr_listMess p a span:last-child{
+	border-right: none;
+}
+
+.mr_listMess p a span:first-child{
+	padding-left: 0;
+}
+
+.mr_listExperience{
+	width: 500px;
+	padding-left: 20px;
+	overflow: hidden;
+}
+
+.mr_listExperience p{
+	color: #666;
+	font-size: 14px;
+	padding: 7px 0;
+}
+
+.mr_listExperience p span{
+	display: inline-block;
+	height: 15px;
+	line-height: 15px;
+	padding: 0 7px;
+}
+
+.mr_listExperience p span:first-child{
+	border-right: solid 1px #666;
+}
+
+.mr_listTime{
+	position: absolute;
+	bottom: 10px;
+	right: 19px;
+	color: #999;
+	font-size: 12px;
+}
+
+/* 推荐简历  END*/
+
+/* 应聘人简历信息  */
+.mrPreview{
+	border-top: solid 2px #00cccc;
+	padding: 36px 20px;
+	box-shadow: 1px 1px 11px 4px #f6f6f6;
+}
+
+.mrPreview .previewTxt{
+	padding-left: 20px;
+	width: 585px;
+}
+
+.mrPreview .previewTxt h1{
+	color: #333;
+}
+
+.mrPreview .previewTxt h1 span{
+	font-size: 14px;
+	padding-left: 17px;
+}
+
+.mrPreview .previewTxt .previewList1 li{
+	border-color: #7d7d7d;
+}
+
+.mrPreview .previewList2 li i.fa{
+	color: #ccc;
+}
+
+.previewIcon{
+	padding: 36px 0;
+}
+
+.previewIcon a{
+	display: inline-block;
+	width: 34px;
+	height: 34px;
+	transition: all .3s linear;
+	color: #00cccc;
+	text-align: center;
+	line-height: 34px;
+	margin: 0 7px;
+}
+
+.previewIcon a i{
+	font-size: 24px;
+	position: relative;
+	top: 5px;
+}
+
+.previewIcon a:hover{
+	background: #00cccc;
+	color: #fff;
+	opacity: 1;
+}
+
+.mrCont{
+	width: 100%;
+	background: url(../../img/applyBG2.jpg) repeat;
+	margin: 20px 0;
+	padding: 54px 125px;
+}
+
+.mrCont_main{
+	border: solid 1px #eee;
+	background: #fff;
+}
+
+.mrCont_main .priviewDetail{
+	background: #fff;
+}
+
+.mrCont_main .priviewDetail .demo .fill_jobList:hover{
+	background-color: #fff !important;
+}
+
+.mrPreview_top{
+	background: #00cccc;
+	padding: 25px 30px 25px 70px;
+}
+
+.mrPreview_top li{
+	float: left;
+	width: 50%;
+	color: #fff;
+}
+
+.mrPreview_top li h1{
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 14px;
+}
+
+.mrPreview_top li h1 span{
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.mrPreview_top li p{
+	font-size: 14px;
+	padding-top: 14px;
+}
+
+.mrPreview_top li p span{
+	width: 55px;
+	display: inline-block;
+}
+
+.mrCont_main .applyBook{
+	border: none;
+}
+
+.mrCont_main .applyTest_title h1{
+	line-height: 46px;
+	padding-bottom: 20px;
+}
+
+.mrCont_main .applyTest_title p{
+	padding: 5px 0;
+}
+
+.mrCont_main .demoTit{
+	border-top: dashed 1px #ccc;
+}
+
+.mrCont_main .layui-input-block{
+	width: 100%;
+}
+
+.mrCont_main .testView_demoList .answer{
+	padding: 13px 5px 3px 5px;
+}
+/* 应聘人简历信息  END*/
+
+/* 弹窗  */
+.newPop_tips{
+	padding: 36px;
+}
+
+.newPop_tips h1{
+	color: #333;
+	font-size: 18px;
+	padding-bottom: 26px;
+}
+
+.newPop_tips p{
+	color: #666;
+	font-size: 14px;
+}
+
+.newPop_tips button{
+	margin-top: 40px;
+}
+
+.newPop .newPop_form{
+	padding: 0 75px;
+}
+
+.newPop .newPop_form .layui-input-inline{
+	width: 36%;
+	padding-top: 20px;
+}
+
+.newPop .newPop_form .layui-input-inline .layui-form-radio{
+	padding-right: 0;
+	margin-right: 0;
+}
+
+.newPop .newPop_form .layui-input-inline .layui-form-radioed span{
+	color: #333;
+}
+
+.newPop .newPop_form .layui-input-inline .tuijian{
+	display: inline-block;
+	width: 36px;
+	height: 21px;
+	background: url(../../img/tuijian.png) no-repeat center;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+	position: relative;
+	top: -10px;
+}
+
+.newPop .newPop_paly{
+	text-align: center;
+	padding-top: 30px;
+}
+/* 弹窗  END*/
+
+
+/* 曾洋洋   的  我也不知道是啥    */
+.skill-map{padding:30px 40px;padding-bottom:85px}
+.skill-map .title{
+	font-weight: bold;font-size:16px;padding-bottom:30px;color:#00cccc;
+}
+.skill-map .map-box{}
+.skill-map .map-box dl{
+	float:left;width:336px;
+}
+.skill-map .map-box dl dt{font-weight: bold;}
+.skill-map .map-box dl dt span{font-weight: normal;}
+.skill-map .map-box dl dd{height:260px;}
+
+.line-ul{}
+.line-ul li{position:relative;
+	padding-left:40px;overflow: hidden;padding-right:50px;
+}
+.line-ul li:hover{
+	transition:.3s;
+	background:#EEEEEE;
+}
+.line-ul li:before{
+	content:'';
+	position:absolute;left:20px;top:22px;width:6px;height:6px;background:#00CCCC;border-radius: 50%;
+}
+.line-ul li span{
+	float:left;line-height:48px;
+}
+.line-ul li span.s-1{width:258px;color:#333;}
+.line-ul li span.s-2{color:#999;width:160px;text-align:right;white-space: nowrap}
+.line-ul li span.s-3{float:right;color:#00bbee;cursor: pointer;}
+.line-ul .icon-tubiaozhizuomoban{font-size:18px;color:#FF9900;position:relative;top:2px;margin:5px;}
+/* 曾洋洋  的  我也不知道是啥  END*/
+
+/* 人才查询  */
+.opt {
+  padding-bottom: 10px;
+}
+
+.opt span.fr {
+  font-size: 12px;
+}
+
+.opt span.fr i {
+  font-style: normal;
+  color: #ff0000;
+  margin: 4px;
+}
+
+.table-box .iconfont {
+  color: #00BBEE;
+  font-size: 14px;
+}
+
+.table-box table {
+  width: 100%;
+}
+
+.table-box table thead {
+  background: #E6E6E6;
+}
+
+.table-box table thead td {
+  line-height: 33px;
+  height: 33px;
+  font-size: 12px;
+  text-indent: 10px;
+}
+
+.table-box table tbody tr {
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.table-box table tbody tr td {
+  text-indent: 10px;
+  line-height: 46px;
+  height: 46px;
+  font-size: 12px;
+}
+
+.table-box table tbody tr:hover {
+  transition: .3s;
+  background: #EEEEEE;
+}
+
+.table-box table tbody .option-btn {
+  overflow: hidden;
+}
+
+.table-box table tbody .option-btn i {
+  float: left;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #00CCCC;
+  text-indent: 0;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.table-box table tbody .option-btn i:hover {
+  transition: .3s;
+  background: #00cccc;
+  color: #fff;
+}
+
+/* 人才查询  EDN*/
+
+
+/* 项目发布  */
+.recruitTab {
+  border-bottom: solid 1px #eee;
+}
+
+.recruitTab a {
+  display: inline-block;
+  line-height: 55px;
+  height: 55px;
+  font-size: 14px;
+  transition: border .3s linear, color .3s linear;
+  -webkit-transition: border .3s linear, color .3s linear;
+  -moz-transition: border .3s linear, color .3s linear;
+  -o-transition: border .3s linear, color .3s linear;
+  margin-right: 10px;
+  color: #333333;
+  padding: 0 20px;
+}
+
+.recruitTab a i {
+  color: #999;
+  margin: 5px;
+  font-style: normal;
+}
+
+.recruitTab a.on {
+  border-bottom: solid 2px #00cccc;
+  color: #00cccc;
+}
+
+.recruitTab a.on i {
+  color: #00cccc;
+}
+
+.top-btn {
+  padding: 20px;
+}
+
+.table-th {
+  background: #F3F3F3;
+  line-height: 44px;
+  font-size: 14px;
+  background: #E6E6E6;
+}
+
+.table-th li {
+  float: left;
+  font-weight: bold;
+  line-height: 32px;
+  height: 32px;
+  font-size: 12px;
+  font-weight: normal;
+  color: #666;
+}
+
+.projectList_img {
+  width: 56px;
+  height: 56px;
+}
+
+.projectList li {
+  padding: 20px 15px;
+  padding-right: 0;
+  height: 100px;
+  border: 1px solid #fff;
+  border-bottom-color: #dbdbdb;
+  background: #fff;
+  position: relative;
+  z-index: 0;
+}
+
+.projectList_txt p {
+  padding: 0;
+  padding-top: 15px;
+}
+
+.projectList li:hover {
+  transition: .3s;
+  background: #FAFAFA;
+}
+
+.projectList_state {
+  line-height: 58px;
+  font-size: 12px;
+  width: 120px;
+}
+
+.projectList_state .datas {
+  color: #666;
+}
+
+.projectList_state .oks {
+  color: #00cc66;
+}
+
+.projectList_state .delets {
+  color: #999;
+}
+
+.projectList_state .weis {
+  color: #ff0000;
+}
+
+.projectList_state span {
+  color: #666;
+}
+
+.projectList_ren {
+  width: 135px;
+}
+
+.projectList_ren p {
+  font-size: 12px;
+  color: #666;
+}
+
+.projectList_ren p.p-1 {
+  margin-bottom: 24px;
+}
+
+.projectList_ren p span {
+  color: #00cccc;
+  margin: 5px;
+  font-size: 12px;
+}
+
+.projectList_ren p.p-1 span {
+  margin-left: 0;
+}
+
+.projectList_ren .ones {
+  line-height: 58px;
+}
+
+.task-list-box {
+  width: 175px !important;
+}
+
+.task-list-box .task-list span {
+  display: block;
+  margin: 5px 0;
+  font-size: 12px;
+}
+
+.task-list-box .task-list span .iconfont {
+  font-size: 14px;
+  color: #999999;
+  margin-left: 5px;
+}
+
+.task-list-box .task-list span .icon-yiwen {
+  color: #FF0000;
+}
+
+.projectList {
+  border-top: solid 1px #dbdbdb;
+  margin-bottom: 20px;
+}
+
+
+.projectList_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.projectList_txt {
+  width: 524px;
+  padding-left: 18px;
+}
+
+.projectList_txt h1,
+.projectList_txt h1 a {
+  font-size: 14px;
+  color: #333333;
+}
+
+.projectList_txt h1 a:hover {
+  color: #00cccc;
+}
+
+.projectList_txt p span {
+  display: inline-block;
+  height: 13px;
+  line-height: 13px;
+  color: #666;
+  font-size: 14px;
+}
+
+.projectList_txt p span:first-child {
+  padding-right: 5px;
+}
+
+.projectList_txt p span:nth-child(2) {
+  padding-left: 8px;
+  border-left: solid 2px #c6c6c6;
+}
+
+.projectList_txt span b {
+  font-weight: normal;
+  color: #333;
+  padding: 0 3px;
+}
+
+.projectList_txt h2 {
+  font-weight: normal;
+  font-size: 14px;
+  color: #999;
+}
+
+.projectList_txt h2 span {
+  color: #0099ff;
+  font-size: 16px;
+}
+
+.projectList_txt h2 span b {
+  font-size: 18px;
+  color: #0099FF;
+  font-weight: bold;
+}
+
+.projectList_btn a,
+.projectList_btn button {
+  margin: 10px 2px;
+  width: 90px !important;
+  padding: 0 !important;
+  text-align: center;
+}
+
+.projectList .projectList_txt p u {
+  margin-right: 5px;
+  display: inline-block;
+  line-height: 24px;
+  height:24px;
+  padding: 0 15px;
+  background: #F4F4F4;
+  font-size: 12px;
+  color: #999999;
+  max-width: 114px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.projectList_btn{
+	padding-top: 17px;
+}
+
+.projectList_btn .iconfont {
+  float: left;
+  cursor: pointer;
+  font-size: 16px;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #00cccc;
+  margin-right: 8px;
+}
+
+.projectList_btn .iconfont:hover {
+  transition: .3s;
+  color: #fff;
+  background: #00CCCC;
+}
+
+/* 项目发布  END*/
+
+
+/* 项目评价  */
+.project-evaluate {
+  border: 1px solid #E5E5E5;
+  padding: 20px;
+}
+
+.project-evaluate .page-title {
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.project-evaluate .page-title .li-1 {
+  font-size: 18px;
+}
+
+.project-evaluate .page-title .li-2 span {
+  color: #999;
+  margin-right: 7px;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.project-evaluate .page-title .li-3 {
+  padding: 30px 0 22px 0;
+}
+
+.project-evaluate .page-title .li-3 .performance li {
+  float: left;
+  position: relative;
+}
+
+.project-evaluate .page-title .li-3 .performance li u {
+  text-decoration: none;
+}
+
+.project-evaluate .page-title .li-3 .performance li dl {
+  width: 230px;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.project-evaluate .page-title .li-3 .performance li dl dt, .project-evaluate .page-title .li-3 .performance li dl dd {
+  float: left;
+  line-height: 14px;
+}
+
+.project-evaluate .page-title .li-3 .performance li dl dt {
+  padding-right: 20px;
+}
+
+.project-evaluate .page-title .li-3 .performance li dl dd.d-3 {
+  color: #666;
+  padding-left: 6px;
+}
+
+.project-evaluate .page-title .li-3 .performance li .last-dl {
+  width: auto;
+}
+
+.project-evaluate .page-title .li-3 .performance li:last-child dl {
+  margin: 0;
+}
+
+.project-evaluate .page-title .no-m {
+  margin: 0;
+}
+
+.project-evaluate .d-2 i {
+  float: left;
+  font-size: 14px;
+  color: #999999;
+  padding-right: 4px;
+  line-height: 14px;
+}
+
+.project-evaluate .d-2 .active {
+  color: #FF9900;
+}
+
+.project-evaluate .bad .active {
+  color: #999999;
+}
+
+.project-evaluate .bookrack li {
+  padding: 30px 0;
+  border-bottom: 1px dashed #E5E5E5;
+}
+
+.project-evaluate .bookrack li .user {
+  text-align: center;
+  width: 230px;
+  padding: 0 15px;
+  margin-right: 50px;
+}
+
+.project-evaluate .bookrack li .user dt {
+  width: 68px;
+  height: 68px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.project-evaluate .bookrack li .user dt div {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.project-evaluate .bookrack li .user dt div img {
+  width: 68px;
+}
+
+.project-evaluate .bookrack li .user i {
+  font-style: normal;
+}
+
+.project-evaluate .bookrack li .user dd {
+  font-size: 12px;
+}
+
+.project-evaluate .bookrack li .user .d-1 {
+  line-height: 32px;
+  font-size: 14px;
+}
+
+.project-evaluate .bookrack li .user .d-2 {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #ff5555;
+  padding: 16px 0 5px 0;
+}
+
+.project-evaluate .bookrack li .user .d-3 {
+  line-height: 20px;
+  color: #666;
+}
+
+.project-evaluate .bookrack li .user .d-3 i {
+  margin: 5px;
+  color: #00bbee;
+}
+
+.project-evaluate .bookrack li .user .d-4 {
+  color: #666;
+  line-height: 20px;
+}
+
+.project-evaluate .bookrack li .write dt {
+  padding: 10px 0 20px 0;
+}
+
+.project-evaluate .bookrack li .write dt .d-2 i {
+  cursor: pointer;
+}
+
+.project-evaluate .bookrack li .write dt .s-1 {
+  color: #666;
+  padding-left: 6px;
+}
+
+.project-evaluate .bookrack li .write dt .s-1 u {
+  text-decoration: none;
+}
+
+.project-evaluate .bookrack li .write dd textarea {
+  width: 580px;
+  height: 122px;
+  border: 1px solid #CCCCCC;
+  resize: none;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.project-evaluate .bookrack li:last-child {
+  border: 0;
+}
+
+.project-evaluate .btn-box {
+  overflow: hidden;
+  width: 204px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.project-evaluate .btn-box button {
+  float: left;
+  margin: 0 10px;
+}
+
+/* 项目评价  END*/
+
+
+
+/* 新建项目  */
+.create-project {
+  padding-top: 15px;
+}
+
+.create-project .radio-text {
+  font-size: 12px;
+  color: #999;
+}
+
+.create-project .explain {
+  display: block;
+  float: right;
+  color: #999;
+  font-size: 12px;
+  padding-top: 10px;
+  font-weight: normal;
+}
+
+.create-project .layui-form {
+  padding-top: 32px;
+}
+
+.create-project .layui-form-label {
+  width: 168px;
+}
+
+.create-project .logo-img {
+  position: relative;
+  top: -32px;
+}
+
+.create-project .logo-img div {
+  width: 98px;
+  height: 98px;
+  border: 1px solid #CCCCCC;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.create-project .logo-img div img {
+  width: 96px;
+}
+
+.create-project .bonus {
+  width: 102px;
+  position: relative;
+  top: -9px;
+  margin-left: 0px;
+}
+
+.create-project .awards-1 {
+  width: 162px;
+  float: left;
+}
+
+.create-project .awards-2 {
+  float: left;
+}
+
+.create-project .awards-2 .span-label {
+  width: 138px;
+  line-height: 34px;
+  height: 34px;
+  color: #666;
+  padding-right: 14px;
+  text-align: right;
+}
+
+.create-project .awards-2 input {
+  width: 102px;
+}
+
+.create-project .s-2 {
+  color: #00bbee;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.create-project .tally .add-text {
+  color: #999;
+  font-size: 12px;
+}
+
+.create-project .addimg {
+  width: 98px;
+  height: 98px;
+  padding-top: 32px;
+  position: relative;
+  top: -32px;
+}
+
+.create-project .img-box {
+  height: 66px;
+}
+
+.create-project .img-box p {
+  line-height: 34px;
+  font-size: 12px;
+  color: #666;
+  text-indent: 10px;
+}
+
+.create-project .task-block {
+  margin-bottom: 20px;
+  border: 1px dashed #ccc;
+  width: 100%;
+}
+
+.create-project .task-block .task-item {
+  padding: 20px 0;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px dotted #E5E5E5;
+}
+
+.create-project .task-block .task-item .layui-form-item {
+  margin-bottom: 3px;
+}
+
+.create-project .task-block .task-item .layui-input-block {
+  width: 747px;
+  padding-top: 4px;
+  line-height: 24px;
+}
+
+.create-project .task-block .task-item .handle-btn {
+  display: none;
+  position: absolute;
+  top: 8px;
+  right: 5px;
+}
+
+.create-project .task-block .task-item .handle-btn i {
+  color: #000000;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  float: left;
+  line-height: 24px;
+  text-align: center;
+  margin-left: 8px;
+}
+
+.create-project .task-block .task-item .handle-btn .icon-bianji:hover {
+  transition: .3s;
+  color: #fff;
+  background: #2FD2D2;
+}
+
+.create-project .task-block .task-item .handle-btn .icon-shanchu:hover {
+  transition: .3s;
+  color: #fff;
+  background: #FB7373;
+}
+
+.create-project .task-block .task-item:hover {
+  transition: .3s;
+  background: #EEEEEE;
+}
+
+.create-project .task-block .task-item:hover .handle-btn {
+  display: block;
+}
+
+.create-project .task-block .task-form {
+  padding: 20px;
+}
+
+.create-project .task-block .task-form .layui-form {
+  padding: 0;
+  width: 100%;
+  border: 1px solid #fff;
+  padding-top: 20px;
+  position: relative;
+}
+
+.create-project .task-block .task-form .layui-form .layui-form-label {
+  width: 148px;
+}
+
+.create-project .task-block .task-form .layui-form .close {
+  position: absolute;
+  top: 13px;
+  right: 13px;
+  cursor: pointer;
+  display: none;
+}
+
+.create-project .task-block .task-form .layui-form .close:hover {
+  transition: .3s;
+  color: #00cccc;
+}
+
+.create-project .task-block .task-form .layui-form:hover {
+  transition: .3s;
+  border: 1px solid #00CCCC;
+}
+
+.create-project .task-block .task-form .layui-form:hover .close {
+  display: block;
+}
+
+.create-project .task-block .task-form .store {
+  cursor: pointer;
+  color: #00bbee;
+  padding-left: 168px;
+  line-height: 32px;
+  height: 32px;
+}
+
+.create-project .task-block .task-form .store i {
+  font-size: 14px;
+  margin-right: 5px;
+  line-height: 32px;
+}
+
+.create-project .buttons {
+  width: 180px;
+  margin-left: 292px;
+  margin-top: 10px;
+}
+
+.create-project .labels {
+  padding-left: 168px;
+  overflow: hidden;
+  padding-bottom: 5px;
+}
+
+.create-project .labels span {
+  float: left;
+  border: 1px solid #00CCCC;
+  background: #DBF7F7;
+  padding: 0 25px 0 9px;
+  line-height: 32px;
+  height: 34px;
+  max-width: 128px;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 5px;
+}
+
+.create-project .labels span i {
+  font-size: 12px;
+  margin-left: 4px;
+  cursor: pointer;
+  position: absolute;
+  top: 11px;
+  right: 10px;
+}
+
+.create-project .layui-layedit, .create-project .layui-textarea {
+  width: 762px;
+}
+
+/* 新建项目 EDN */
+
+
+/* 应聘人简历信息  */
+.mrPreview{
+	border-top: solid 2px #00cccc;
+	padding: 36px 20px;
+	box-shadow: 1px 1px 11px 4px #f6f6f6;
+}
+
+.mrPreview .previewTxt{
+	padding-left: 20px;
+	width: 585px;
+}
+
+.mrPreview .previewTxt h1{
+	color: #333;
+}
+
+.mrPreview .previewTxt h1 span{
+	font-size: 14px;
+	padding-left: 17px;
+}
+
+.mrPreview .previewTxt .previewList1 li{
+	border-color: #7d7d7d;
+}
+
+.mrPreview .previewList2 li i.fa{
+	color: #ccc;
+}
+
+.previewIcon{
+	padding: 36px 0;
+}
+
+.previewIcon a{
+	display: inline-block;
+	width: 34px;
+	height: 34px;
+	transition: all .3s linear;
+	color: #00cccc;
+	text-align: center;
+	line-height: 34px;
+	margin: 0 7px;
+}
+
+.previewIcon a i{
+	font-size: 24px;
+	position: relative;
+	top: 5px;
+}
+
+.previewIcon a:hover{
+	background: #00cccc;
+	color: #fff;
+	opacity: 1;
+}
+
+.mrCont{
+	width: 100%;
+	background: url(../../img/applyBG2.jpg) repeat;
+	margin: 20px 0;
+	padding: 54px 125px;
+}
+
+.mrCont_main{
+	border: solid 1px #eee;
+	background: #fff;
+}
+
+.mrCont_main .priviewDetail{
+	background: #fff;
+}
+
+.mrCont_main .priviewDetail .demo .fill_jobList:hover{
+	background-color: #fff !important;
+}
+
+.mrPreview_top{
+	background: #00cccc;
+	padding: 25px 30px 25px 70px;
+}
+
+.mrPreview_top li{
+	float: left;
+	width: 50%;
+	color: #fff;
+}
+
+.mrPreview_top li h1{
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 14px;
+}
+
+.mrPreview_top li h1 span{
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.mrPreview_top li p{
+	font-size: 14px;
+	padding-top: 14px;
+}
+
+.mrPreview_top li p span{
+	width: 55px;
+	display: inline-block;
+}
+
+.applyBook {
+  border: solid 1px #b7e2ff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  position: relative;
+  background: #fff;
+  padding-bottom: 45px;
+  padding-top: 30px;
+  margin-bottom: 26px;
+}
+
+.mrCont_main .applyBook{
+	border: none;
+}
+
+.mrCont_main .applyTest_title p{
+	padding: 5px 0;
+}
+
+.mrCont_main .demoTit{
+	border-top: dashed 1px #ccc;
+}
+
+.mrCont_main .layui-input-block{
+	width: 100%;
+}
+
+.mrCont_main .testView_demoList .answer{
+	padding: 13px 5px 3px 5px;
+}
+
+.testView_demoList {
+  margin-top: 20px;
+}
+
+.testView_demoList .answer {
+  color: #02a64f;
+  padding: 10px 10px 0 10px;
+}
+
+.testView_demoList li {
+  position: relative;
+  padding: 0 40px 15px 40px;
+}
+
+.testView_demoList li a {
+  display: block;
+  position: absolute;
+  right: 50px;
+  top: 45px;
+  color: #c7d5e1;
+}
+
+.testView_demoList li a:hover {
+  color: #00cccc;
+}
+
+.demoTit span {
+  display: inline-block;
+}
+
+.demoTit span.question-num {
+  width: 24px;
+  height: 24px;
+  line-height: 22px;
+  text-align: center;
+  border: solid 2px #c2d1df;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  margin-right: 10px;
+  font-weight: normal;
+  transition: border .3s linear, color .3s linear;
+  -webkit-transition: border .3s linear, color .3s linear;
+  -moz-transition: border .3s linear, color .3s linear;
+  -o-transition: border .3s linear, color .3s linear;
+}
+
+.demoTit span.question-title,
+.demoTit span.question-title span {
+  font-size: 14px !important;
+  color: #333 !important;
+}
+
+.demoTit {
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-top: solid 1px #ccc;
+  padding-top: 45px;
+}
+
+.demoCont .layui-input-block {
+  margin-left: 0 !important;
+  padding-left: 4px !important;
+  transition: background-color .3s linear;
+  -webkit-transition: background-color .3s linear;
+  -moz-transition: background-color .3s linear;
+  -o-transition: background-color .3s linear;
+  line-height: 36px !important;
+}
+
+.error .layui-form-radioed span {
+  color: #fa0101;
+}
+
+.error .layui-form-radio i:hover, .error .layui-form-radioed i {
+  color: #fa0101 !important;
+}
+
+.error .layui-form-checked span {
+  color: #fa0101 !important;
+}
+
+.error .layui-form-checked i:hover, .error .layui-form-checked i {
+  color: #fff !important;
+  border-color: #fa0101 !important;
+  background-color: #fa0101 !important;
+}
+
+/* 笔试 */
+.applyTest_title {
+  position: relative;
+  padding: 0 40px;
+}
+
+.applyTest_title h1 {
+  color: #00cccc;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.applyTest_title p {
+  color: #333333;
+  font-size: 14px;
+  padding: 3px 0;
+}
+
+.applyTest_title p span {
+  color: #fa0101;
+  padding: 0 3px;
+}
+
+.applyTest_title .score {
+  position: absolute;
+  top: 0;
+  right: 73px;
+}
+
+.applyTest_title .score span {
+  display: block;
+  width: 63px;
+  height: 46px;
+  border: solid 1px #00cccc;
+  float: left;
+  line-height: 46px;
+  text-align: center;
+}
+
+.applyTest_title .score span.scoreL {
+  color: #fff;
+  background: #00cccc;
+}
+
+.applyTest_title .score span.scoreR {
+  color: #00cccc;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.applyTest_title .score span.scoreR sub {
+  color: #999;
+  position: relative;
+  top: -4px;
+  margin-left: 4px;
+}
+
+/* 笔试 END*/
+
+/* 应聘人简历信息  END*/
+
+
+/* 弹窗  */
+.newPop_tips{
+	padding: 36px;
+}
+
+.newPop_tips h1{
+	color: #333;
+	font-size: 18px;
+	padding-bottom: 26px;
+}
+
+.newPop_tips p{
+	color: #666;
+	font-size: 14px;
+}
+
+.newPop_tips button{
+	margin-top: 40px;
+}
+
+.newPop .newPop_form{
+	padding: 0 75px;
+}
+
+.newPop .newPop_form .layui-input-inline{
+	width: 36%;
+	padding-top: 20px;
+}
+
+.newPop .newPop_form .layui-input-inline .layui-form-radio{
+	padding-right: 0;
+	margin-right: 0;
+}
+
+.newPop .newPop_form .layui-input-inline .layui-form-radioed span{
+	color: #333;
+}
+
+.newPop .newPop_form .layui-input-inline .tuijian{
+	display: inline-block;
+	width: 36px;
+	height: 21px;
+	background: url(../../img/tuijian.png) no-repeat center;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+	position: relative;
+	top: -10px;
+}
+
+.newPop .newPop_paly{
+	text-align: center;
+	padding-top: 30px;
+}
+/* 弹窗  END*/
+
+
+/* 我的主页  */
+.person{
+	padding-bottom: 30px;
+}
+
+.personFl{
+	width: 726px;
+}
+
+.personFr{
+	width: 260px;
+	box-shadow: 0px 0px 22px 0px #e8e8e8;
+	-webkit-box-shadow: 0px 0px 22px 0px #e8e8e8;
+	-mo-box-shadow: 0px 0px 22px 0px #e8e8e8;
+	padding: 18px 20px;
+}
+
+.person_chart{
+	width: 726px;
+	height: 300px;
+	box-shadow: 0px 0px 22px 0px #e8e8e8;
+	-webkit-box-shadow: 0px 0px 22px 0px #e8e8e8;
+	-mo-box-shadow: 0px 0px 22px 0px #e8e8e8;
+	padding-top: 18px;
+	padding-left: 17px;
+}
+
+.person_chart .chart{
+	width: 465px;
+	height: 282px;
+}
+
+.person_chart .people{
+	width: 220px;
+	padding-right: 20px;
+}
+
+.person_chart .peopleTop{
+	width: 200px;
+	height: 72px;
+	background: url(../../img/person.jpg) no-repeat center;
+	color: #fff;
+	overflow: hidden;
+	padding: 10px 18px;
+}
+
+.person_chart .peopleTop p{
+	font-size: 12px;
+	width: 100%;
+	line-height: 22px;
+	padding: 1px 0;
+}
+
+.person_chart .peopleTop span{
+	display: inline-block;
+}
+
+.person_chart .peopleTop span.tl{
+	text-align: left;
+	float: left;
+	font-size: 14px;
+}
+
+.person_chart .peopleTop span.tr{
+	text-align: right;
+	float: right;
+	font-size: 12px;
+}
+
+.person_chart .peopleTop span.tr b{
+	font-size: 16px;
+	padding: 0 3px;
+}
+
+.peopleList{
+	padding-top: 22px;
+}
+
+.peopleList li{
+	padding: 12px 20px 12px 2px;
+	border-bottom: solid 1px #ddd;
+}
+
+.peopleList li:last-child{
+	border-bottom: none;
+}
+
+.peopleList li p{
+	height: 16px;
+	line-height: 16px;
+	color: #333;
+	font-size: 12px;
+}
+
+.peopleList li p.tl{
+	float: left;
+	padding-left: 12px;
+}
+
+.peopleList li p.tr{
+	float: right;
+}
+
+.peopleList li.blue p.tl{
+	border-left: solid 4px #3399FF;
+}
+
+.peopleList li.red p.tl{
+	border-left: solid 4px #fa6060;
+}
+
+.peopleList li.orange p.tl{
+	border-left: solid 4px #ff9934;
+}
+
+.peopleTab{
+	text-align: right;
+	padding-bottom: 22px;
+}
+
+.peopleTab span{
+	display: inline-block;
+	font-size: 12px;
+	color: #666666;
+	padding: 0 12px;
+	cursor: pointer;
+	transition: color .3s linear;
+	-webkit-transition: color .3s linear;
+	-moz-transition: color .3s linear;
+	-o-transition: color .3s linear;
+}
+
+.peopleTab span.on,
+.peopleTab span:hover{
+	color: #00cccc;
+}
+
+.poersonCard{
+	padding: 20px 0;
+}
+
+.poersonCard li{
+	float: left;
+	width: 193px;
+	height: 109px;
+	padding: 25px 17px;
+}
+
+.poersonCard li.blue{
+	background: url(../../img/person1.jpg) no-repeat;
+	box-shadow: 0px 5px 23px -1px #d7d0fa;
+	-webkit-box-shadow: 0px 5px 23px -1px #d7d0fa;
+	-moz-box-shadow: 0px 5px 23px -1px #d7d0fa;
+}
+
+.poersonCard li.orange{
+	background: url(../../img/person2.jpg) no-repeat;
+	box-shadow: 0px 5px 23px -1px #fedbe4;
+	-webkit-box-shadow: 0px 5px 23px -1px #fedbe4;
+	-moz-box-shadow: 0px 5px 23px -1px #fedbe4;
+	margin-left: 20px;
+}
+
+.poersonCard li.purple{
+	background: url(../../img/person3.jpg) no-repeat;
+	box-shadow: 0px 5px 23px -1px #e4dafd;
+	-webkit-box-shadow: 0px 5px 23px -1px #e4dafd;
+	-moz-box-shadow: 0px 5px 23px -1px #e4dafd;
+	margin-left: 20px;
+}
+
+.poersonCard li p{
+	color: #ffffff;
+	font-size: 14px;
+	padding-bottom: 5px;
+	opacity: .8;
+}
+
+.poersonCard li h1{
+	font-size: 24px;
+	font-weight: normal;
+	color: #fff;
+}
+
+.personProject{
+	height: 170px;
+	box-shadow: 0px 0px 22px 0px #e8e8e8;
+	-webkit-box-shadow: 0px 0px 22px 0px #e8e8e8;
+	-mo-box-shadow: 0px 0px 22px 0px #e8e8e8;
+	padding: 17px 23px;
+}
+
+.personProject h1,
+.personFr h1{
+	color: #666666;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.personProject h1 a{
+	float: right;
+	display: block;
+	color: #666;
+	font-size: 14px;
+	transition: color .3s linear;
+	-webkit-transition: color .3s linear;
+	-moz-transition: color .3s linear;
+}
+
+.personProject h1 a:hover{
+	color: #3399FF;
+}
+
+.projectCont{
+	padding-top: 12px;
+}
+
+.project_img{
+	width: 98px;
+	height: 98px;
+	border: solid 1px #d8d8d8;
+}
+
+.project_img img{
+	width: 100%;
+	height: 100%;
+}
+
+.project_txt{
+	padding-left: 20px;
+	position: relative;
+	width: 470px;
+}
+
+.project_txt .view{
+	position: absolute;
+	color: #999999;
+	right: 0;
+	bottom: 0;
+}
+
+.project_txt .view span{
+	padding-left: 18px;
+}
+
+.project_txt .view b{
+	color: #333;
+	font-weight: normal;
+	padding-right: 4px;
+}
+
+.project_txt h1{
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.project_txt p{
+	color: #333;
+	font-size: 14px;
+	padding-top: 20px;
+}
+
+.projectDemo{
+	padding: 20px 0;
+}
+
+.projectDemo h1{
+	height: 16px;
+	line-height: 16px;
+	padding-left: 10px;
+	border-left: solid 3px #3399FF;
+	color: #999999;
+	font-size: 14px;
+	position: relative;
+}
+
+.projectDemo h1 a{
+	position: absolute;
+	right: 0;
+	color: #999;
+	transition: color .3s linear;
+	-webkit-transition: color .3s linear;
+	-moz-transition: color .3s linear;
+	font-size: 12px;
+}
+
+.projectDemo h1 a:hover{
+	color: #3399FF;
+}
+
+.projectDemo table{
+	width: 100%;
+	margin-top: 9px;
+}
+
+.projectDemo table td{
+	color: #333;
+	font-size: 12px;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 8px;
+}
+
+.projectDemo table tr:nth-child(odd) td{
+	background: #f9f9f9;
+}
+
+/* 我的主页  END*/

@@ -1,0 +1,191 @@
+.project-evaluate {
+  border: 1px solid #E5E5E5;
+  padding: 20px;
+}
+
+.project-evaluate .page-title {
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.project-evaluate .page-title .li-1 {
+  font-size: 18px;
+}
+
+.project-evaluate .page-title .li-2 span {
+  color: #999;
+  margin-right: 7px;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.project-evaluate .page-title .li-3 {
+  padding: 30px 0 22px 0;
+}
+
+.project-evaluate .page-title .li-3 .performance li {
+  float: left;
+  position: relative;
+}
+
+.project-evaluate .page-title .li-3 .performance li u {
+  text-decoration: none;
+}
+
+.project-evaluate .page-title .li-3 .performance li dl {
+  width: 230px;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.project-evaluate .page-title .li-3 .performance li dl dt, .project-evaluate .page-title .li-3 .performance li dl dd {
+  float: left;
+  line-height: 14px;
+}
+
+.project-evaluate .page-title .li-3 .performance li dl dt {
+  padding-right: 20px;
+}
+
+.project-evaluate .page-title .li-3 .performance li dl dd.d-3 {
+  color: #666;
+  padding-left: 6px;
+}
+
+.project-evaluate .page-title .li-3 .performance li .last-dl {
+  width: auto;
+}
+
+.project-evaluate .page-title .li-3 .performance li:last-child dl {
+  margin: 0;
+}
+
+.project-evaluate .page-title .no-m {
+  margin: 0;
+}
+
+.project-evaluate .d-2 i {
+  float: left;
+  font-size: 14px;
+  color: #999999;
+  padding-right: 4px;
+  line-height: 14px;
+}
+
+.project-evaluate .d-2 .active {
+  color: #FF9900;
+}
+
+.project-evaluate .bad .active {
+  color: #999999;
+}
+
+.project-evaluate .bookrack li {
+  padding: 30px 0;
+  border-bottom: 1px dashed #E5E5E5;
+}
+
+.project-evaluate .bookrack li .user {
+  text-align: center;
+  width: 230px;
+  padding: 0 15px;
+  margin-right: 50px;
+}
+
+.project-evaluate .bookrack li .user dt {
+  width: 68px;
+  height: 68px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.project-evaluate .bookrack li .user dt div {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.project-evaluate .bookrack li .user dt div img {
+  width: 68px;
+}
+
+.project-evaluate .bookrack li .user i {
+  font-style: normal;
+}
+
+.project-evaluate .bookrack li .user dd {
+  font-size: 12px;
+}
+
+.project-evaluate .bookrack li .user .d-1 {
+  line-height: 32px;
+  font-size: 14px;
+}
+
+.project-evaluate .bookrack li .user .d-2 {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #ff5555;
+  padding: 16px 0 5px 0;
+}
+
+.project-evaluate .bookrack li .user .d-3 {
+  line-height: 20px;
+  color: #666;
+}
+
+.project-evaluate .bookrack li .user .d-3 i {
+  margin: 5px;
+  color: #00bbee;
+}
+
+.project-evaluate .bookrack li .user .d-4 {
+  color: #666;
+  line-height: 20px;
+}
+
+.project-evaluate .bookrack li .write dt {
+  padding: 10px 0 20px 0;
+}
+
+.project-evaluate .bookrack li .write dt .d-2 i {
+  cursor: pointer;
+}
+
+.project-evaluate .bookrack li .write dt .s-1 {
+  color: #666;
+  padding-left: 6px;
+}
+
+.project-evaluate .bookrack li .write dt .s-1 u {
+  text-decoration: none;
+}
+
+.project-evaluate .bookrack li .write dd textarea {
+  width: 580px;
+  height: 122px;
+  border: 1px solid #CCCCCC;
+  resize: none;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.project-evaluate .bookrack li:last-child {
+  border: 0;
+}
+
+.project-evaluate .btn-box {
+  overflow: hidden;
+  width: 204px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.project-evaluate .btn-box button {
+  float: left;
+  margin: 0 10px;
+}

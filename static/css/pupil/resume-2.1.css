@@ -1,0 +1,886 @@
+.my-resume .iconfont {
+  color: #00bbee;
+}
+
+.my-resume .left-bookrack {
+  width: 764px;
+  float: left;
+}
+
+.my-resume .left-bookrack .basic {
+  margin-bottom: 20px;
+}
+
+.my-resume .left-bookrack .basic-information {
+  height: 160px;
+  background: #F7F7F7;
+  padding: 24px 20px 0 20px;
+}
+
+.my-resume .left-bookrack .basic-information dt, .my-resume .left-bookrack .basic-information dd {
+  float: left;
+}
+
+.my-resume .left-bookrack .basic-information dt {
+  margin-top: 6px;
+}
+
+.my-resume .left-bookrack .basic-information dt div {
+  width: 86px;
+  height: 106px;
+  border: 2px solid #fff;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.my-resume .left-bookrack .basic-information dt div img {
+  width: 100%;
+}
+
+.my-resume .left-bookrack .basic-information .d-1 {
+  padding-left: 20px;
+}
+
+.my-resume .left-bookrack .basic-information .d-1 .p-1 {
+  line-height: 60px;
+  font-size: 24px;
+}
+
+.my-resume .left-bookrack .basic-information .d-1 ul li {
+  float: left;
+}
+
+.my-resume .left-bookrack .basic-information .d-1 ul li span {
+  margin: 0 8px;
+}
+
+.my-resume .left-bookrack .basic-information .d-1 ul li:last-child span {
+  display: none;
+}
+
+.my-resume .left-bookrack .basic-information .d-1 .p-2 {
+  padding-top: 20px;
+}
+
+.my-resume .left-bookrack .basic-information .d-1 .p-2 .iconfont {
+  color: #CCCCCC;
+  margin-right: 10px;
+  font-size: 18px;
+  position: relative;
+  top: 1px;
+}
+
+.my-resume .left-bookrack .basic-information .d-1 .p-2 .s-1 {
+  display: inline-block;
+  width: 300px;
+}
+
+.my-resume .left-bookrack .basic-information .d-2 {
+  width: 162px;
+}
+
+.my-resume .left-bookrack .basic-information .d-2 span {
+  float: right;
+  color: #00bbee;
+  cursor: pointer;
+}
+
+.my-resume .left-bookrack .resume-item {
+  padding-top: 12px;
+}
+
+.my-resume .left-bookrack .data-item {
+  padding-top: 80px;
+  margin-top: -80px;
+}
+
+.my-resume .left-bookrack .data-item dt ul {
+  border-bottom: 1px solid #E5E5E5;
+  padding: 0 20px 0px 20px;
+}
+
+.my-resume .left-bookrack .data-item dt ul li {
+  float: left;
+}
+
+.my-resume .left-bookrack .data-item dt ul .li-1 {
+  width: 42px;
+  height: 38px;
+}
+
+.my-resume .left-bookrack .data-item dt ul .icon-0 {
+  background: url(../../img/pupil/nav-icon.png) no-repeat 0 0;
+}
+
+.my-resume .left-bookrack .data-item dt ul .icon-1 {
+  background: url(../../img/pupil/nav-icon.png) no-repeat 0 -50px;
+}
+
+.my-resume .left-bookrack .data-item dt ul .icon-2 {
+  background: url(../../img/pupil/nav-icon.png) no-repeat 0 -100px;
+}
+
+.my-resume .left-bookrack .data-item dt ul .icon-3 {
+  background: url(../../img/pupil/nav-icon.png) no-repeat 0 -150px;
+}
+
+.my-resume .left-bookrack .data-item dt ul .icon-4 {
+  background: url(../../img/pupil/nav-icon.png) no-repeat 0 -200px;
+}
+
+.my-resume .left-bookrack .data-item dt ul .icon-5 {
+  background: url(../../img/pupil/nav-icon.png) no-repeat 0 -250px;
+}
+
+.my-resume .left-bookrack .data-item dt ul .icon-6 {
+  background: url(../../img/pupil/nav-icon.png) no-repeat 0 -300px;
+}
+
+.my-resume .left-bookrack .data-item dt ul .icon-7 {
+  background: url(../../img/pupil/nav-icon.png) no-repeat 0 -350px;
+}
+
+.my-resume .left-bookrack .data-item dt ul .li-2 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 38px;
+}
+
+.my-resume .left-bookrack .data-item dt ul .li-2 span {
+  font-size: 12px;
+  color: #999;
+  font-weight: normal;
+}
+
+.my-resume .left-bookrack .data-item dt ul .li-3 {
+  color: #999;
+  padding-top: 0px;
+  float: right;
+  cursor: pointer;
+  line-height: 38px;
+}
+
+.my-resume .left-bookrack .data-item dt ul .li-3 .iconfont {
+  margin-right: 5px;
+  color: #999;
+}
+
+.my-resume .left-bookrack .data-item dt ul .li-3.active {
+  color: #00bbee;
+}
+
+.my-resume .left-bookrack .data-item dt ul .li-3.active .iconfont {
+  color: #00bbee;
+}
+
+.my-resume .left-bookrack .data-item dd .default-items {
+  margin-top: 30px;
+}
+
+.my-resume .left-bookrack .data-item dd .default-items ol .li-1 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 46px;
+  background: #F4F4F4;
+  padding: 0 20px;
+}
+
+.my-resume .left-bookrack .data-item dd .default-items ol .li-1 span {
+  float: right;
+  font-weight: normal;
+  color: #999;
+  line-height: 46px;
+  cursor: pointer;
+}
+
+.my-resume .left-bookrack .data-item dd .default-items ol .li-1 span .iconfont {
+  margin-right: 5px;
+  color: #999;
+}
+
+.my-resume .left-bookrack .data-item dd .default-items ol .li-1 span.active {
+  color: #00bbee;
+}
+
+.my-resume .left-bookrack .data-item dd .default-items ol .li-1 span.active .iconfont {
+  color: #00bbee;
+}
+
+.my-resume .left-bookrack .data-item dd .default-content {
+  line-height: 20px;
+  display: block;
+  width: 202px;
+  margin: 30px auto;
+  color: #CCCCCC;
+}
+
+.my-resume .left-bookrack .data-item dd .default-content .iconfont {
+  color: #CCCCCC;
+  font-size: 22px;
+  line-height: 22px;
+  position: relative;
+  top: 3px;
+  margin-right: 6px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list {
+  padding: 20px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list li {
+  overflow: hidden;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list li span, .my-resume .left-bookrack .data-item dd .exist-content .item-list li ol {
+  float: left;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list li span {
+  color: #666;
+  width: 117px;
+  line-height: 32px;
+  text-align: right;
+  padding-right: 13px;
+  white-space: nowrap;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list li ol {
+  width: 597px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list li ol li {
+  float: left;
+  line-height: 32px;
+  margin-right: 7px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list .bolds .s-1 {
+  width: 180px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list .bolds .s-2 {
+  width: 250px;
+  padding-left: 28px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list .bolds .s-2 a {
+  color: #00bbee;
+  margin: 5px;
+  font-size: 12px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list .bolds .s-3 {
+  width: 180px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list .bolds .s-4 {
+  width: auto;
+  color: #333;
+  padding: 0;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list .bolds .s-2, .my-resume .left-bookrack .data-item dd .exist-content .item-list .bolds .s-3 {
+  font-weight: bold;
+  color: #333;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list .bolds .names {
+  font-weight: bold;
+  color: #333;
+  width: auto;
+  padding: 0 28px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list:hover {
+  transition: .3s;
+  background: #EEEEEE;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .item-list:hover .handle-btn {
+  display: block;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .none-hover:hover {
+  background: none;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .line-look li {
+  overflow: hidden;
+  padding: 30px 0;
+  border-bottom: 1px dashed #E5E5E5;
+  height: 74px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .line-look li b, .my-resume .left-bookrack .data-item dd .exist-content .line-look li div, .my-resume .left-bookrack .data-item dd .exist-content .line-look li span {
+  float: left;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .line-look li b {
+  width: 118px;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .line-look li div {
+  width: 320px;
+  height: 8px;
+  background: #E5E5E5;
+  margin-top: 3px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .line-look li div i {
+  float: left;
+  height: 8px;
+  background: #00CCCC;
+  transition: .3s;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .line-look li span {
+  padding-left: 20px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .line-look li:last-child {
+  border: none;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .line-look .handle-btn {
+  margin-top: -6px;
+  margin-right: 20px;
+}
+
+.my-resume .left-bookrack .data-item dd .exist-content .line-look li:hover .handle-btn {
+  display: block;
+}
+
+.my-resume .left-bookrack .data-item dd .handle-btn {
+  display: none;
+  margin-top: 4px;
+}
+
+.my-resume .left-bookrack .data-item dd .handle-btn i {
+  color: #000000;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  float: left;
+  line-height: 24px;
+  text-align: center;
+  margin-left: 8px;
+}
+
+.my-resume .left-bookrack .data-item dd .handle-btn .icon-bianji:hover {
+  transition: .3s;
+  color: #fff;
+  background: #2FD2D2;
+}
+
+.my-resume .left-bookrack .data-item dd .handle-btn .icon-shanchu:hover {
+  transition: .3s;
+  color: #fff;
+  background: #FB7373;
+}
+
+.my-resume .left-bookrack .data-item dd .compile-content {
+  padding: 30px 0;
+}
+
+.my-resume .left-bookrack .data-item dd .compile-content .buttons {
+  margin-top: 0;
+}
+
+.my-resume .left-bookrack .data-item dd .experience-list .item-list {
+  border-bottom: 1px dashed #E5E5E5;
+  padding-left: 30px;
+}
+
+.my-resume .left-bookrack .data-item dd .experience-list .item-list li span {
+  text-align: left;
+}
+
+.my-resume .left-bookrack .data-item dd .experience-list .item-list:last-child {
+  border: none;
+}
+
+.my-resume .left-bookrack .data-item dd .user-project {
+  padding-bottom: 10px;
+}
+
+.my-resume .left-bookrack .data-item dd .user-project .item-list {
+  padding-left: 30px;
+  border-bottom: 1px dashed #E5E5E5;
+}
+
+.my-resume .left-bookrack .data-item dd .user-project .item-list:last-child {
+  border: none;
+}
+
+.my-resume .left-bookrack .data-item dd .user-project .item-list li span {
+  text-align: left;
+}
+
+.my-resume .left-bookrack .no-t-p .compile-content {
+  padding-top: 0 !important;
+}
+
+.my-resume .l-b {
+  border-left: 3px solid #00cccc;
+  padding-left: 17px !important;
+}
+
+.my-resume .right-bookrack {
+  float: right;
+  width: 220px;
+  position: relative;
+}
+
+.my-resume .right-bookrack .top-ul {
+  background: #F7F7F7;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  height: 160px;
+}
+
+.my-resume .right-bookrack .top-ul li {
+  padding: 0 20px;
+}
+
+.my-resume .right-bookrack .top-ul .li-1 {
+  margin-bottom: 20px;
+}
+
+.my-resume .right-bookrack .top-ul .li-2 {
+  padding-bottom: 20px;
+}
+
+.my-resume .right-bookrack .top-ul .li-2 .p-1 {
+  margin-bottom: 14px;
+}
+
+.my-resume .right-bookrack .top-ul .li-2 .p-1 span {
+  color: #00cccc;
+}
+
+.my-resume .right-bookrack .top-ul .li-2 .p-2 {
+  height: 6px;
+  overflow: hidden;
+  background: #EEEEEE;
+  border-radius: 2px;
+}
+
+.my-resume .right-bookrack .top-ul .li-2 .p-2 i {
+  float: left;
+  background: #00CCCC;
+  height: 6px;
+  border-radius: 2px;
+}
+
+.my-resume .right-bookrack .top-ul .li-3 button {
+  float: left;
+}
+
+.my-resume .right-bookrack .top-ul .li-3 .blueBtn {
+  margin-right: 20px;
+}
+
+.my-resume .right-bookrack .top-ul .li-3 .xy-select li {
+  line-height: 34px;
+}
+
+.my-resume .right-bookrack .list-box {
+  position: fixed;
+  top: 100px;
+  width: 220px;
+  background: #fff;
+}
+
+.my-resume .right-bookrack .right-list li {
+  overflow: hidden;
+  height: 40px;
+  cursor: pointer;
+  border-left: 1px solid #E5E5E5;
+}
+
+.my-resume .right-bookrack .right-list li i, .my-resume .right-bookrack .right-list li b {
+  font-style: normal;
+  font-weight: normal;
+  line-height: 40px;
+}
+
+.my-resume .right-bookrack .right-list li i, .my-resume .right-bookrack .right-list li span {
+  float: left;
+  line-height: 40px;
+}
+
+.my-resume .right-bookrack .right-list li i {
+  width: 48px;
+  height: 40px;
+}
+
+.my-resume .right-bookrack .right-list li .i-1 {
+  background: url(../../img/pupil/nav-icon-2.png) no-repeat 20px 14px;
+}
+
+.my-resume .right-bookrack .right-list li .i-2 {
+  background: url(../../img/pupil/nav-icon-2.png) no-repeat 20px -36px;
+}
+
+.my-resume .right-bookrack .right-list li .i-3 {
+  background: url(../../img/pupil/nav-icon-2.png) no-repeat 20px -86px;
+}
+
+.my-resume .right-bookrack .right-list li .i-4 {
+  background: url(../../img/pupil/nav-icon-2.png) no-repeat 20px -136px;
+}
+
+.my-resume .right-bookrack .right-list li .i-5 {
+  background: url(../../img/pupil/nav-icon-2.png) no-repeat 20px -186px;
+}
+
+.my-resume .right-bookrack .right-list li .i-6 {
+  background: url(../../img/pupil/nav-icon-2.png) no-repeat 20px -236px;
+}
+
+.my-resume .right-bookrack .right-list li .i-7 {
+  background: url(../../img/pupil/nav-icon-2.png) no-repeat 20px -286px;
+}
+
+.my-resume .right-bookrack .right-list li .i-8 {
+  background: url(../../img/pupil/nav-icon-2.png) no-repeat 20px -336px;
+}
+
+.my-resume .right-bookrack .right-list li b {
+  padding-right: 22px;
+}
+
+.my-resume .right-bookrack .right-list li .iconfont {
+  color: #D5D5D5;
+}
+
+.my-resume .right-bookrack .right-list li b {
+  float: right;
+}
+
+.my-resume .right-bookrack .right-list li.active {
+  border-left: 2px solid #00cccc;
+}
+
+.my-resume .right-bookrack .right-list li.active span {
+  color: #00cccc;
+}
+
+.my-resume .right-bookrack .right-list li.active i {
+  width: 47px;
+}
+
+.my-resume .right-bookrack .right-list li.finish b {
+  color: #00cccc;
+}
+
+.my-resume .right-bookrack .right-list li:hover {
+  border-left: 2px solid #00cccc;
+}
+
+.my-resume .right-bookrack .right-list li:hover span {
+  transition: .3s;
+  color: #00cccc;
+}
+
+.my-resume .right-bookrack .right-list li:hover i {
+  width: 47px;
+  background-position-x: 19px;
+}
+
+.my-resume .resume-analyze-1 {
+  border: 1px solid #E5E5E5;
+  padding: 0 20px;
+  width: 1004px;
+}
+
+.my-resume .resume-analyze-1 .titles {
+  font-size: 18px;
+  line-height: 46px;
+  border-bottom: 1px solid #E5E5E5;
+  color: #000;
+}
+
+.my-resume .resume-analyze-1 .titles span {
+  float: right;
+  font-size: 14px;
+  color: #00bbee;
+  line-height: 46px;
+}
+
+.my-resume .resume-analyze-1 .left-box-2, .my-resume .resume-analyze-1 .right-box-2 {
+  width: 480px;
+  float: left;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl dt, .my-resume .resume-analyze-1 .right-box-2 dl dt {
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-1, .my-resume .resume-analyze-1 .right-box-2 dl .d-1 {
+  overflow: hidden;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-1 span, .my-resume .resume-analyze-1 .left-box-2 dl .d-1 div, .my-resume .resume-analyze-1 .right-box-2 dl .d-1 span, .my-resume .resume-analyze-1 .right-box-2 dl .d-1 div {
+  float: left;
+  line-height: 38px;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-1 i, .my-resume .resume-analyze-1 .right-box-2 dl .d-1 i {
+  font-style: normal;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-1 .s-1, .my-resume .resume-analyze-1 .right-box-2 dl .d-1 .s-1 {
+  color: #999;
+  width: 60px;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-1 div, .my-resume .resume-analyze-1 .right-box-2 dl .d-1 div {
+  background: #EEEEEE;
+  height: 6px;
+  width: 180px;
+  border-radius: 2px;
+  margin-top: 16px;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-1 div i, .my-resume .resume-analyze-1 .right-box-2 dl .d-1 div i {
+  float: left;
+  height: 6px;
+  background: #00cccc;
+  border-radius: 2px;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-1 .s-2, .my-resume .resume-analyze-1 .right-box-2 dl .d-1 .s-2 {
+  padding-left: 10px;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-1 .s-2 .i-1, .my-resume .resume-analyze-1 .right-box-2 dl .d-1 .s-2 .i-1 {
+  color: #999;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-1 .s-2 .i-2, .my-resume .resume-analyze-1 .right-box-2 dl .d-1 .s-2 .i-2 {
+  color: #ff9900;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-2 .layui-form-item, .my-resume .resume-analyze-1 .right-box-2 dl .d-2 .layui-form-item {
+  margin: 0;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-2 .layui-form-label, .my-resume .resume-analyze-1 .right-box-2 dl .d-2 .layui-form-label {
+  width: 47px;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-2 .layui-form-label span:after, .my-resume .resume-analyze-1 .right-box-2 dl .d-2 .layui-form-label span:after {
+  content: '';
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-2 .layui-form-label span, .my-resume .resume-analyze-1 .right-box-2 dl .d-2 .layui-form-label span {
+  text-align: left;
+  float: left;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .d-2 .layui-form-select, .my-resume .resume-analyze-1 .right-box-2 dl .d-2 .layui-form-select {
+  width: 300px;
+}
+
+.my-resume .resume-analyze-1 .left-box-2 dl .echarts-box, .my-resume .resume-analyze-1 .right-box-2 dl .echarts-box {
+  height: 323px;
+}
+
+.my-resume .resume-analyze-2 {
+  padding-top: 23px;
+}
+
+.none-bg {
+  background: none !important;
+}
+
+.clearMP {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.my-resume-form {
+  background: #F7F7F7;
+}
+
+.my-resume-form .fillSchool {
+  border: 1px solid #F7F7F7;
+}
+
+.my-resume-form .fillSchool:hover .fillSchool_delete {
+  display: none;
+}
+
+.my-resume-form .certificate .bookImg {
+  margin-left: 140px;
+}
+
+.my-resume-form .certificate .bookUpload span.tips {
+  position: relative;
+  right: 77px;
+  top: 21px;
+}
+
+.my-resume-form .layui-form {
+  padding: 0;
+  padding-top: 30px;
+}
+
+.my-resume-form .layui-form .icon-quxiao1 {
+  color: inherit;
+}
+
+.my-resume-form .layui-form .layui-form-label {
+  width: 140px;
+}
+
+.my-resume-form .layui-form .user-img .layui-form-label {
+  margin-top: 38px;
+}
+
+.my-resume-form .layui-form .user-img .layui-input-block div {
+  position: relative;
+  width: 86px;
+  height: 106px;
+  border: 2px solid #fff;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.my-resume-form .layui-form .user-img .layui-input-block div img {
+  width: 100%;
+}
+
+.my-resume-form .layui-form .user-img .layui-input-block div a {
+  color: #00cccc;
+  position: absolute;
+  top: 45px;
+  left: 93px;
+  white-space: nowrap;
+}
+
+.my-resume-form .layui-form .more {
+  width: 100%;
+  padding-right: 30px;
+}
+
+.my-resume-form .layui-form .more a {
+  color: #00cccc;
+  font-size: 12px;
+}
+
+.my-resume-form .layui-form .more i {
+  font-size: 16px;
+}
+
+.my-resume-form .layui-form .more .more-content {
+  padding-top: 20px;
+}
+
+.my-resume-form .layui-form .buttons {
+  width: 180px;
+  margin: 30px auto;
+  padding-top: 10px;
+  margin-left: 292px;
+}
+
+.resume-success .left-box {
+  width: 664px;
+}
+
+.resume-success .left-box .position-list li {
+  padding: 10px 0 12px 0;
+}
+
+.resume-success .left-box .position-list li .div-1 {
+  width: 322px;
+  position: relative;
+  padding: 0;
+}
+
+.resume-success .left-box .title a {
+  color: #00bbee;
+  font-size: 14px;
+  line-height: 44px;
+}
+
+.resume-success .right-box .tier-3 {
+  padding: 0 19px;
+  border: 1px solid #E5E5E5;
+}
+
+.resume-success .right-box .tier-3 .title {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 44px;
+  border-bottom: 1px solid #E5E5E5;
+  margin-bottom: 20px;
+}
+
+.resume-success .right-box .tier-3 .title a {
+  color: #00bbee;
+  font-size: 14px;
+  line-height: 44px;
+}
+
+.resume-success .right-box .tier-3 dl {
+  margin-bottom: 16px;
+  box-shadow: 0 3px 10px #F2F2F2;
+}
+
+.resume-success .right-box .tier-3 dl dt {
+  text-align: center;
+  width: 280px;
+  height: 160px;
+  overflow: hidden;
+}
+
+.resume-success .right-box .tier-3 dl dt img {
+  width: 100%;
+}
+
+.resume-success .right-box .tier-3 dl dd {
+  margin: 0 8px 0 15px;
+}
+
+.resume-success .right-box .tier-3 dl .d-1 {
+  font-size: 16px;
+  color: #333;
+  padding: 20px 0 16px 0;
+}
+
+.resume-success .right-box .tier-3 dl .d-2 {
+  color: #999;
+}
+
+.resume-success .right-box .tier-3 dl .d-2 i {
+  font-style: normal;
+}
+
+.resume-success .right-box .tier-3 dl .d-2 .p-1 span, .resume-success .right-box .tier-3 dl .d-2 .p-1 i {
+  float: left;
+}
+
+.resume-success .right-box .tier-3 dl .d-2 .p-1 i {
+  color: #FF9900;
+  margin-right: 5px;
+  margin-top: -1px;
+}
+
+.resume-success .right-box .tier-3 dl .d-2 .p-2 i {
+  color: #333;
+  margin: 5px;
+}
+
+.resume-success .right-box .tier-3 dl .d-3 {
+  height: 74px;
+  padding-top: 45px;
+  font-size: 16px;
+  color: #ff9900;
+}

@@ -1,0 +1,256 @@
+.create-project {
+  padding-top: 15px;
+}
+
+.create-project .radio-text {
+  font-size: 12px;
+  color: #999;
+}
+
+.create-project .explain {
+  display: block;
+  float: right;
+  color: #999;
+  font-size: 12px;
+  padding-top: 10px;
+  font-weight: normal;
+}
+
+.create-project .layui-form {
+  padding-top: 32px;
+}
+
+.create-project .layui-form-label {
+  width: 168px;
+}
+
+.create-project .logo-img {
+  position: relative;
+  top: -32px;
+}
+
+.create-project .logo-img div {
+  width: 98px;
+  height: 98px;
+  border: 1px solid #CCCCCC;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.create-project .logo-img div img {
+  width: 96px;
+}
+
+.create-project .bonus {
+  width: 102px;
+  position: relative;
+  top: -9px;
+  margin-left: 0px;
+}
+
+.create-project .awards-1 {
+  width: 162px;
+  float: left;
+}
+
+.create-project .awards-2 {
+  float: left;
+}
+
+.create-project .awards-2 .span-label {
+  width: 138px;
+  line-height: 34px;
+  height: 34px;
+  color: #666;
+  padding-right: 14px;
+  text-align: right;
+}
+
+.create-project .awards-2 input {
+  width: 102px;
+}
+
+.create-project .s-2 {
+  color: #00bbee;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.create-project .tally .add-text {
+  color: #999;
+  font-size: 12px;
+}
+
+.create-project .addimg {
+  width: 98px;
+  height: 98px;
+  padding-top: 32px;
+  position: relative;
+  top: -32px;
+}
+
+.create-project .img-box {
+  height: 66px;
+}
+
+.create-project .img-box p {
+  line-height: 34px;
+  font-size: 12px;
+  color: #666;
+  text-indent: 10px;
+}
+
+.create-project .task-block {
+  margin-bottom: 20px;
+  border: 1px dashed #ccc;
+  width: 100%;
+}
+
+.create-project .task-block .task-item {
+  padding: 20px 0;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px dotted #E5E5E5;
+}
+
+.create-project .task-block .task-item .layui-form-item {
+  margin-bottom: 3px;
+}
+
+.create-project .task-block .task-item .layui-input-block {
+  width: 747px;
+  padding-top: 4px;
+  line-height: 24px;
+}
+
+.create-project .task-block .task-item .handle-btn {
+  display: none;
+  position: absolute;
+  top: 8px;
+  right: 5px;
+}
+
+.create-project .task-block .task-item .handle-btn i {
+  color: #000000;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  float: left;
+  line-height: 24px;
+  text-align: center;
+  margin-left: 8px;
+}
+
+.create-project .task-block .task-item .handle-btn .icon-bianji:hover {
+  transition: .3s;
+  color: #fff;
+  background: #2FD2D2;
+}
+
+.create-project .task-block .task-item .handle-btn .icon-shanchu:hover {
+  transition: .3s;
+  color: #fff;
+  background: #FB7373;
+}
+
+.create-project .task-block .task-item:hover {
+  transition: .3s;
+  background: #EEEEEE;
+}
+
+.create-project .task-block .task-item:hover .handle-btn {
+  display: block;
+}
+
+.create-project .task-block .task-form {
+  padding: 20px;
+}
+
+.create-project .task-block .task-form .layui-form {
+  padding: 0;
+  width: 100%;
+  border: 1px solid #fff;
+  padding-top: 20px;
+  position: relative;
+}
+
+.create-project .task-block .task-form .layui-form .layui-form-label {
+  width: 148px;
+}
+
+.create-project .task-block .task-form .layui-form .close {
+  position: absolute;
+  top: 13px;
+  right: 13px;
+  cursor: pointer;
+  display: none;
+}
+
+.create-project .task-block .task-form .layui-form .close:hover {
+  transition: .3s;
+  color: #00cccc;
+}
+
+.create-project .task-block .task-form .layui-form:hover {
+  transition: .3s;
+  border: 1px solid #00CCCC;
+}
+
+.create-project .task-block .task-form .layui-form:hover .close {
+  display: block;
+}
+
+.create-project .task-block .task-form .store {
+  cursor: pointer;
+  color: #00bbee;
+  padding-left: 168px;
+  line-height: 32px;
+  height: 32px;
+}
+
+.create-project .task-block .task-form .store i {
+  font-size: 14px;
+  margin-right: 5px;
+  line-height: 32px;
+}
+
+.create-project .buttons {
+  width: 180px;
+  margin-left: 292px;
+  margin-top: 10px;
+}
+
+.create-project .labels {
+  padding-left: 168px;
+  overflow: hidden;
+  padding-bottom: 5px;
+}
+
+.create-project .labels span {
+  float: left;
+  border: 1px solid #00CCCC;
+  background: #DBF7F7;
+  padding: 0 25px 0 9px;
+  line-height: 32px;
+  height: 34px;
+  max-width: 128px;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 5px;
+}
+
+.create-project .labels span i {
+  font-size: 12px;
+  margin-left: 4px;
+  cursor: pointer;
+  position: absolute;
+  top: 11px;
+  right: 10px;
+}
+
+.create-project .layui-layedit, .create-project .layui-textarea {
+  width: 762px;
+}

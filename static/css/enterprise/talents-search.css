@@ -1,0 +1,258 @@
+.condition {
+  background: #F7F7F7;
+}
+
+.condition .active {
+  color: #00cccc;
+}
+
+.condition .custom {
+  padding: 20px 20px 10px 20px;
+}
+
+.condition .custom .gangwei .d-1 input {
+  width: 220px;
+}
+
+.condition .custom .gangwei .d-2 {
+  margin: 0 20px;
+}
+
+.condition .custom .gangwei .d-2 input {
+  width: 122px;
+}
+
+.condition .custom .plus-input {
+  overflow: hidden;
+}
+
+.condition .custom .plus-input input {
+  line-height: 52px;
+  height: 52px;
+  font-size: 14px;
+  padding-left: 20px;
+  float: left;
+  border: 1px solid #CCCCCC;
+  width: 87%;
+}
+
+.condition .custom .plus-input button {
+  line-height: 52px;
+  height: 52px;
+  font-size: 16px;
+  float: left;
+  width: 13%;
+}
+
+.condition .sort {
+  border-top: 1px dashed #D9D9D9;
+  margin: 0 20px;
+}
+
+.condition .sort span {
+  line-height: 52px;
+}
+
+.condition .sort .sort-item {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.condition .sort .sort-item i {
+  margin: 5px;
+}
+
+.condition .sort .sum b {
+  color: #00cccc;
+  font-weight: normal;
+  margin: 4px;
+}
+
+.condition .sort .sort-item:hover {
+  transition: .3s;
+  color: #00cccc;
+}
+
+.condition .sort .sort-item:hover i {
+  color: #00cccc;
+}
+
+.condition .item-box {
+  padding: 0 20px;
+  margin-bottom: 10px;
+  transition: 1s;
+  overflow: hidden;
+}
+
+.condition .item-box dl {
+  margin-bottom: 13px;
+  position: relative;
+}
+
+.condition .item-box dl dt, .condition .item-box dl ul, .condition .item-box dl li, .condition .item-box dl .more {
+  line-height: 32px;
+  font-size: 14px;
+}
+
+.condition .item-box dl dt, .condition .item-box dl dd, .condition .item-box dl .more {
+  float: left;
+}
+
+.condition .item-box dl .more {
+  font-size: 12px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.condition .item-box dl .more .iconfont {
+  font-size: 12px;
+  padding-left: 4px;
+}
+
+.condition .item-box dl .more:hover {
+  transition: .3s;
+  color: #00cccc;
+}
+
+.condition .item-box dl .more:hover i {
+  color: #00cccc;
+}
+
+.condition .item-box dl dt {
+  width: 70px;
+  text-align: right;
+}
+
+.condition .item-box dl dt, .condition .item-box dl .more {
+  color: #999;
+}
+
+.condition .item-box dl dd ul {
+  float: left;
+}
+
+.condition .item-box dl dd ul li {
+  float: left;
+}
+
+.condition .item-box dl dd .all-ul {
+  padding: 0 20px;
+}
+
+.condition .item-box dl dd .item-ul {
+  padding-left: 10px;
+  width: 784px;
+  height: auto;
+  overflow: hidden;
+  transition: .3s;
+}
+
+.condition .item-box dl dd .item-ul li {
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.condition .item-box dl dd .item-ul li:hover {
+  transition: .3s;
+  color: #00cccc;
+}
+
+.condition .more-btn {
+  font-size: 12px;
+  cursor: pointer;
+  width: 124px;
+  background: #F7F7F7;
+  line-height: 31px;
+  height: 31px;
+  padding-left: 17px;
+  color: #666;
+  margin: 0 auto;
+}
+
+.condition .more-btn .iconfont {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.condition .more-btn:hover {
+  transition: .3s;
+  color: #00cccc;
+}
+
+.condition .more-btn:hover i {
+  color: #00cccc;
+}
+
+.opt {
+  padding-bottom: 10px;
+}
+
+.opt span.fr {
+  font-size: 12px;
+}
+
+.opt span.fr i {
+  font-style: normal;
+  color: #ff0000;
+  margin: 4px;
+}
+
+.table-box .iconfont {
+  color: #00BBEE;
+  font-size: 14px;
+}
+
+.table-box table {
+  width: 100%;
+}
+
+.table-box table thead {
+  background: #E6E6E6;
+}
+
+.table-box table thead td {
+  line-height: 33px;
+  height: 33px;
+  font-size: 12px;
+  text-indent: 10px;
+}
+
+.table-box table tbody tr {
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.table-box table tbody tr td {
+  text-indent: 10px;
+  line-height: 46px;
+  height: 46px;
+  font-size: 12px;
+}
+
+.table-box table tbody tr:hover {
+  transition: .3s;
+  background: #EEEEEE;
+}
+
+.table-box table tbody .option-btn {
+  overflow: hidden;
+}
+
+.table-box table tbody .option-btn i {
+  float: left;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #00CCCC;
+  text-indent: 0;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.table-box table tbody .option-btn i:hover {
+  transition: .3s;
+  background: #00cccc;
+  color: #fff;
+}

@@ -1,0 +1,88 @@
+body {
+  background: #fff;
+}
+
+i {
+  font-style: normal;
+}
+
+b {
+  font-weight: normal;
+}
+
+.navbread {
+  height: 72px;
+  line-height: 72px;
+}
+
+.z-main .exam-hint {
+  width: 900px;
+  margin: 0 auto;
+  background: #F6F6F6;
+  border: 1px solid #EDEDED;
+  padding: 0 80px;
+  padding-bottom: 130px;
+  margin-bottom: 80px;
+}
+
+.z-main .exam-hint .exam-top {
+  padding: 20px 0;
+  border-bottom: 1px dashed #CCCCCC;
+}
+
+.z-main .exam-hint .exam-top dt {
+  border: 1px solid #D8D8D8;
+}
+
+.z-main .exam-hint .exam-top dt img {
+  width: 96px;
+  height: 96px;
+}
+
+.z-main .exam-hint .exam-top dd {
+  padding-left: 16px;
+}
+
+.z-main .exam-hint .exam-top dd h3 {
+  line-height: 60px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #3399ff;
+  text-indent: -6px;
+}
+
+.z-main .exam-hint .exam-top dd p span {
+  color: #999;
+  margin-right: 30px;
+}
+
+.z-main .exam-hint .exam-top dd p span b {
+  margin: 5px;
+  color: #4EA6FE;
+}
+
+.z-main .exam-hint .exam-top dd p span .iconfont {
+  color: #85CBFA;
+  font-size: 18px;
+  position: relative;
+  top: 1px;
+}
+
+.z-main .exam-hint .hint {
+  padding-top: 28px;
+}
+
+.z-main .exam-hint .hint .li-1 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 38px;
+}
+
+.z-main .exam-hint .hint li {
+  line-height: 36px;
+}
+
+.z-main .exam-hint .buts {
+  text-align: center;
+  padding: 48px 0;
+}

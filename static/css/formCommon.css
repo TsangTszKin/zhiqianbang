@@ -1,0 +1,551 @@
+@charset "UTF-8";
+.zsFrom {
+  /*1024*/
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"]{
+  -moz-appearance: textfield;
+}
+
+.zsFrom .layui-layedit-tool {
+  padding: 0;
+}
+
+.zsFrom .layui-layedit-tool .layui-icon {
+  margin-left: 0;
+}
+
+.zsFrom .layui-input {
+  width: 402px;
+}
+
+.zsFrom .layui-form-select {
+  width: 402px;
+}
+
+.zsFrom .layui-textarea, .zsFrom .layui-layedit {
+  width: 522px;
+}
+
+/*@media screen and (min-width: 1366px) {
+  .zsFrom body {
+    background: pink;
+  }
+  .zsFrom .layui-textarea, .zsFrom .layui-layedit {
+    width: 762px;
+  }
+  .zsFrom .form-hint-content {
+    right: -553px;
+  }
+  .zsFrom .form-hint-content .contents {
+    width: 512px;
+  }
+}*/
+
+/*@media screen and (min-width: 1920px) {
+  .zsFrom body {
+    background: red;
+  }
+  .zsFrom .addimg {
+    width: 260px;
+    height: 146px;
+    padding-top: 46px;
+  }
+  .zsFrom .layui-input, .zsFrom .layui-select-title, .zsFrom .layui-form-select {
+    width: 642px;
+  }
+  .zsFrom .layui-textarea, .zsFrom .layui-layedit {
+    width: 780px;
+  }
+  .zsFrom .but-2-box {
+    margin-left: 410px;
+  }
+  .zsFrom .form-hint-content {
+    right: -866px;
+  }
+  .zsFrom .form-hint-content .contents {
+    width: 825px;
+  }
+}*/
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #999;
+}
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #999;
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #999;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #999;
+}
+
+.layui-form-checked[lay-skin=primary] i {
+  border-color: #00cccc !important;
+  background-color: #00cccc !important;
+  border-radius: 0 !important;
+}
+
+.layui-form-checkbox[lay-skin=primary]:hover i {
+  border-color: #00cccc !important;
+}
+
+.layui-form-checkbox[lay-skin="primary"] i {
+  border-radius: 0 !important;
+}
+
+.layui-select-title input {
+  float: none;
+}
+
+.layui-form-checkbox span, .layui-form-checkbox i {
+  line-height: 28px;
+}
+
+.layui-form-switch {
+  box-sizing: content-box;
+}
+
+.layui-textarea {
+  resize: none;
+  padding: 6px;
+  border-color: #ccc;
+}
+
+.layui-form-label {
+  height: 34px;
+  line-height: 16px;
+  color: #666;
+  width: 180px;
+  padding-left: 0;
+  padding-right: 15px;
+  float: left;
+}
+
+.layui-form-label i {
+  display: none;
+  float: right;
+  color: #FF0000;
+  font-style: normal;
+}
+
+.layui-form-label span {
+  float: right;
+}
+
+.layui-form-label span::after {
+  content: '：';
+  float: right;
+}
+
+.layui-input {
+  height: 34px;
+  float: left;
+  border-color: #ccc;
+}
+
+.layui-input-block {
+  height: auto;
+  min-height: auto;
+  float: left;
+  margin: 0;
+}
+
+.layui-form-item {
+  margin-bottom: 20px;
+  position: relative;
+  float: left;
+}
+
+.layui-input-block {
+  position: relative;
+}
+
+.layui-layedit, .layui-input, .layui-textarea, .layui-btn, .layui-layedit-tool {
+  border-radius: 0;
+  border-color: #ccc;
+}
+
+/*.layui-input:hover, .layui-textarea:hover {
+  border-color: #ccc !important;
+}*/
+
+.layui-form-select dl dd.layui-this {
+  background: #00cccc;
+}
+
+.layui-form-radio > i:hover, .layui-form-radioed > i {
+  color: #00cccc;
+}
+
+#LAY_layedit_link .layui-form {
+  overflow: auto;
+}
+
+#LAY_layedit_link .layui-input-block {
+  margin: 0 !important;
+}
+
+#LAY_layedit_link .layui-form-label {
+  white-space: nowrap;
+}
+
+#LAY_layedit_link .layui-form-item {
+  float: none;
+}
+
+.zsFrom .addimg {
+  width: 196px;
+  height: 110px;
+  border: 1px dashed #CCCCCC;
+  padding-top: 26px;
+  cursor: pointer;
+}
+
+.zsFrom .addimg dt {
+  border: 1px solid #9C9C9C;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  line-height: 32px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.zsFrom .addimg dd {
+  padding-top: 20px;
+  text-align: center;
+  color: #999999;
+  font-size: 12px;
+}
+
+.zsFrom .addimg:hover dt {
+  border-color: #00cccc;
+}
+
+.zsFrom .addimg:hover dt i {
+  color: #00cccc;
+}
+
+.zsFrom .quantity {
+  width: 162px;
+  height: 34px;
+  position: relative;
+  border: 1px solid #CCCCCC;
+}
+
+.zsFrom .quantity i {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: #CCCCCC;
+  line-height: 34px;
+  text-align: center;
+  color: #666666;
+  cursor: pointer;
+}
+
+.zsFrom .quantity i {
+  background: #CCCCCC;
+  color: #666666;
+}
+
+.zsFrom .quantity i:hover {
+  background: #00cccc;
+  color: #fff;
+}
+
+.zsFrom .quantity .subtract {
+  left: 0px;
+  top: 0px;
+}
+
+.zsFrom .quantity .add {
+  right: 0px;
+  top: 0px;
+}
+
+.zsFrom .quantity .disabled {
+  background: #E5E5E5 !important;
+  color: #CCCCCC !important;
+}
+
+.zsFrom .quantity input {
+  border: 0;
+  outline: none;
+  background: none;
+  line-height: 34px;
+  height: 34px;
+  text-align: center;
+  color: #666;
+  width: 160px;
+}
+
+.zsFrom .quantity input:focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.zsFrom .xy-radio {
+  overflow: hidden;
+  padding-top: 9px;
+}
+
+.zsFrom .xy-radio li {
+  float: left;
+  width: 60px;
+  line-height: 16px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.zsFrom .xy-radio li span {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #CDCDCD;
+  border-radius: 50%;
+  float: left;
+  margin-right: 5px;
+  transition: .3s;
+}
+
+.zsFrom .xy-radio li span i {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: none;
+  margin: 3px;
+  transition: .3s;
+}
+
+.zsFrom .xy-radio li.active span {
+  border: 1px solid #00cccc;
+}
+
+.zsFrom .xy-radio li.active span i {
+  background: #00cccc;
+}
+
+.zsFrom .layui-form-radio > i {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.zsFrom .layui-form-radio {
+  min-width: 60px;
+  margin-right: 20px;
+  line-height: 18px;
+  padding: 0;
+  margin-top: 0;
+}
+
+.zsFrom .xy-radio .layui-form-radio {
+  float: left;
+}
+
+.zsFrom .xy-radio {
+  position: relative;
+  left: -1px;
+}
+
+.zsFrom .xy-checkbox {
+  overflow: hidden;
+  padding-top: 9px;
+}
+
+.zsFrom .xy-checkbox li {
+  width: 75px;
+  margin-right: 5px;
+  line-height: 14px;
+  float: left;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.zsFrom .xy-checkbox li span {
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin-right: 6px;
+  border: 1px solid #CCCCCC;
+}
+
+.zsFrom .xy-checkbox li.active span {
+  border: none;
+  background: url(../images/check-bg.jpg) no-repeat center center;
+}
+
+.zsFrom .but-2-box {
+  width: 185px;
+  margin-left: 290px;
+  padding-top: 10px;
+}
+
+.zsFrom .but-2-box button {
+  float: left;
+}
+
+.zsFrom .layui-form {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.zsFrom .layui-form .essential {
+  position: relative;
+}
+
+.zsFrom .layui-form .essential i {
+  display: block;
+}
+
+.zsFrom .layui-form .tail {
+  line-height: 34px;
+  color: #666;
+  font-size: 14px;
+  padding-left: 8px;
+}
+
+.zsFrom .font-qty {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 5px;
+  color: #cccccc;
+  font-size: 12px;
+}
+
+.zsFrom .font-qty i{
+	font-style: normal;
+}
+
+.zsFrom .layui-form-danger + .layui-form-select .layui-input, .zsFrom .layui-form-danger:focus {
+  border-color: #FF0000 !important;
+  box-shadow: 0px 0px 0px #FF0000 !important;
+}
+
+.zsFrom .form-hint {
+  border-color: #FF0000 !important;
+  box-shadow: 0px 0px 0px #FF0000 !important;
+}
+
+.zsFrom .whiteboard .form-hint:hover {
+  border-color: #FF0000 !important;
+}
+
+.zsFrom .whiteboard .form-hint:focus {
+  border-color: #FF0000 !important;
+}
+
+.zsFrom .form-hint-content {
+  position: absolute;
+  right: -211px;
+  font-size: 12px;
+  color: #ff0000;
+}
+
+.zsFrom .form-hint-content i {
+  padding-top: 9px;
+  padding-right: 5px;
+}
+
+.zsFrom .form-hint-content .icon-quxiao:before {
+  font-size: 16px;
+}
+
+.zsFrom .form-hint-content .contents {
+  line-height: 20px;
+  line-height: 20px;
+  padding-top: 7px;
+  /*width: 170px;*/
+}
+
+.zsFrom .hint-bottom {
+  float: left;
+  font-size: 12px;
+  color: #ff0000;
+  position: absolute;
+  left: 183px;
+  top: 40px;
+}
+
+.layui-input-disabled{
+	background: #eee !important;
+}
+
+/* layui-date */
+.layuiDate{
+	position: relative;
+}
+
+.layuiDate i.icon-paibanbiao{
+	position: absolute;
+	right: 10px;
+	color: #999;
+	top: 8px;
+}
+
+
+/* layui-choose */
+.layuiChoose{
+	position: relative;
+}
+
+.layuiChoose i.icon-dianjixuanze{
+	position: absolute;
+	right: 10px;
+	color: #999;
+	top: 9px;
+}
+
+
+/*下拉+输入 组合*/
+.layui-form .combination{
+	
+}
+.layui-form .combination .layui-input,.layui-form .combination .layui-form-select dl,.layui-form .combination .layui-form-select{width:102px;float:left}
+
+.layui-form .combination  .layui-input-block{width:402px}
+.layui-form .combination  .layui-input-block .layui-input-02{width:280px;float:right}
+.layui-form  .layui-input-block .add-text{display:inline-block;margin-left:10px;color:#666;line-height:34px;}
+
+
+
+.layui-form-checkbox[lay-skin=primary] span{line-height:16px;}
+
+.zsFrom .xy-checkbox {
+  overflow: hidden;
+  padding-top: 9px;
+}
+
+.zsFrom .xy-checkbox div.layui-unselect {
+  margin: 0;
+  float: left;
+}
+
+.zsFrom .xy-checkbox div.layui-unselect span {
+  padding: 0 23px 0 5px;
+}
+
+
+.zsFrom  .qty-disable{
+	background:#E5E5E5;
+	
+}
+.zsFrom  .qty-disable .subtract{background:#EEEEEE!important;cursor: auto;}
+.zsFrom  .qty-disable .add{background:#CCCCCC!important;cursor: auto;}
+.zsFrom  .qty-disable  i:hover {color:#666;}
+
+.input-disable{background:#EEEEEE}

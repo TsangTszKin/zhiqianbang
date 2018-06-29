@@ -1,0 +1,108 @@
+.practical {
+  padding-top: 30px;
+}
+
+.practical .card-item {
+  width: 280px;
+  height: 283px;
+  margin: 0 10px 20px 10px;
+}
+
+.practical .card-item dl {
+  width: 278px;
+  height: 281px;
+}
+
+.practical .card-item dl dd {
+  width: 278px;
+  padding: 0 14px;
+}
+
+.practical .card-item img {
+  height: 160px;
+}
+
+.practical .card-item dl dd .p-1 {
+  line-height: 1;
+  padding: 20px 0 10px 0;
+  width: 250px;
+}
+
+.practical .card-item dl dd .p-2 {
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+
+.practical .card-item dl dd .p-2 span {
+  float: left;
+}
+
+.practical .card-item dl dd .p-2 .s-1 {
+  padding-right: 6px;
+}
+
+.practical .card-item dl dd .p-2 .s-2 i {
+  color: #FBC639;
+  float: left;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.practical .card-item dl dd .p-2 .s-3 {
+  float: right;
+}
+
+.practical .card-item dl dd .p-2 .s-3 i {
+  font-style: normal;
+  color: #333;
+  margin: 4px;
+}
+
+.practical .card-item dl dd .p-3 {
+  line-height: 22px;
+}
+
+.practical .card-item dl dd .p-4 {
+  font-size: 14px;
+  padding-bottom: 22px;
+}
+
+.practical .card-item dl dd .p-4 b {
+  font-weight: normal;
+}
+
+.practical .card-item dl dd .p-4 span {
+  color: #666;
+}
+
+.practical .card-item dl dt p i {
+  background: rgba(0, 0, 0, 0.5);
+  color: #FFCCCC;
+}
+
+.practical .card-item dl dt p i:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.practical .card-item dl dt.star p i {
+  color: #FF6666;
+  display: block;
+}
+
+.practical .card-item dl dt.star {
+  display: block;
+}
+
+.practical .card-item dl dt p i:hover {
+  transition: .3s;
+  color: #FF6666;
+}
+
+.practical .card-item:hover .p-3 {
+  height: 65px;
+}
+
+.practical .table-box {
+  width: auto;
+  padding-top: 20px;
+}
